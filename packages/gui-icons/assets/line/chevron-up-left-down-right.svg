@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chevron Up Left Down Right</title><symbol id="chevron-up-left-down-right-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2.964 2.964h4.743v1H3.964v3.743h-1Zm9.072 9.072V8.293h1v4.743H8.293v-1Z"/></symbol><use href="#chevron-up-left-down-right-line"/></svg>

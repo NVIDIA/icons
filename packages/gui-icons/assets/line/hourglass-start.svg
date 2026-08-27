@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Hourglass Start</title><symbol id="hourglass-start-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3 1h10v2.634L10.479 8 13 12.366V15H3v-2.634L5.521 8 3 3.634Zm8.634 3H4.366l2.309 4-2.309 4h7.268L9.325 8ZM4 2v1h8V2Zm8 11H4v1h8Zm-2-7H6V5h4ZM9 8H7V7h2Z"/></symbol><use href="#hourglass-start-line"/></svg>

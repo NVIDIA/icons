@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Speaker Low</title><symbol id="speaker-low-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10 2.413v11.174L5.815 10H4V6h1.815ZM9 4.587 6.185 7H5v2h1.185L9 11.413ZM11 10V6h1v4Z"/></symbol><use href="#speaker-low-line"/></svg>

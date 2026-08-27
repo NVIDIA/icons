@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Gamepad</title><symbol id="gamepad-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m6 3.312 1.565.42h.87l1.566-.42 2.894.776 1.938 6.162-.638 2.38-1.626.665-1.441-.387-.536-2L8 10.214l-2.592.694-.536 2-1.441.387-1.626-.665-.638-2.38 1.938-6.162ZM10.5 6a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 10.5 6M5 6v1H4v1h1v1h1V8h1V7H6V6Z"/></symbol><use href="#gamepad-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Network PCs</title><symbol id="network-pcs-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10 2H6v3h4zM6 7h4V6H6zm4.129 3.517L8.5 10.08V7.964h-1v2.116l-1.629.437.258.966L8 10.982l1.871.501zM5 9H1v3h4zm10 0h-4v3h4zM1 14h4v-1H1zm10 0h4v-1h-4z"/></symbol><use href="#network-pcs-fill"/></svg>

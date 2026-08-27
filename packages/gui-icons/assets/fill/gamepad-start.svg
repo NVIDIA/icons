@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Gamepad Start</title><symbol id="gamepad-start-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m5.998 2.312 1.566.42h.869l1.565-.42 2.894.776 1.937 6.16-.241.9-3.748-2.187A1.5 1.5 0 1 0 9 6.5v2.98l-1.002-.268-2.591.694-.536 2-1.441.386-1.625-.664-.638-2.38 1.938-6.16ZM5 6H4v1h1v1h1V7h1V6H6V5H5Z"/><path fill="currentColor" d="M10.5 6a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1m4.421 5.5L10 8.629v5.741z"/></symbol><use href="#gamepad-start-fill"/></svg>

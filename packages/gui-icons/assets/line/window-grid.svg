@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Window Grid</title><symbol id="window-grid-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 1h6v6H1Zm8 0h6v6H9ZM1 9h6v6H1Zm8 0h6v6H9ZM6 4H2v2h4Zm8 0h-4v2h4Zm-8 8H2v2h4Zm8 0h-4v2h4ZM2 2v1h4V2Zm8 0v1h4V2Zm-8 8v1h4v-1Zm8 0v1h4v-1Z"/></symbol><use href="#window-grid-line"/></svg>

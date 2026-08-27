@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chat Single</title><symbol id="chat-single-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h12v10H7.71l-2.467 2.467L4.582 12H2Zm1 1v8h2.349l.412 1.536L7.296 11H13V3Z"/></symbol><use href="#chat-single-line"/></svg>

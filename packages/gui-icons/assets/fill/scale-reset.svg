@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Scale Reset</title><symbol id="scale-reset-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4 8a4 4 0 1 1 4 4v-1a3 3 0 1 0-3-3v.293l.646-.647.708.708L4.5 10.207 2.646 8.354l.708-.708.646.647Zm10-5H2V2h12Zm0 10v1H2v-1Z"/></symbol><use href="#scale-reset-fill"/></svg>

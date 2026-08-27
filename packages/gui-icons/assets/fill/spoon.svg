@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Spoon</title><symbol id="spoon-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.766 9.065c-.227.257-.266.384-.266.435V14h-1V9.5c0-.051-.039-.178-.266-.435a9 9 0 0 0-.492-.499l-.346-.337C5.766 7.598 5 6.72 5 5.5 5 3.656 6.262 2 8 2s3 1.656 3 3.5c0 1.22-.766 2.098-1.396 2.729q-.186.183-.346.337a9 9 0 0 0-.492.499"/></symbol><use href="#spoon-fill"/></svg>

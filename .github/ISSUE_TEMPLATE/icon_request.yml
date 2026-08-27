@@ -1,0 +1,39 @@
+name: Icon Request
+description: Request a new icon or report a visual issue with an existing icon
+labels: ["icon-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** Icon design contributions are not accepted as direct pull requests.
+        This request will be reviewed internally by NVIDIA design/brand owners.
+        Accepted requests are added to the authoring pipeline; we do not accept
+        externally authored SVG files for the official icon set. Every request
+        gets a real answer. See [GOVERNANCE.md](https://github.com/NVIDIA/icons/blob/main/GOVERNANCE.md#decision-making)
+        for how requests are labeled and closed once reviewed.
+  - type: input
+    id: icon-name
+    attributes:
+      label: Icon name (proposed)
+      placeholder: 'e.g. "robot-arm" or "neural-network-off"'
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: Describe the context where this icon is needed and why an existing icon doesn't cover it.
+    validations:
+      required: true
+  - type: textarea
+    id: visual-reference
+    attributes:
+      label: Visual reference
+      description: >
+        Attach a sketch, screenshot, or link to a similar icon in another library.
+        NVIDIA brand guidelines apply; final design is owned by NVIDIA designers.
+  - type: input
+    id: priority
+    attributes:
+      label: Priority
+      description: Is this blocking a release or product feature?

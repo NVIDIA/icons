@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Scale Down</title><symbol id="scale-down-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 6.5v1H2v-1Zm-12 3v-1h12v1Zm6 .793 2.354 2.353-.708.708L8.5 12.207V15h-1v-2.793l-1.146 1.147-.708-.708ZM8.5 1v2.793l1.146-1.147.708.708L8 5.707 5.646 3.354l.708-.708L7.5 3.793V1Z"/></symbol><use href="#scale-down-fill"/></svg>

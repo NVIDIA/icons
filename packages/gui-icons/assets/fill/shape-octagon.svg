@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Shape Octagon</title><symbol id="shape-octagon-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5.515 2h4.97L14 5.515v4.97L10.485 14h-4.97L2 10.485v-4.97z"/></symbol><use href="#shape-octagon-fill"/></svg>

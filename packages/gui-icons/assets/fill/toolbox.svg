@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Toolbox</title><symbol id="toolbox-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5 2h6v2h3v3h-4V6H6v1H2V4h3Zm5 1H6v1h4ZM2 8v5h12V8h-4v1H6V8zm7 0H7V7h2z"/></symbol><use href="#toolbox-fill"/></svg>

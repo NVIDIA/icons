@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Anchor NE</title><symbol id="anchor-ne-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M9 7h4v6H3V3h6Zm4-2h-2V3h2ZM7 7V6H6v1Zm-1 3h1V9H6Zm3 0h1V9H9Z"/></symbol><use href="#anchor-ne-fill"/></svg>

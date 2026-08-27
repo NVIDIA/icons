@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Hourglass</title><symbol id="hourglass-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3 1h10v2.634L10.479 8 13 12.366V15H3v-2.634L5.521 8 3 3.634Zm8.634 3H4.366l2.309 4-2.309 4h7.268L9.325 8ZM4 3h8V2H4Zm0 11h8v-1H4Z"/></symbol><use href="#hourglass-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>IME</title><symbol id="ime-line" viewBox="0 0 16 16"><path fill="currentColor" d="m11.947 4.276.362.724H15v2.5h-1V6H9v1.5H8V5h3.191l-.138-.276z"/><path fill="currentColor" d="m13.416 7.277-.001.002-.003.005-.01.014-.037.053q-.048.07-.134.188a11 11 0 0 1-.476.599 7.3 7.3 0 0 1-.862.862H15v1h-3.5v.5A1.5 1.5 0 0 1 10 12h-.5v-1h.5a.5.5 0 0 0 .5-.5V10H8V9h2.5v-.309l.276-.138c.24-.12.494-.321.737-.553H9.5V7h2.586c.132 0 .26-.053.353-.147l.207-.207zM4.451 4.5l2.06 5.319-.933.362-.644-1.665H3.108l-.642 1.664-.933-.36L3.585 4.5Zm.096 3.016-.528-1.362-.525 1.362Z"/></symbol><use href="#ime-line"/></svg>

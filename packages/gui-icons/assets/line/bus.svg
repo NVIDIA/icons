@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bus</title><symbol id="bus-line" viewBox="0 0 16 16"><path fill="currentColor" d="M14 2v3h1v2h-1v7h-1v1h-2v-1H5v1H3v-1H2V7H1V5h1V2zM3 13h10v-3H3zm3-2v1H4v-1zm2.5-2H13V5H8.5zM3 9h4.5V5H3zm0-5h10V3H3z"/><path fill="currentColor" d="M12 12v-1h-2v1z"/></symbol><use href="#bus-line"/></svg>

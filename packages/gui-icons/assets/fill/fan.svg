@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fan</title><symbol id="fan-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 2.25H5.25V4.5c0 .44.181.892.425 1.306.192.326.43.643.677.933-.584-.268-1.247-.489-1.852-.489A2.25 2.25 0 0 0 2.25 8.5v2.25H4.5c.44 0 .892-.181 1.306-.425.326-.192.643-.43.933-.677-.268.584-.489 1.247-.489 1.852a2.25 2.25 0 0 0 2.25 2.25h2.25V11.5c0-.44-.181-.892-.425-1.306a7 7 0 0 0-.677-.933c.584.268 1.247.489 1.852.489a2.25 2.25 0 0 0 2.25-2.25V5.25H11.5c-.44 0-.892.181-1.306.425-.326.192-.643.43-.933.677.268-.584.489-1.247.489-1.852A2.25 2.25 0 0 0 7.5 2.25"/></symbol><use href="#fan-fill"/></svg>

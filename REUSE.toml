@@ -1,0 +1,39 @@
+version = 1
+SPDX-PackageName = "NVIDIA Icons"
+SPDX-PackageSupplier = "NVIDIA Corporation"
+SPDX-PackageDownloadLocation = "https://github.com/NVIDIA/icons"
+
+# Icon SVG assets: CC-BY-4.0. These now also carry an in-file SPDX header, in a
+# `<!--! ... -->` comment stamped by the upstream generator (the `!` marks it
+# for preservation through SVGO and bundler minification). The annotation stays
+# as the machine-checked declaration and as cover for any non-.svg file that
+# lands under assets/; the two must keep agreeing on the identifier below.
+[[annotations]]
+path = "packages/**/assets/**"
+SPDX-FileCopyrightText = "NVIDIA CORPORATION & AFFILIATES"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Repo-wide config, tooling, and documentation that isn't source code or
+# icon artwork: package manifests, lockfiles, CI/build config, markdown, and
+# the handful of config/build JSON files under packages/**/src/ that don't
+# carry an in-file SPDX header (source code otherwise does — see
+# scripts/verify-license-headers.mjs). REUSE.toml is last-match-wins per
+# annotations block, so this single **/*.json rule already covers those
+# src/ config files; no separate block is needed for them.
+[[annotations]]
+path = [
+  "**/*.json",
+  "**/*.md",
+  "**/*.yml",
+  "**/*.yaml",
+  ".nvmrc",
+  ".gitignore",
+  ".gitattributes",
+  ".npmrc",
+  "CODEOWNERS",
+  "**/NOTICE",
+  "**/THIRD_PARTY_NOTICES",
+  ".well-known/security.txt",
+]
+SPDX-FileCopyrightText = "NVIDIA CORPORATION & AFFILIATES"
+SPDX-License-Identifier = "Apache-2.0"

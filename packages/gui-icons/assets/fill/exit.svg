@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Exit</title><symbol id="exit-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h8v2H9V3H3v10h6v-1h1v2H2Zm11.293 5.5-1.647-1.646.708-.708L15.207 8l-2.853 2.854-.708-.708L13.293 8.5H5v-1Z"/></symbol><use href="#exit-fill"/></svg>

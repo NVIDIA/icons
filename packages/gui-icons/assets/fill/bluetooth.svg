@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bluetooth</title><symbol id="bluetooth-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7 .793 11.207 5l-3 3 3 3L7 15.207v-6l-2.646 2.647-.708-.708L6.793 8 3.646 4.854l.708-.707L7 6.793Zm1 8.414v3.586L9.793 11Zm0-2.414L9.793 5 8 3.207Z"/></symbol><use href="#bluetooth-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Warning</title><symbol id="warning-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m8 .984 7.357 13.014H.643ZM7.5 6.5V10h1V6.5Zm0 4.5v1h1v-1Z"/></symbol><use href="#warning-fill"/></svg>

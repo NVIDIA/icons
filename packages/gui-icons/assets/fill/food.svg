@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Food</title><symbol id="food-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M12.723 1.871 11.616 6H8.241l1.875 7h3.768l1.875-7h-3.107l1.037-3.871zM7.348 8H2.652l-.536 2h5.768zm.536 3H2.116l.536 2h4.696z"/></symbol><use href="#food-fill"/></svg>

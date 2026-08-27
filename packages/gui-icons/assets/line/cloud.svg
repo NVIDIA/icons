@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Cloud</title><symbol id="cloud-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3.514 6.141a4.501 4.501 0 0 1 8.625-1.409A4.25 4.25 0 0 1 10.75 13H4.5a3.5 3.5 0 0 1-.986-6.859M8 3a3.5 3.5 0 0 0-3.5 3.5v.036l.005.428-.422.071A2.5 2.5 0 0 0 4.5 12h6.25a3.25 3.25 0 0 0 .877-6.38l-.247-.07-.088-.242A3.5 3.5 0 0 0 8 3"/></symbol><use href="#cloud-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Elevator</title><symbol id="elevator-line" viewBox="0 0 16 16"><path fill="currentColor" d="m4 7.707-.646.647-.708-.707L4.5 5.793l1.854 1.854-.708.707L5 7.707V10H4zm6.354-.061.646.647V6h1v2.293l.646-.647.708.707-1.854 1.854-1.854-1.854z"/><path fill="currentColor" d="M15 1v14H1V1ZM2 14h5.5V2H2Zm6.5 0H14V2H8.5Z"/></symbol><use href="#elevator-line"/></svg>

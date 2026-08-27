@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Library Games</title><symbol id="library-games-line" viewBox="0 0 16 16"><path fill="currentColor" d="m5.232 7.312 1.017.273h.502l1.017-.273 1.979.531 1.274 4.052-.442 1.647-1.171.479-1.075-.288-.34-1.268-1.493-.4-1.493.4-.34 1.268-1.075.288-1.171-.479-.442-1.647 1.275-4.052ZM6 2h3v1h2v1.053l1.785-.479 2.071 7.728-2.898.776L10.464 6.5H10V4H9v2.5H8V3H7v3.5H6V5H5v1.5H4V4h2Zm-.768 6.348-1.189.319-1.022 3.25.237.887.401.164.192-.052.34-1.267L6.5 11.03l2.31.619.339 1.267.193.052.4-.164.237-.887-1.022-3.25-1.189-.319-.885.237h-.766Zm5.881-3.29 1.552 5.796.966-.259-1.553-5.796Z"/></symbol><use href="#library-games-line"/></svg>

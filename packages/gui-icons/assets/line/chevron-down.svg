@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chevron Down</title><symbol id="chevron-down-line" viewBox="0 0 16 16"><path fill="currentColor" d="m8 9.293 3.646-3.647.708.708L8 10.707 3.646 6.354l.708-.708Z"/></symbol><use href="#chevron-down-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Generate</title><symbol id="generate-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 1a2 2 0 0 1 1.934 2.501l1.118.621a2 2 0 0 1 3.382 1.879l1.118.622a2 2 0 1 1-.001 2.752l-1.118.621a2 2 0 0 1-3.382 1.879l-1.117.622a2 2 0 1 1-.488-.875L6.565 11a2 2 0 0 1-.065-.5q.002-.261.065-.503l-1.117-.621a2 2 0 1 1-.001-2.754l1.118-.621A2 2 0 0 1 6.5 5.5q.002-.261.065-.503l-1.118-.621A2 2 0 0 1 4 5a2 2 0 1 1 0-4m5.947 5.876a1.99 1.99 0 0 1-2.896 0l-1.117.621C5.975 7.658 6 7.826 6 8c0 .173-.025.341-.066.501l1.118.621a1.99 1.99 0 0 1 2.894 0l1.119-.621A2 2 0 0 1 11 8q.002-.261.065-.503ZM13 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-9 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m4.5-2.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0-5a1 1 0 1 0 0 2 1 1 0 0 0 0-2M4 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0-5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#generate-line"/></svg>

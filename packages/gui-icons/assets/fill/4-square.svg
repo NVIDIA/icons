@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>4 Square</title><symbol id="4-square-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7 2H2v5h5zm0 7H2v5h5zm7 0H9v5h5zm0-7H9v5h5z"/></symbol><use href="#4-square-fill"/></svg>

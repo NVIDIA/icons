@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Circle 2 Q</title><symbol id="circle-2-q-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13 8a5 5 0 0 0-5-5V2a6 6 0 1 1 0 12v-1a5 5 0 0 0 5-5"/></symbol><use href="#circle-2-q-fill"/></svg>

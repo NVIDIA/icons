@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Eye</title><symbol id="eye-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3.521 5.455C4.733 4.674 6.31 4 8 4s3.267.674 4.479 1.455c1.2.773 2.118 1.701 2.456 2.299l.139.246-.139.246c-.338.598-1.256 1.526-2.456 2.299C11.267 11.326 9.69 12 8 12s-3.267-.674-4.479-1.455c-1.2-.773-2.118-1.701-2.456-2.299L.926 8l.139-.246c.338-.598 1.256-1.526 2.456-2.299M6 8a2 2 0 1 0 3.999.001A2 2 0 0 0 6 8m2-1a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/></symbol><use href="#eye-fill"/></svg>

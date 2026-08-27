@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Link Break</title><symbol id="link-break-line" viewBox="0 0 16 16"><path fill="currentColor" d="m10.732 5.438 4.83 1.294-1.294 4.83-4.83-1.294.529-1.972-1.104-.315.274-.962 1.088.311Zm-5.464 0 .507 1.892 1.088-.311.274.962-1.103.315.528 1.972-4.83 1.294-1.294-4.83Zm5.66 3.133-.265.99 2.898.776.776-2.898-2.898-.776-.252.942 1.45.414-.274.962Zm-6.115-.966-.252-.942-2.898.776.777 2.898 2.897-.776-.265-.99-1.435.41-.274-.962ZM8.5 2.5V5h-1V2.5ZM5.853 3.646l1.5 1.5-.707.708-1.5-1.5Zm5.001.708-1.5 1.5-.708-.708 1.5-1.5Z"/></symbol><use href="#link-break-line"/></svg>

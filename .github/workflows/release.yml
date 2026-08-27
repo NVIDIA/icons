@@ -1,0 +1,193 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
+# Publishes the four @nvidia icon packages to the public npm registry.
+#
+# Auth is npm Trusted Publishing (OIDC): there is no NPM_TOKEN anywhere in
+# this file. Setup, the one-time bootstrap each package needs before its
+# first release, and the step ordering that provenance depends on are all
+# documented in RELEASING.md. Read that before cutting a release.
+name: Release
+
+on:
+  push:
+    tags: ["v*.*.*"]
+
+# Never cancel an in-flight release: a half-cancelled run can leave some
+# packages published and others not. CI's cancel-in-progress is right for PRs
+# and wrong here.
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  # Re-runs the full gate against the tagged commit. CI already ran it on the
+  # commit when it landed on main, but a tag can point anywhere, and "it
+  # passed on main" is not the same claim as "it passes at the thing we are
+  # about to publish".
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+
+      # Refuse to publish a tag that is not an ancestor of main. Without this,
+      # anyone able to push a tag could publish an unreviewed branch to npm
+      # under the NVIDIA scope.
+      - name: Tag must be reachable from main
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin main
+          if ! git merge-base --is-ancestor "$GITHUB_SHA" origin/main; then
+            echo "FAIL: tagged commit $GITHUB_SHA is not an ancestor of origin/main."
+            echo "Releases must be cut from reviewed, merged commits."
+            exit 1
+          fi
+          echo "✓ tagged commit is on main"
+
+      - run: npm run build
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run test
+      - run: npm run test:react-compat
+      - run: npm run verify:packaging
+
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    needs: verify
+    # Human approval gate. Must match the environment registered with the
+    # trusted publisher on npmjs.com. See RELEASING.md.
+    environment: npm-publish
+    permissions:
+      contents: read
+      # The entire auth configuration. Without this the OIDC token cannot be
+      # requested and both the publish and its provenance fail.
+      id-token: write
+    steps:
+      # Pinned to the immutable SHA that triggered this run, not the tag ref.
+      # This job waits on environment approval, which can take hours, and a
+      # tag is mutable: a force-push in that window would otherwise mean the
+      # commit published here is not the commit `verify` approved.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      # Deliberately NOT using setup-node's `registry-url`: it writes an
+      # `_authToken=${NODE_AUTH_TOKEN}` line into .npmrc, which is pointless
+      # with no token and risks an empty-credential line. The repo's own
+      # .npmrc already pins registry.npmjs.org, which is what matters — a
+      # machine with internal Artifactory config in its user-level .npmrc
+      # resolves to the wrong registry otherwise.
+      - run: npm ci --prefer-offline
+
+      # npm's own docs disagree on the trusted-publishing floor — the
+      # overview says >= 11.5.1, the npm-trust CLI reference says >= 11.15.0.
+      # 11.19.0 clears both. Provenance's floor is much older (9.5.0) and is
+      # not the binding constraint. Trusted publishing also wants Node >=
+      # 22.14.0; .nvmrc pins 24, so that holds, but lowering .nvmrc into an
+      # early 22.x would break releases. Pinned to an exact release rather
+      # than @latest or the Node image's bundled npm, for the same reason the
+      # sbom job pins it: reproducible tooling for a release-signing step.
+      - run: npm install -g npm@11.19.0
+
+      # Version guard. The tag is the release's claim about what is being
+      # shipped; the manifests are the truth. If they disagree, stop.
+      #
+      # Packages version independently (see CONTRIBUTING.md), so this does NOT
+      # require all four to sit at the tag version — it publishes exactly
+      # those that do, and skips the rest loudly. What it refuses to do is
+      # proceed when NOTHING matches, which is the typo'd-tag case that would
+      # otherwise "succeed" having published nothing at all.
+      - name: Resolve packages to publish
+        env:
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          tag_version="${TAG_NAME#v}"
+          echo "Tag $TAG_NAME -> version $tag_version"
+          matched=""
+          skipped=""
+          # Dependency order: the base packages precede the React packages
+          # that depend on them, so a consumer never sees a react-* package
+          # whose dependency is not yet resolvable on the registry.
+          for pkg in gui-icons micro-gui-icons react-gui-icons react-micro-gui-icons; do
+            manifest="packages/$pkg/package.json"
+            name=$(node -p "require('./$manifest').name")
+            version=$(node -p "require('./$manifest').version")
+            private=$(node -p "String(require('./$manifest').private === true)")
+            if [ "$private" = "true" ]; then
+              skipped="$skipped  - $name (private: true)"$'\n'
+              continue
+            fi
+            if [ "$version" != "$tag_version" ]; then
+              skipped="$skipped  - $name@$version (does not match tag $tag_version)"$'\n'
+              continue
+            fi
+            matched="$matched$pkg"$'\n'
+          done
+          echo "Will publish:"
+          if [ -n "$matched" ]; then printf '%s' "$matched"; else echo "  (none)"; fi
+          if [ -n "$skipped" ]; then echo "Skipping:"; printf '%s' "$skipped"; fi
+          if [ -z "$matched" ]; then
+            echo "FAIL: no package version matches tag $tag_version — nothing to publish."
+            echo "Either the tag is wrong or the version bump was never committed."
+            exit 1
+          fi
+          printf '%s' "$matched" > /tmp/to-publish.txt
+
+      - name: Publish
+        run: |
+          set -euo pipefail
+          fail=0
+          while read -r pkg; do
+            [ -n "$pkg" ] || continue
+            manifest="packages/$pkg/package.json"
+            name=$(node -p "require('./$manifest').name")
+            version=$(node -p "require('./$manifest').version")
+            echo "── $name@$version"
+            # Idempotence: a run that dies partway through (network, approval
+            # timeout) must be safe to re-run. npm would reject the already
+            # published ones with a hard error and abort the whole release,
+            # so skip what is already on the registry instead.
+            if npm view "$name@$version" version >/dev/null 2>&1; then
+              echo "   already on registry — skipping"
+              continue
+            fi
+            # Dist-tag. npm defaults an untagged publish to `latest`, which
+            # is correct for a GA version but would clobber `latest` with a
+            # prerelease — packages version independently and prereleases
+            # are a first-class part of the release cadence driven by the
+            # upstream sync generator, so a `-rc.1`/`-beta.2`/etc tag here
+            # must land on `next`, never `latest`.
+            if [[ "$version" == *-* ]]; then dist_tag="next"; else dist_tag="latest"; fi
+            echo "   dist-tag: $dist_tag"
+            # --provenance is redundant under trusted publishing, which turns
+            # it on by default. Passed explicitly anyway so that a broken OIDC
+            # setup FAILS here rather than silently publishing an unattested
+            # tarball that nobody notices until an audit.
+            # `npm publish <path>` is NOT a folder publish: npm resolves a
+            # bare `a/b` argument as a GitHub owner/repo git spec, not a
+            # directory, so this would fetch github.com/packages/<pkg> and
+            # publish THAT under the @nvidia scope, provenance and all.
+            # Publish from inside the directory, with no spec argument at all.
+            (cd "packages/$pkg" && npm publish --access public --provenance --tag "$dist_tag") \
+              || { echo "   FAILED"; fail=1; break; }
+            echo "   ✓ published"
+          done < /tmp/to-publish.txt
+          exit $fail

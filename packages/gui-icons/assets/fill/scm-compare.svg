@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>SCM Compare</title><symbol id="scm-compare-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10.354 5.646 9.207 4.5H11.5V10H10v4h4v-4h-1.5V3.5H9.207l1.147-1.146-.708-.708L7.293 4l2.353 2.354zM6 2H2v4h1.5v6.5h3.293l-1.147 1.146.708.708L8.707 12 6.354 9.646l-.708.708L6.793 11.5H4.5V6H6z"/></symbol><use href="#scm-compare-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Display Share</title><symbol id="display-share-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10.354 2.646 8 .293 5.646 2.646l.708.708L7.5 2.207V7h1V2.207l1.146 1.147z"/><path fill="currentColor" d="M5 4v1H3v6h10V5h-2V4h3v8H8.902l.268 1H11v1H5v-1h1.831l.268-1H2V4Zm2.866 9h.268L8 12.5Z"/></symbol><use href="#display-share-line"/></svg>

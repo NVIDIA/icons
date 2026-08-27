@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Text Align Center</title><symbol id="text-align-center-line" viewBox="0 0 16 16"><path fill="currentColor" d="M14 4H2V3h12Zm-1 6H3V9h10Zm-1-3H4V6h8Zm-1 6H5v-1h6Z"/></symbol><use href="#text-align-center-line"/></svg>

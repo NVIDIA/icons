@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Prayer Room</title><symbol id="prayer-room-line" viewBox="0 0 16 16"><path fill="currentColor" d="m6.5 1.293 1.5 1.5 1.5-1.5 4.488 4.488.484 8.219H15v1H1v-1h.529l.483-8.219ZM2.53 14h3.187L7 11.862V7.5H5.991l-.491.85v2.15h-1V8.082l2.699-4.675-.699-.7-3.512 3.512Zm7.753 0h3.187l-.458-7.781L9.5 2.707l-.699.7L11.5 8.082V10.5h-1V8.35l-.491-.85H9v4.362ZM6.568 6.5h2.864L8 4.02Zm.315 7.5h2.234L8 12.139Z"/></symbol><use href="#prayer-room-line"/></svg>

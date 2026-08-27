@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Seed</title><symbol id="seed-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m9.353 1.354-.853.853v1.246l4.632 1.241L14.018 8H1.982l.886-3.306L7.5 3.453v-1.66L8.646.646zM12.482 9H3.518l1.095 4.088L8 15.043l3.386-1.955z"/></symbol><use href="#seed-fill"/></svg>

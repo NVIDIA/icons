@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>List Bullet</title><symbol id="list-bullet-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4.5 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M9 5h5V4H9zM4.5 9a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M9 12h5v-1H9z"/></symbol><use href="#list-bullet-fill"/></svg>

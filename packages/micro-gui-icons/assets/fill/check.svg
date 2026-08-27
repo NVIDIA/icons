@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><title>Check</title><symbol id="check-fill" viewBox="0 0 12 12"><path fill="currentColor" d="M10.354 3.354 4.5 9.207 1.646 6.354l.708-.708L4.5 7.793l5.146-5.147Z"/></symbol><use href="#check-fill"/></svg>

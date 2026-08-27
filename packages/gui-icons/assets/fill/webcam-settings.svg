@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Webcam Settings</title><symbol id="webcam-settings-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4.5 6a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1"/><path fill="currentColor" d="M4.5 3h7a3.5 3.5 0 0 1 3.243 4.819A5.002 5.002 0 0 0 7.416 10h-.282l-.535 2H5v-1h.831l.268-1H4.5a3.5 3.5 0 1 1 0-7M3 6.5a1.5 1.5 0 1 0 3.001-.001A1.5 1.5 0 0 0 3 6.5M11 5v1h1V5Z"/><path fill="currentColor" d="M9.629 9.842A2.5 2.5 0 0 1 11 9.05V8h1v1.05a2.5 2.5 0 0 1 1.371.792l.91-.525.5.866-.909.525a2.5 2.5 0 0 1 0 1.584l.909.525-.5.866-.91-.525A2.5 2.5 0 0 1 12 13.95V15h-1v-1.05a2.5 2.5 0 0 1-1.371-.792l-.911.525-.5-.866.91-.525a2.5 2.5 0 0 1 0-1.584l-.91-.525.5-.866Zm.571.908c-.127.22-.2.476-.2.75a1.495 1.495 0 0 0 1.5 1.5 1.5 1.5 0 1 0-1.3-2.25"/></symbol><use href="#webcam-settings-fill"/></svg>

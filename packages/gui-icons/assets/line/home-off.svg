@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Home Off</title><symbol id="home-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="M13 7.707v2.465l-1-1V6.707l-4-4-1.232 1.232-.707-.707L8 1.293l6.854 6.853-.708.708zm0 6V14H9v-4H7v4H3V7.707L1.854 8.854l-.708-.708L4.293 5 1.646 2.354l.708-.708 12 12-.708.708Zm-8-8-1 1V13h2V9h2.293Zm5 5V13h2v-.293Z"/></symbol><use href="#home-off-line"/></svg>

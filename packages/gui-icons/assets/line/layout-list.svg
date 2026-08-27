@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Layout List</title><symbol id="layout-list-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h3v3H2Zm0 4h3v3H2Zm0 4h3v3H2Zm12-6H6V3h8Zm0 4H6V7h8Zm0 4H6v-1h8ZM3 3v1h1V3Zm0 4v1h1V7Zm0 4v1h1v-1Z"/></symbol><use href="#layout-list-line"/></svg>

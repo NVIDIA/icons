@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Mask Inside</title><symbol id="mask-inside-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7.111 3.682 3.682 7.111l.707.707 3.429-3.429zm2.513.487L4.169 9.624l.707.707 5.455-5.455zm1.5 1.5-5.455 5.455.707.707 5.455-5.455zm-2.235 6.649 3.429-3.429-.707-.707-3.429 3.429z"/><path fill="currentColor" d="M8 2a6 6 0 1 1 0 12A6 6 0 0 1 8 2M3 8a5 5 0 1 0 10.001-.001A5 5 0 0 0 3 8"/></symbol><use href="#mask-inside-line"/></svg>

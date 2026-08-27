@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Rename</title><symbol id="rename-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5.5 2.385 6.935 2H8v1h-.933L6 3.285v9.429L7.067 13H8v1H6.935L5.5 13.615 4.065 14H3v-1h.934L5 12.714V3.285L3.933 3H3V2h1.065z"/><path fill="currentColor" d="m13.493 11.87-.966.26-.57-2.13H9.045l-.57 2.13-.967-.26L9.617 4h1.767ZM9.313 9h2.376l-1.072-4h-.232Z"/></symbol><use href="#rename-line"/></svg>

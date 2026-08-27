@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Whispermode</title><symbol id="whispermode-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m2.001 4.536 6-3.464 6 3.464v6.928l-6 3.464-6-3.464Zm4.352 1.111c0 .254.111.54.247.804q.088.173.196.345a5 5 0 0 0-.345-.196c-.264-.136-.55-.247-.804-.247C4.737 6.353 4 7.09 4 8v1.647h1.647c.254 0 .54-.111.804-.247q.173-.088.345-.196-.108.172-.196.345c-.136.264-.247.55-.247.804C6.353 11.263 7.09 12 8 12h1.647v-1.647c0-.254-.111-.54-.247-.804a5 5 0 0 0-.196-.345q.172.108.345.196c.264.136.55.247.804.247C11.263 9.647 12 8.91 12 8V6.353h-1.647c-.254 0-.54.111-.804.247q-.172.088-.345.196.108-.173.196-.345c.136-.264.247-.55.247-.804C9.647 4.737 8.91 4 8 4H6.353Z"/></symbol><use href="#whispermode-fill"/></svg>

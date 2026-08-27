@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Graduate</title><symbol id="graduate-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14.646 5.746 8 2.423 1.354 5.746 8 8.889l5-2.365V12h1V6.051z"/><path fill="currentColor" d="M4 10V8.103l4 1.892 4-1.892V10c0 .894-.508 1.656-1.235 2.175S9.059 13 8 13s-2.038-.306-2.765-.825S4 10.894 4 10"/></symbol><use href="#graduate-fill"/></svg>

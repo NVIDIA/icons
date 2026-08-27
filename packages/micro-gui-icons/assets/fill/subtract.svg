@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><title>Subtract</title><symbol id="subtract-fill" viewBox="0 0 12 12"><path fill="currentColor" d="M11 6.5H1v-1h10z"/></symbol><use href="#subtract-fill"/></svg>

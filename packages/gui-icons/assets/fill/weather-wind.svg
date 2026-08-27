@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Weather Wind</title><symbol id="weather-wind-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11.5 8A2.5 2.5 0 1 1 9 10.5h1A1.5 1.5 0 1 0 11.5 9H3V8z"/><path fill="currentColor" d="M7 11H2v-1h5zm3-8a2 2 0 1 1 0 4H4V6h6a1 1 0 1 0-1-1H8a2 2 0 0 1 2-2"/></symbol><use href="#weather-wind-fill"/></svg>

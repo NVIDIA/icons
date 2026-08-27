@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Firecracker</title><symbol id="firecracker-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M12 1.5v1h-1v-1zm1.354 1.854 1-1-.708-.708-1 1zM10.207 6.5l2.147-2.146-.708-.708L9.5 5.793l-1-1L1.793 11.5 4.5 14.207 11.207 7.5zM13.5 5h1V4h-1z"/></symbol><use href="#firecracker-fill"/></svg>

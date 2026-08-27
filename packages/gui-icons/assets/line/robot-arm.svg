@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Robot Arm</title><symbol id="robot-arm-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10 3c0 .385-.109.744-.297 1.049l1.793 1.748.297-.297h1.914l1.647 1.646-.708.708L13.293 6.5h-1.086l-.353.354-.354.353v1.086l1.354 1.353-.708.708L10.5 8.707V6.793l.288-.289-1.806-1.761-.002.001a2 2 0 0 1-1.996-.021L5.586 6.121l.031.048a2.5 2.5 0 0 1 .271 2.073L9.646 12h4.238l.804 3H1.313l.804-3h3.287L3.402 9.998a2.5 2.5 0 1 1 1.477-4.584l1.398-1.398A2 2 0 1 1 10 3m3.116 10H2.884l-.268 1h10.768ZM3.5 6a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 3.5 6m1.88 3.148a2.5 2.5 0 0 1-.804.609L6.818 12h1.414ZM8 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#robot-arm-line"/></svg>

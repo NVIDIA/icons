@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Scale Relative</title><symbol id="scale-relative-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M15 3v10.5h-5v-1H9v1H1v-6h1v-1H1V3ZM3 7.5h1v-1H3Zm2 0h1v-1H5Zm3 0v-1H7v1Zm1 0h1v-1H9Zm0 1v1h1v-1Zm0 3h1v-1H9Z"/></symbol><use href="#scale-relative-fill"/></svg>

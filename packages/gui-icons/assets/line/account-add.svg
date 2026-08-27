@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Account Add</title><symbol id="account-add-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a3 3 0 1 1 0 6 3 3 0 0 1 0-6M6 4a2 2 0 1 0 3.999.001A2 2 0 0 0 6 4M4.456 8l-1.608 6h4.329v-1H4.151l1.072-4H9V8zM11 11V8.5h1V11h2.5v1H12v2.5h-1V12H8.5v-1z"/></symbol><use href="#account-add-line"/></svg>

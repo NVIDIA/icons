@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>GPU Sync</title><symbol id="gpu-sync-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M15 11a3 3 0 0 1-3 3h-.293l.647.646-.708.708L9.793 13.5l1.853-1.854.708.708-.647.646H12a2 2 0 0 0 2-2zm-.793-2.5-1.853 1.854-.708-.708.647-.646H12a2 2 0 0 0-2 2H9a3 3 0 0 1 3-3h.293l-.647-.646.708-.708z"/><path fill="currentColor" d="M3 3h11v2.916A5 5 0 0 0 7.024 10H4V9H3v1H2V3H1V2h2z"/></symbol><use href="#gpu-sync-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>GPU Card Multi</title><symbol id="gpu-card-multi-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10 5.5a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1"/><path fill="currentColor" d="M0 3V2h2v1h11v6H8v1H3V9H2v1H1V3Zm8.5 3a1.5 1.5 0 1 0 3.001-.001A1.5 1.5 0 0 0 8.5 6"/><path fill="currentColor" d="M15 11V5.5h-1V10H9v1H5v1h5v-1z"/></symbol><use href="#gpu-card-multi-fill"/></svg>

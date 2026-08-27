@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Shape Triangle</title><symbol id="shape-triangle-line" viewBox="0 0 16 16"><path fill="currentColor" d="m8 1.24 7.366 12.758H.634ZM2.366 12.998h11.268L8 3.24Z"/></symbol><use href="#shape-triangle-line"/></svg>

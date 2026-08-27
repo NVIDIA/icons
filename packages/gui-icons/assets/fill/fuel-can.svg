@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fuel Can</title><symbol id="fuel-can-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m14.129 2.947-1.87.501-.552.552.5.5-1 1 .793.793V13H4V4.293L5.293 3h3.414l.793.793 1-1 .5.5.741-.741 2.13-.571ZM5 4.707V5h3V4H5.707Zm4.354 3.647 1-1-.708-.708-1 1Zm-2 2-.708-.708-1 1 .708.708Zm-1-3.708-.708.708 1 1 .708-.708Zm4 4-1-1-.708.708 1 1ZM10.207 4.5l.293.293.293-.293-.293-.293Z"/></symbol><use href="#fuel-can-fill"/></svg>

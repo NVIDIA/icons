@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Select Ellipse</title><symbol id="select-ellipse-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.976 12.905a5 5 0 0 0 1.802-.748l.555.832a6 6 0 0 1-2.162.897Zm-1.952-9.81a5 5 0 0 0-1.802.748l-.555-.832a6 6 0 0 1 2.162-.897ZM3.095 8.976c.124.625.37 1.237.748 1.802l-.832.555a6 6 0 0 1-.897-2.162Zm9.81-1.952a5 5 0 0 0-.748-1.802l.832-.555c.451.675.748 1.41.897 2.162Zm-.747 3.755c.368-.55.619-1.164.746-1.804l.981.195a6 6 0 0 1-.895 2.164ZM3.842 5.221a5 5 0 0 0-.746 1.803l-.981-.195a6 6 0 0 1 .895-2.163Zm1.379 6.937c.55.368 1.164.619 1.804.746l-.195.981a6 6 0 0 1-2.164-.895Zm5.558-8.316a5 5 0 0 0-1.803-.746l.195-.981a6 6 0 0 1 2.163.895Z"/></symbol><use href="#select-ellipse-fill"/></svg>

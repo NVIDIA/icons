@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Envelope</title><symbol id="envelope-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 3h12v1.589L8 8.407 2 4.589z"/><path fill="currentColor" d="M2 5.774V13h12V5.774L8 9.593z"/></symbol><use href="#envelope-fill"/></svg>

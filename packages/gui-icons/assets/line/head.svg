@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Head</title><symbol id="head-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 2.5a4.5 4.5 0 0 0-3.601 7.2l.1.133L4 13H3v-2.838a5.5 5.5 0 1 1 9.881-4.307l1.78 4.452-1.717.572-.52 3.121H8v-1h3.576l.48-2.879 1.283-.428-1.42-3.549-.009-.045A4.5 4.5 0 0 0 7.5 2.5"/></symbol><use href="#head-line"/></svg>

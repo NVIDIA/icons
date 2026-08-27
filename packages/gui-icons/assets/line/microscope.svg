@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Microscope</title><symbol id="microscope-line" viewBox="0 0 16 16"><path fill="currentColor" d="M9 1h2v1h1v7h-1.116l-.268 1H9.384l-.268-1H8V5.915q-.183.065-.383.081L6.008 12h7.876l.804 3H1.312l.804-3h.857l2.143-8h.969A1.5 1.5 0 0 1 8 3.085V2h1ZM2.884 13l-.268 1h10.768l-.268-1ZM9 3v5h2V3ZM6.085 5h-.201l-1.876 7h.965l1.678-6.263A1.5 1.5 0 0 1 6.085 5M8 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0"/></symbol><use href="#microscope-line"/></svg>

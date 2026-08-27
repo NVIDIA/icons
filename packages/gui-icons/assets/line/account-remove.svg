@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Account Remove</title><symbol id="account-remove-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5 4a3 3 0 1 1 6 0 3 3 0 0 1-6 0m-.544 4h6.704v1H5.223l-1.072 4h3.026v1H2.848ZM8 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 8 2m6.5 10h-6v-1h6Z"/></symbol><use href="#account-remove-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>USB</title><symbol id="usb-line" viewBox="0 0 16 16"><path fill="currentColor" d="m9.854 2.647-.708.707-.646-.647v5.641l2.5-.67V7h-1V4h3v3h-1v1.446l-3.5.938v1.679a2 2 0 1 1-1 0v-.179L4 9.946V7.915a1.5 1.5 0 1 1 1 0v1.264l2.5.669V2.707l-.646.647-.708-.707L8 .793ZM7 13a1 1 0 1 0 2 0 1 1 0 0 0-2 0m5-8h-1v1h1ZM4 6.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0"/></symbol><use href="#usb-line"/></svg>

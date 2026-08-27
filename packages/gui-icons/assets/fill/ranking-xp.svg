@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Ranking XP</title><symbol id="ranking-xp-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10 8h1V7h-1z"/><path fill="currentColor" d="m8.001 1.072 6 3.464v6.928l-6 3.464-6-3.464V4.536ZM11 6H9v4h1V9h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1M5.5 6h-1v1.44l.7.56-.7.56V10h1v-.96l.5-.4.5.4V10h1V8.56L6.8 8l.7-.56V6h-1v.96l-.5.4-.5-.4Z"/></symbol><use href="#ranking-xp-fill"/></svg>

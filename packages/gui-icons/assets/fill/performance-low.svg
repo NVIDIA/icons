@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Performance Low</title><symbol id="performance-low-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 2a6 6 0 0 0-3.213 11.068l-.536.845a7 7 0 1 1 7.498-.001l-.536-.844A6 6 0 0 0 8 2M6.504 7.883a1.5 1.5 0 1 1 .259.966l-2.981.799-.259-.966Z"/></symbol><use href="#performance-low-fill"/></svg>

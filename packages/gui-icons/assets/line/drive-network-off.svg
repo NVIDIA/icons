@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Drive Network Off</title><symbol id="drive-network-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 7H3V6h1z"/><path fill="currentColor" d="m2.354 1.646 13 13-.708.708L13.293 14H10v1H6v-1H2v-1h4v-1h1.5V9H1V4h2.293L1.646 2.354ZM4.293 5H2v3h5.293ZM8.5 9.207V12H10v1h2.293ZM7 14h2v-1H7Zm4.828-5-1-1H14V5H7.828l-1-1H15v5z"/></symbol><use href="#drive-network-off-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Drive Cloud</title><symbol id="drive-cloud-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10.5 8.5c-.735 0-1.444.313-1.926.8-.347.352-.595.819-.623 1.336-.337.071-.631.25-.859.477-.36.359-.592.872-.592 1.387 0 1.139.983 2 2.115 2h3.5c1.282 0 2.385-.973 2.385-2.25 0-.543-.236-1.086-.593-1.474a1.83 1.83 0 0 0-.945-.561c-.093-.435-.384-.807-.703-1.069C11.79 8.761 11.14 8.5 10.5 8.5"/><path fill="currentColor" d="M15 4v5h-1.517a3.4 3.4 0 0 0-.589-.626c-.63-.518-1.5-.874-2.394-.874a3.75 3.75 0 0 0-2.637 1.098A3 3 0 0 0 7.524 9H1V4ZM3 6v1h1V6Z"/></symbol><use href="#drive-cloud-fill"/></svg>

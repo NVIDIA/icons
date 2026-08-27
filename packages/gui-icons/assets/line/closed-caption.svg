@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Closed Caption</title><symbol id="closed-caption-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6 6a1 1 0 0 1 1 1v.5H6V7H5v3h1v-.5h1v.5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm5 0a1 1 0 0 1 1 1v.5h-1V7h-1v3h1v-.5h1v.5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1z"/><path fill="currentColor" d="M15 14H1V3h14ZM2 13h12V4H2Z"/></symbol><use href="#closed-caption-line"/></svg>

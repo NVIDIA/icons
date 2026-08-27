@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Shape Circle Off</title><symbol id="shape-circle-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708-1.771-1.772a6 6 0 0 1-8.456-8.456L1.646 2.354Zm1.775 3.19a5 5 0 0 0 7.035 7.036ZM14 8c0 .926-.21 1.804-.585 2.587l-.759-.76a5 5 0 0 0-6.483-6.483l-.76-.759A6 6 0 0 1 14 8"/></symbol><use href="#shape-circle-off-line"/></svg>

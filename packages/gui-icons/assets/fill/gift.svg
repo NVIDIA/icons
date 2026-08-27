@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Gift</title><symbol id="gift-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1.5 4h2.768A2 2 0 0 1 6 1c.513 0 1.165.157 1.681.727q.177.193.319.442.142-.249.319-.442C8.835 1.157 9.487 1 10 1a2 2 0 0 1 1.732 3H14.5v2h-5V5h-3v1h-5ZM11 3a1 1 0 0 0-1-1c-.315 0-.663.093-.94.398-.24.265-.476.744-.542 1.602H10a1 1 0 0 0 1-1M6 2a1 1 0 0 0 0 2h1.482c-.066-.858-.302-1.337-.542-1.602A1.23 1.23 0 0 0 6 2m.5 5v3.5l1.5-1 1.5 1V7H14v7H2V7z"/></symbol><use href="#gift-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Wheel</title><symbol id="wheel-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2.203 6.447A6.002 6.002 0 0 1 14 8 6 6 0 1 1 2.203 6.447m4.979.296a1.5 1.5 0 0 1 1.636 0c.165.107.307.246.419.408l3.44-.922a5.003 5.003 0 0 0-9.354 0l3.44.922c.112-.162.254-.301.419-.408M7.5 9.415a1.5 1.5 0 0 1-.996-1.298l-3.44-.922a5 5 0 0 0 4.436 5.78Zm1.995-1.298A1.5 1.5 0 0 1 8.5 9.415v3.56a5 5 0 0 0 4.436-5.78Z"/></symbol><use href="#wheel-fill"/></svg>

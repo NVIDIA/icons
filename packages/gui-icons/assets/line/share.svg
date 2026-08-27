@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Share</title><symbol id="share-line" viewBox="0 0 16 16"><path fill="currentColor" d="M9 3.5a2.5 2.5 0 1 1 .688 1.722L7.157 6.804l-.53-.848 2.53-1.581A2.5 2.5 0 0 1 9 3.5m2 6.55V7.5h1v2.55a2.5 2.5 0 1 1-1 0M1 8.5a2.5 2.5 0 1 1 4.915.648l2.23 1.116-.447.894-2.231-1.115A2.5 2.5 0 0 1 1 8.5M3.5 7a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 3.5 7m8-5a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 11.5 2m0 9a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 11.5 11"/></symbol><use href="#share-line"/></svg>

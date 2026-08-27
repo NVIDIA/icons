@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Nvidia Shield</title><symbol id="nvidia-shield-line" viewBox="0 0 16 16"><path fill="currentColor" d="M15 4v8H1V4Zm-4.013 5.04L13.584 5H3.483ZM4.99 6.947 2.411 11h7.316l.717-1.116ZM14 10.663V6.202l-2.13 3.314ZM2 5.337v4.446l2.107-3.311Zm9.327 5.023-.411.64h1.601Z"/></symbol><use href="#nvidia-shield-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Shape Square Off</title><symbol id="shape-square-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m1.354.646 14 14-.708.708L13.293 14H2V2.707L.646 1.354ZM14 2v9.172L4.828 2Z"/></symbol><use href="#shape-square-off-fill"/></svg>

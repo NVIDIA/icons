@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Cube Stack</title><symbol id="cube-stack-line" viewBox="0 0 16 16"><path fill="currentColor" d="m8 .923 3.75 2.165V6.84L15 8.717v4.33l-3.75 2.165L8 13.335l-3.25 1.877L1 13.047v-4.33L4.25 6.84V3.088ZM5.75 3.376 8 4.675l2.25-1.299L8 2.077ZM7.5 9.871 5.25 11.17v2.598l2.25-1.299Zm0-1.732V5.541L5.25 4.242V6.84Zm3.25-1.299V4.242L8.5 5.541v2.598Zm-6 .866L2.5 9.005l2.25 1.299L7 9.005Zm-.5 6.062V11.17L2 9.871v2.598Zm4.25-1.299 2.25 1.299V11.17L8.5 9.871ZM14 9.871l-2.25 1.299v2.598L14 12.469Zm-5-.866 2.25 1.299 2.25-1.299-2.25-1.299Z"/></symbol><use href="#cube-stack-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Speaker Mute</title><symbol id="speaker-mute-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 2.413v11.174L3.815 10H2V6h1.815ZM7 4.587 4.185 7H3v2h1.185L7 11.413ZM10.793 8.5 9.146 6.854l.708-.708L11.5 7.793l1.646-1.647.708.708L12.207 8.5l1.647 1.646-.708.708L11.5 9.207l-1.646 1.647-.708-.708Z"/></symbol><use href="#speaker-mute-line"/></svg>

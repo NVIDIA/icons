@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Pizza</title><symbol id="pizza-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3.5 2H3v2h.5c3.887 0 7.28 2.112 9.095 5.249l.25.433 1.733-1-.251-.433A12.5 12.5 0 0 0 3.5 2"/><path fill="currentColor" d="M3 15.366V5h.5a9.5 9.5 0 0 1 8.229 4.75l.25.432ZM6.5 12.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3-4a1 1 0 1 0-2 0 1 1 0 0 0 2 0m-4-1a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/></symbol><use href="#pizza-fill"/></svg>

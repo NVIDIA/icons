@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Auto Record</title><symbol id="auto-record-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4 8a4 4 0 0 1 8 0v1.707l2.354-2.353-.708-.708-.69.691a5 5 0 1 0-6.43 5.442 1.5 1.5 0 1 0 .159-1A4 4 0 0 1 4 8"/><path fill="currentColor" d="M8 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 8 6"/></symbol><use href="#auto-record-fill"/></svg>

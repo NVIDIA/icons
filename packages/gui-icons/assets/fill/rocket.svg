@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Rocket</title><symbol id="rocket-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.808 4.515a8 8 0 0 0-.419.389L4.293 8h-2l-1.5 1.5L2.5 11.207l1-1 .793.793-1.146 1.146.707.708L5 11.707l.793.793-1 1L6.5 15.207l1.5-1.5v-2l3.096-3.096q.201-.2.389-.419zm4.288 2.874c.807-1.217 1.317-2.732.878-4.047l-.079-.237-.237-.079c-1.315-.439-2.829.071-4.046.878z"/></symbol><use href="#rocket-fill"/></svg>

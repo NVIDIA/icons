@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Layout Grid</title><symbol id="layout-grid-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6.5 3h3v4.5h-3zm-1 4.5V3H2v4.5zM2 8.5h3.5V13H2zm4.5 0h3V13h-3zm4 0V13H14V8.5zm3.5-1V3h-3.5v4.5z"/></symbol><use href="#layout-grid-fill"/></svg>

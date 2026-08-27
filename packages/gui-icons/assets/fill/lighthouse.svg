@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Lighthouse</title><symbol id="lighthouse-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m11 7.117-.371.1-.518.137 2.05 7.648H3.839l2.048-7.648-.517-.137-.37-.1V6h6zM5.13 2.271l-.255.946.255.947-4 1.072-.26-.965 3.929-1.054L.87 2.164l.26-.966zm10-.107L11.2 3.217l3.93 1.054-.26.965-4-1.072.13-.482.124-.465-.253-.946 3.999-1.073zM8.129 1.116 10 1.618V5H6V1.618l1.87-.502.13-.034z"/></symbol><use href="#lighthouse-fill"/></svg>

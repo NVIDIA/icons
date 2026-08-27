@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Medicine</title><symbol id="medicine-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.999 3.052a3.5 3.5 0 1 1 4.949 4.95l-4.946 4.946a3.5 3.5 0 1 1-4.949-4.95ZM10.5 3a2.5 2.5 0 0 0-1.788.753l-.004.005-2.122 2.121 3.536 3.535 2.125-2.125A2.5 2.5 0 0 0 10.5 3"/></symbol><use href="#medicine-fill"/></svg>

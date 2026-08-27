@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Rotate</title><symbol id="rotate-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 7.5c0-.516.474-1.141 1.613-1.667C4.71 5.326 6.261 5 8 5s3.29.326 4.387.833C13.526 6.359 14 6.984 14 7.5c0 .298-.15.628-.519.97-.37.343-.93.664-1.651.925l.34.94c.801-.289 1.491-.669 1.99-1.131.501-.463.84-1.041.84-1.704 0-1.141-.981-2.015-2.194-2.575C11.55 4.345 9.85 4 8 4s-3.55.345-4.806.925C1.981 5.485 1 6.359 1 7.5s.981 2.015 2.194 2.575C4.45 10.655 6.15 11 8 11h.293l-.647.646.708.708 1.853-1.854-1.853-1.854-.708.708.647.646H8c-1.739 0-3.29-.326-4.387-.833C2.474 8.642 2 8.016 2 7.5"/></symbol><use href="#rotate-line"/></svg>

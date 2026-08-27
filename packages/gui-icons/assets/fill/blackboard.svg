@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Blackboard</title><symbol id="blackboard-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h12v8h-2V8H8v2H2Zm6 2H4v1h4ZM4 6v1h3V6Zm11 7v-2H1v2z"/></symbol><use href="#blackboard-fill"/></svg>

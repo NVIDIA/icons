@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Gravel</title><symbol id="gravel-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5.635 3.928 7 5.293V7.39l-2.653.664-1.419-1.419.677-2.03ZM10.793 8h2.097l.664 2.653-1.419 1.419-2.03-.677-.677-2.03Zm-4.892.892 1.599.799v1.618l-1.599.799L4.293 10.5ZM11.191 2h1.618l.799 1.599L12 5.207l-1.608-1.608ZM4.395 5.395l-.323.97.581.581L6 6.61v-.903l-.635-.635ZM11.207 9l-.635.635.323.97.97.323.581-.581L12.11 9ZM8.646 5.146l1-1 .708.708-1 1Zm-2-2.5 1-1 .708.708-1 1Zm2 5.708-1-1 .708-.708 1 1Zm0 6-1-1 .708-.708 1 1Zm-7-4.708 1-1 .708.708-1 1ZM11.809 3l-.201.401.392.392.392-.392L12.191 3Zm-5.71 7.108-.392.392.392.392.401-.201v-.382Z"/></symbol><use href="#gravel-line"/></svg>

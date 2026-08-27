@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Nvidia Shield Stand</title><symbol id="nvidia-shield-stand-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2.5 15v-1.23L4 12.484V1h8v14ZM5 11.627l.89-.764 3.15-5.85L5 2.416Zm4.884-6.072L6.947 11.01 11 13.589V6.273ZM3.768 14h6.015l-3.452-2.197Zm5.748-9.87L10.663 2h-4.46ZM11 5.084V3.483l-.64 1.189Z"/></symbol><use href="#nvidia-shield-stand-line"/></svg>

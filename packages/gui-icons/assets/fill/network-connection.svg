@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Network Connection</title><symbol id="network-connection-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m4.854 5.354-.707-.708L.793 8l3.354 3.354.707-.708L2.207 8zm6.292 0L13.793 8l-2.647 2.646.708.708L15.207 8l-3.353-3.354z"/><path fill="currentColor" d="M5 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2m3 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m3 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#network-connection-fill"/></svg>

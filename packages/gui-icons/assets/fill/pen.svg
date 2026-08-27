@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Pen</title><symbol id="pen-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M9.604 3.896 10 3.5 12.5 6l-8 8H2.707l-.353.354-.708-.708.354-.353V11.5l6.896-6.896L8 3.707 4.354 7.354l-.708-.708L8 2.293zM14 3.5 12.5 5 11 3.5 12.5 2z"/></symbol><use href="#pen-fill"/></svg>

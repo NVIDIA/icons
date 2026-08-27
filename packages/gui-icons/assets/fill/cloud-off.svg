@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Cloud Off</title><symbol id="cloud-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708-1.565-1.566A4.3 4.3 0 0 1 10.75 13H4.5a3.5 3.5 0 0 1-.986-6.859c.043-.54.181-1.053.397-1.523L1.646 2.354zM15 8.75c0 .962-.32 1.85-.859 2.562L5.552 2.724a4.5 4.5 0 0 1 6.587 2.008A4.25 4.25 0 0 1 15 8.75"/></symbol><use href="#cloud-off-fill"/></svg>

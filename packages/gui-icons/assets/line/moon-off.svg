@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Moon Off</title><symbol id="moon-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708-2.481-2.482a5 5 0 0 1-7.33-1.103l-.556-.839 1.004.063a4 4 0 0 0 3.435-1.568L1.646 2.354ZM8.43 9.137a5 5 0 0 1-3.14 1.806q.318.294.71.521a4 4 0 0 0 4.453-.304ZM10.5 3.67a5 5 0 0 1 2.155 6.157l-.791-.791a4 4 0 0 0-2.671-4.855c.306.783.413 1.638.3 2.483l-.968-.968a4 4 0 0 0-.658-1.912l-.556-.838 1.004.063a5 5 0 0 1 2.185.661"/></symbol><use href="#moon-off-line"/></svg>

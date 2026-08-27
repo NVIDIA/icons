@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Typography</title><symbol id="typography-line" viewBox="0 0 16 16"><path fill="currentColor" d="m5.483 3.37 2.278 8.5-.966.26L5.956 9H3.044l-.838 3.13-.483-.13-.484-.129 2.279-8.5L3.616 3h1.768ZM3.312 8h2.376L4.616 4h-.232ZM14 6.793v3.642l.385 1.435-.966.26-.178-.664-.534.534H9.793L9 11.207V9.793l.741-.741L13 8.179v-.972L12.793 7h-2.586l-.353.354-.708-.708L9.793 6h3.414Zm-3.741 3.155-.259.259v.586l.207.207h2.086l.707-.707V9.214Z"/></symbol><use href="#typography-line"/></svg>

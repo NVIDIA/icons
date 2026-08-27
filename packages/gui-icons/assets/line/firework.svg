@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Firework</title><symbol id="firework-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 14v-1h1v1zm0-2v-1h1v1zM3 11v-1h1v1zm4.5-1V9h1v1zm0-2V7h1v1zm-1 0h-1V7h1zM11 2h-1V1h1zm-.5 6h-1V7h1zm2 0h-1V7h1zm-5-2V5h1v1zm1.439-.146.707-.708.707.708-.707.707Zm-2.586.707-.707-.707.707-.708.707.708ZM11 4h1v1h-1ZM4.854 5.061l-.708-.707.708-.708.707.708ZM2.5 4h-1V3h1ZM13 4h1v1h-1ZM3.439 8.354l.707-.708.707.708-.707.707zm4.207-5.208.707-.707.708.707-.708.708zm6.914 6.208-.707.707-.707-.707.707-.708z"/></symbol><use href="#firework-line"/></svg>

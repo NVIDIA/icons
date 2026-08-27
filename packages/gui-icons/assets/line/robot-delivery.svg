@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Robot Delivery</title><symbol id="robot-delivery-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5 3h1.348l.536 2h7l.937 3.5-.529 1.975A2 2 0 1 1 11 12h-1a2 2 0 1 1-4 0H5a2 2 0 1 1-3-1.731V5.434L2.657 3H4V2h1Zm-2 7c.74 0 1.385.403 1.73 1h1.54a1.996 1.996 0 0 1 3.46 0h1.539a2 2 0 0 1 2.105-.964l.412-1.536-.67-2.5H3Zm10 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-5 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-5 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m.152-6h2.696L5.58 4H3.423Z"/></symbol><use href="#robot-delivery-line"/></svg>

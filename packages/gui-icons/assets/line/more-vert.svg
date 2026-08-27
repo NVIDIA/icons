@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>More Vertical</title><symbol id="more-vert-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6 13a2 2 0 1 1 3.999-.001A2 2 0 0 1 6 13m0-5a2 2 0 1 1 3.999-.001A2 2 0 0 1 6 8m0-5a2 2 0 1 1 3.999-.001A2 2 0 0 1 6 3m2 9a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0-5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0-5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#more-vert-line"/></svg>

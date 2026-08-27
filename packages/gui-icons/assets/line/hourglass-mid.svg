@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Hourglass Mid</title><symbol id="hourglass-mid-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3 1h10v2.634L10.479 8 13 12.366V15H3v-2.634L5.521 8 3 3.634Zm8.634 3H4.366l2.309 4-2.309 4h7.268L9.325 8ZM4 2v1h8V2Zm8 11H4v1h8ZM9.5 7h-3V6h3Zm0 3h-3V9h3Zm-1-1.5h-1v-1h1Z"/></symbol><use href="#hourglass-mid-line"/></svg>

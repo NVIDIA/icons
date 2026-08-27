@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fan Loud</title><symbol id="fan-loud-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11 9V5h1v4zm2 2V3h1v8zM3.647 3v1.853c0 .285.125.608.278.905q.1.194.22.387a6 6 0 0 0-.387-.22c-.297-.153-.62-.278-.905-.278C1.83 5.647 1 6.477 1 7.5v1.853h1.853c.285 0 .608-.125.905-.278q.194-.1.387-.22a6 6 0 0 0-.22.387c-.153.297-.278.62-.278.905C3.647 11.17 4.477 12 5.5 12h1.853v-1.853c0-.285-.125-.608-.278-.905a6 6 0 0 0-.22-.387q.194.12.387.22c.297.153.62.278.905.278C9.17 9.353 10 8.523 10 7.5V5.647H8.147c-.285 0-.608.125-.905.278a6 6 0 0 0-.387.22q.12-.194.22-.387c.153-.297.278-.62.278-.905C7.353 3.83 6.523 3 5.5 3z"/></symbol><use href="#fan-loud-fill"/></svg>

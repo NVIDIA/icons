@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Light Rotate</title><symbol id="light-rotate-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13 8a5 5 0 0 0-5-5V2a6 6 0 0 1 6 6v.293l.647-.647.707.708-1.854 1.853-1.853-1.853.707-.708.646.647ZM2.5 5.793l1.854 1.853-.707.708L3 7.707V8a5 5 0 0 0 5 5v1a6 6 0 0 1-6-6v-.293l-.646.647-.707-.708Z"/><path fill="currentColor" d="M8 4.375a2.5 2.5 0 0 0-2.5 2.5c0 .757.457 1.326.799 1.697.079.086.158.168.229.241l.025.025c.079.082.143.149.196.209a1 1 0 0 1 .084.107v1.484l.738.737h.858l.738-.737V9.154a1 1 0 0 1 .084-.107q.079-.088.196-.209l.025-.025c.071-.073.15-.155.229-.241.342-.371.799-.94.799-1.697a2.5 2.5 0 0 0-2.5-2.5"/></symbol><use href="#light-rotate-fill"/></svg>

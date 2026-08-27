@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>SCM Merge</title><symbol id="scm-merge-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 14h4v-4H4.5V6H6v-.268l5.5 3.175V10H10v4h4v-4h-1.5V8.33L6 4.577V2H2v4h1.5v4H2z"/></symbol><use href="#scm-merge-fill"/></svg>

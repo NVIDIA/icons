@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Compass</title><symbol id="compass-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8m8.206.499 2.33-4.036L7.5 6.793Zm-4.738 3.038 4.033-2.329-1.704-1.704Z"/></symbol><use href="#compass-fill"/></svg>

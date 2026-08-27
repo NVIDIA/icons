@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Vertical Align Top</title><symbol id="v-align-top-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 4h12V3H2zm2 1v9h3V5zm4 0v6h3V5z"/></symbol><use href="#v-align-top-fill"/></svg>

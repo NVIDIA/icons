@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Speaker Off</title><symbol id="speaker-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708L10 10.707v2.88L5.815 10H4V6h1.293L1.646 2.354ZM6.243 6.95 6.185 7H5v2h1.185L9 11.413V9.707ZM10 2.413v4.759l-1-1V4.587l-.853.731-.709-.709z"/></symbol><use href="#speaker-off-line"/></svg>

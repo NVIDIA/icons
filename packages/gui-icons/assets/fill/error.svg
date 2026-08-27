@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Error</title><symbol id="error-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 .5 15.5 8 8 15.5.5 8Zm-.5 5V9h1V5.5Zm0 4.5v1h1v-1Z" clip-rule="evenodd"/></symbol><use href="#error-fill"/></svg>

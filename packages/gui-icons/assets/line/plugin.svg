@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Plugin</title><symbol id="plugin-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6 4V1h1v3h2V1h1v3h3v1h-1v2.365L11.294 10H8.5v1.5A2.5 2.5 0 0 1 6 14H3v-1h3a1.5 1.5 0 0 0 1.5-1.5V10H4.706L4 7.365V5H3V4ZM5 5v2.233L5.473 9h5.054L11 7.233V5Z"/></symbol><use href="#plugin-line"/></svg>

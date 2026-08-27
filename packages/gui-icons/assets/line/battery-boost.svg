@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Battery Boost</title><symbol id="battery-boost-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.001 4.536 6-3.464 6 3.464v6.928l-6 3.464-6-3.464Zm1 6.351L5 12.041V5h2V4h2v1h2v7.042l2.001-1.155V5.113l-5-2.886-5 2.886ZM10 12.619v-.831l-1.999-1.154L6 11.789v.829l2.001 1.156ZM6 8.134l2.001-1.155L10 8.133V6H6Zm0 2.5 2.001-1.155L10 10.633V9.288L8.001 8.133 6 9.289Z"/></symbol><use href="#battery-boost-line"/></svg>

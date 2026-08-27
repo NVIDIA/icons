@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Feeling Very Sad</title><symbol id="feeling-very-sad-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 8a6 6 0 1 1 12 0A6 6 0 0 1 2 8m6-5a5 5 0 1 0 .001 10.001A5 5 0 0 0 8 3m0 6a2 2 0 0 0-2 2H5a3 3 0 1 1 6 0h-1a2 2 0 0 0-2-2m-.905-2.276-1.931.518-.259-.966 1.932-.518Zm3.742.518-1.932-.518.259-.966 1.931.518Z"/></symbol><use href="#feeling-very-sad-line"/></svg>

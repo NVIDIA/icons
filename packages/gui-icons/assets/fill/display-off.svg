@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Display Off</title><symbol id="display-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m1.354.646 13 13-.708.708L10.293 11H8.902l.268 1H11v1H5v-1h1.831l.268-1H2V3h.293L.646 1.354ZM7.867 12h.267L8 11.5ZM14 11h-.172l-8-8H14z"/></symbol><use href="#display-off-fill"/></svg>

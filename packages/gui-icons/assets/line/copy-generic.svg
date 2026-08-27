@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Copy Generic</title><symbol id="copy-generic-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h10v10H2Zm1 1v8h8V3Zm10 10V4h1v10H4v-1Z"/></symbol><use href="#copy-generic-line"/></svg>

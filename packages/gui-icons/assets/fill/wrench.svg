@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Wrench</title><symbol id="wrench-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11 1q.29 0 .57.04l.43.062V1.5L9.972 3.528 10.5 5.5l1.972.528L14.5 4h.398l.062.43q.04.28.04.57a4 4 0 0 1-5.131 3.837L3.5 15.207.793 12.5l6.369-6.37A4 4 0 0 1 11 1"/></symbol><use href="#wrench-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Arrange Columns</title><symbol id="arrange-columns-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 6v8H2V6zm7 0v8H9V6zm3 0v8h-2V6zM8 2v8H5V2zM6 9h1V3H6z"/></symbol><use href="#arrange-columns-line"/></svg>

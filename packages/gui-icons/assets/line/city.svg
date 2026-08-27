@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>City</title><symbol id="city-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 3h.616l.268 1H9v1h2v2.58l2 .536V13h1v1H2v-1h1V7h2V4h.616l.268-1H6.5V1h1ZM8 5H6v8h2Zm2 1H9v7h1ZM5 8H4v5h1Zm7 .884-1-.268V13h1Z"/></symbol><use href="#city-line"/></svg>

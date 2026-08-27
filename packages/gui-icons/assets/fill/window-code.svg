@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Window Code</title><symbol id="window-code-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 3H2v2h12zm0 3v7H2V6ZM5.647 7.146 3.793 9l1.854 1.854.707-.708L5.207 9l1.147-1.146ZM10.793 9l-1.146 1.146.707.708L12.207 9l-1.853-1.854-.707.708Zm-3.934 1.842.949.316 1.333-4-.949-.316Z"/></symbol><use href="#window-code-fill"/></svg>

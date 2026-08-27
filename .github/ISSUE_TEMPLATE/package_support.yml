@@ -1,0 +1,31 @@
+name: Package Support
+description: Ask for help with installation, TypeScript types, tree-shaking, or migration
+labels: ["question"]
+body:
+  - type: input
+    id: package-version
+    attributes:
+      label: Package and version
+      placeholder: "@nvidia/react-gui-icons@1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Describe what you are trying to do and what specific help you need.
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you've tried
+      description: Steps you've already taken, any docs you've read, workarounds attempted.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      value: |
+        - Node.js version:
+        - Package manager (npm / yarn / pnpm):
+        - Framework / bundler:

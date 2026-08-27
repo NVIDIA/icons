@@ -1,0 +1,6 @@
+Canonical: https://raw.githubusercontent.com/NVIDIA/icons/main/.well-known/security.txt
+Contact: mailto:psirt@nvidia.com
+Contact: https://www.nvidia.com/object/submit-security-vulnerability.html
+Policy: https://github.com/NVIDIA/icons/blob/main/SECURITY.md
+Preferred-Languages: en
+Expires: 2027-08-18T00:00:00.000Z

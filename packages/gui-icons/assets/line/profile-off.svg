@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Profile Off</title><symbol id="profile-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m12.582 11.875 1.772 1.771-.708.708-12-12 .708-.708 2.661 2.662a3 3 0 1 1 2.676 2.676L8.707 8h2.837ZM8 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 8 2m1.707 7 1.461 1.461L10.776 9ZM5.223 9h.949l-1-1h-.716l-1.608 6h8.324l-1-1H4.151z"/></symbol><use href="#profile-off-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>High Quality</title><symbol id="high-quality-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M0 3h16v11H0Zm12.586 6.879a2.5 2.5 0 1 0-.707.707l.767.768.708-.708ZM3 11h1V9h2v2h1V6H6v2H4V6H3Zm7.5-4a1.5 1.5 0 0 1 1.354 2.147l-.5-.501-.708.708.501.5A1.5 1.5 0 1 1 10.5 7"/></symbol><use href="#high-quality-fill"/></svg>

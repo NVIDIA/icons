@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Thermometer</title><symbol id="thermometer-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10 3H8.5v1H10v1H8.5v1H10v1H8.5v1H10v1.766a3 3 0 1 1-4-.001V1h4Zm-2 8a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#thermometer-fill"/></svg>

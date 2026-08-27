@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Weather Rain</title><symbol id="weather-rain-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m5.983 11.13-.804 2.999-.966-.259.804-3zm6 0-.804 2.999-.966-.259.804-3zm-3.268 0-.536 1.999-.966-.259.536-2zM8.5 2a3.5 3.5 0 0 1 3.399 2.678A3 3 0 0 1 10 10H5.5a2.5 2.5 0 0 1-.47-4.955A3.5 3.5 0 0 1 8.5 2"/></symbol><use href="#weather-rain-fill"/></svg>

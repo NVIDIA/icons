@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Arrow Left Max</title><symbol id="arrow-left-max-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3 3v10h1V3zm3.207 5.5H14v-1H6.207l3.147-3.146-.707-.708L4.293 8l4.354 4.354.707-.708z"/></symbol><use href="#arrow-left-max-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bottle</title><symbol id="bottle-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6.5.5h3v5.293l2.03 2.03-1.096 7.677H5.566L4.47 7.823l2.03-2.03Zm1 1v4.707l-1.97 1.97.904 6.323h3.132l.904-6.323-1.97-1.97V1.5Z"/></symbol><use href="#bottle-line"/></svg>

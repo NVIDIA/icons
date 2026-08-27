@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Yoke</title><symbol id="yoke-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M12 6v3h1.348l-.635-2.37.966-.259.972 3.629H12v.446l-4 1.072-4-1.072V10H1.348l.973-3.629.965.259L2.651 9H4V6ZM6 9h4V8H6Z"/></symbol><use href="#yoke-fill"/></svg>

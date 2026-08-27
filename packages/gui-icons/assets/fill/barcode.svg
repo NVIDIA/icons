@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Barcode</title><symbol id="barcode-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 13V3h1v10zM4 3h2v10H4zm5 0h2v10H9zM7 13V3h1v10zm6 0V3h1v10z"/></symbol><use href="#barcode-fill"/></svg>

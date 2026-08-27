@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Vertical Align Bottom</title><symbol id="v-align-bottom-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 13H2v-1h12zM4 2v9h3V2zm4 3v6h3V5z"/></symbol><use href="#v-align-bottom-fill"/></svg>

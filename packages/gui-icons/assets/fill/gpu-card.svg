@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>GPU Card</title><symbol id="gpu-card-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10.5 8a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0"/><path fill="currentColor" d="M2 5H1V4h2v1h11v6H9v1H4v-1H3v1H2Zm9 1.5a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 11 6.5"/></symbol><use href="#gpu-card-fill"/></svg>

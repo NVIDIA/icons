@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Craft Knife</title><symbol id="craft-knife-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11.5 1.793 14.207 4.5l-5.804 5.804.375 1.398-6.927 1.856L.793 12.5ZM5.845 8.862 2.307 12.4l5.246-1.405-.156-.581Z"/></symbol><use href="#craft-knife-fill"/></svg>

@@ -1,0 +1,14 @@
+# Normalize line endings in the repository. Without this, a contributor on
+# Windows with core.autocrlf can commit CRLF into a text file, and
+# verify-packaging compares each package LICENSE to the root byte-for-byte —
+# a line-ending difference alone would fail that gate.
+* text=auto
+
+# Sync-generated content, produced by NVIDIA's internal monorepo sync (see
+# CONTRIBUTING.md). Marked so GitHub collapses these in pull request diffs and
+# leaves them out of the repository language statistics: a sync touches 800+
+# generated files, and review needs to land on the handful that were actually
+# authored rather than scrolling past the regenerated ones.
+packages/*/src/icons/*.tsx      linguist-generated=true
+packages/*/src/generated/*.ts   linguist-generated=true
+packages/*/assets/**/*.svg      linguist-generated=true

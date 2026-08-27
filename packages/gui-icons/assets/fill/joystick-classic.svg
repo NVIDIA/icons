@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Joystick Classic</title><symbol id="joystick-classic-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6.5 2h3v1.5h-3zm0 2.5V9h3V4.5zm4.646 4.352 2.966.794-.308 1.15 1.196.32v1.591L13.707 14H2.293L1 12.707v-1.591l5.934-1.59h2.132l1.772.475z"/></symbol><use href="#joystick-classic-fill"/></svg>

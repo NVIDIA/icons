@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Eject</title><symbol id="eject-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 2.753 13.623 9H2.377ZM4.623 8h6.754L8 4.247ZM2.5 12v-1h11v1Z"/></symbol><use href="#eject-line"/></svg>

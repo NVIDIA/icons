@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Palette</title><symbol id="palette-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1 8c0-3.349 3.213-6 7-6 1.877 0 3.62.499 4.906 1.511C14.204 4.534 15 6.055 15 8c0 1.451-.769 2.458-1.851 2.881-1.055.412-2.35.253-3.426-.465-.92-.613-1.473-.653-1.972-.493a.77.77 0 0 0-.489.464c-.075.205-.074.494.154.836.341.511.521 1.019.49 1.489a1.35 1.35 0 0 1-.705 1.113c-.759.423-1.897.24-2.958-.396-1.245-.747-2.069-1.555-2.575-2.474S1 9.052 1 8m10-3a1 1 0 1 0 0 2 1 1 0 0 0 0-2M4 8a1 1 0 1 0 0 2 1 1 0 0 0 0-2m4-4a1 1 0 1 0 0 2 1 1 0 0 0 0-2M5 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#palette-fill"/></svg>

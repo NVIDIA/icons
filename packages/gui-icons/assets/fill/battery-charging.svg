@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Battery Charging</title><symbol id="battery-charging-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M9 7h1.85L7 13.93V9H5.15L9 2.07Z"/><path fill="currentColor" d="M6.229 5H2v6h4v-1H3.451zm3.542 6H13V9h1V7h-1V5h-3v1h2.549z"/></symbol><use href="#battery-charging-fill"/></svg>

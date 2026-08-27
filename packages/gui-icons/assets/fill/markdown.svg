@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Markdown</title><symbol id="markdown-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5.5 7.098 4.289 5H2v6h1V6h.711L5.5 9.098 7.289 6H8v5h1V5H6.711zM13 9.293V5h-1v4.293l-1.646-1.647-.708.708 2.854 2.853 2.854-2.853-.708-.708z"/></symbol><use href="#markdown-fill"/></svg>

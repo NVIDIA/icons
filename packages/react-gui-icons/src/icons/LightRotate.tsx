@@ -1,0 +1,95 @@
+"use client";
+// SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+// SPDX-License-Identifier: Apache-2.0
+
+import type { SVGProps } from "react";
+import { createElement, forwardRef, memo } from "react";
+
+import type { IconSpriteSymbol } from "../runtime/sprite.js";
+import { useSpriteSymbol } from "../runtime/useSpriteSymbol.js";
+
+/**
+ * "light-rotate" icon — tree-shakable per-icon component.
+ * Imports only its own path data; does not pull in the full inline map.
+ */
+const DATA = {
+  line: {
+    symbolId: "nvidia-react-gui-icons-v1-line-light-rotate",
+    viewBox: "0 0 16 16",
+    paths: [
+      "M13 8a5 5 0 0 0-5-5V2a6 6 0 0 1 6 6v.293l.647-.647.707.708-1.854 1.853-1.853-1.853.707-.708.646.647zm-11.646.354L2 7.707V8a6 6 0 0 0 6 6v-1a5 5 0 0 1-5-5v-.293l.647.647.707-.708L2.5 5.793.647 7.646z",
+      "M6.833 10.638V9.154a1 1 0 0 0-.084-.107 7 7 0 0 0-.196-.209l-.025-.025c-.071-.073-.15-.155-.229-.241-.342-.371-.799-.94-.799-1.697a2.5 2.5 0 1 1 5 0c0 .757-.457 1.326-.799 1.697q-.12.13-.229.241l-.025.025a7 7 0 0 0-.196.209 1 1 0 0 0-.084.107v1.484l-.738.737h-.858ZM6.5 6.875c0 .348.21.668.534 1.02q.105.113.212.221l.024.026c.078.08.159.164.231.247.071.081.148.176.208.28.059.102.124.25.124.428v1.126l.152.152h.03l.152-.152V9.097c0-.178.065-.326.124-.428.06-.104.137-.199.208-.28.072-.083.153-.167.231-.247l.024-.026q.107-.108.212-.221c.324-.352.534-.672.534-1.02a1.5 1.5 0 0 0-3 0",
+    ] as const,
+  },
+  fill: {
+    symbolId: "nvidia-react-gui-icons-v1-fill-light-rotate",
+    viewBox: "0 0 16 16",
+    paths: [
+      "M13 8a5 5 0 0 0-5-5V2a6 6 0 0 1 6 6v.293l.647-.647.707.708-1.854 1.853-1.853-1.853.707-.708.646.647ZM2.5 5.793l1.854 1.853-.707.708L3 7.707V8a5 5 0 0 0 5 5v1a6 6 0 0 1-6-6v-.293l-.646.647-.707-.708Z",
+      "M8 4.375a2.5 2.5 0 0 0-2.5 2.5c0 .757.457 1.326.799 1.697.079.086.158.168.229.241l.025.025c.079.082.143.149.196.209a1 1 0 0 1 .084.107v1.484l.738.737h.858l.738-.737V9.154a1 1 0 0 1 .084-.107q.079-.088.196-.209l.025-.025c.071-.073.15-.155.229-.241.342-.371.799-.94.799-1.697a2.5 2.5 0 0 0-2.5-2.5",
+    ] as const,
+  },
+} as const satisfies Record<"line" | "fill", IconSpriteSymbol>;
+
+export interface NvidiaGuiIconProps
+  extends Omit<SVGProps<SVGSVGElement>, "title"> {
+  variant?: "line" | "fill";
+  size?: string;
+  /**
+   * Accessible name. Describe what the icon *does* in context ("Delete item"),
+   * not what it depicts ("trash") — the library knows the glyph, only you know
+   * the meaning.
+   *
+   * Omit it for decorative icons, which is the default: an icon sitting beside
+   * a visible label is redundant, and announcing it twice is worse than
+   * silence. Supplying this renders a <title>, sets role="img" and drops
+   * aria-hidden together, so there is no half-configured state to land in.
+   */
+  title?: string;
+}
+
+const LightRotateBase = forwardRef<SVGSVGElement, NvidiaGuiIconProps>(
+  ({ variant = "line", size = "1em", title, ...svgProps }, ref) => {
+    const iconData = DATA[variant];
+    const href = `#${iconData.symbolId}`;
+    useSpriteSymbol(iconData);
+
+    // A blank title is not a name. Trim before deciding, so a whitespace-only
+    // value falls back to decorative rather than exposing the icon to
+    // assistive tech with an empty accessible name — the worst of both.
+    const labelled = title !== undefined && title.trim() !== "";
+
+    return createElement(
+      "svg",
+      {
+        ref,
+        height: size,
+        width: size,
+        viewBox: iconData.viewBox,
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg",
+        "data-icon-name": "light-rotate",
+        // aria-hidden would hide the <title> we just rendered along with the
+        // rest of the subtree, so the two are mutually exclusive. Written as
+        // two conditionals rather than a spread of a union: spreading a
+        // conditional object literal makes tsc distribute createElement's
+        // overload resolution across the whole of SVGProps, once per icon
+        // module, and that is enough to exhaust memory on the 748-icon package.
+        // React drops undefined attributes, so the rendered output is identical.
+        role: labelled ? "img" : undefined,
+        "aria-hidden": labelled ? undefined : "true",
+        focusable: "false",
+        // Spread last, so the documented role/aria-label/aria-hidden escape
+        // hatch keeps working and always beats our defaults.
+        ...svgProps,
+      },
+      // <title> must be the first child to name the <svg>.
+      labelled ? createElement("title", { key: "title" }, title) : null,
+      createElement("use", { href, key: "use" }),
+    );
+  },
+);
+LightRotateBase.displayName = "LightRotate";
+
+export const LightRotate = memo(LightRotateBase) as typeof LightRotateBase;
+LightRotate.displayName = "LightRotate";

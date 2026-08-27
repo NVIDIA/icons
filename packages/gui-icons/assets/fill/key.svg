@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Key</title><symbol id="key-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7 5a3 3 0 1 1 1.262 2.445L6.707 9l1.647 1.646-.708.708L6 9.707l-.793.793 1.647 1.646-.708.708L4.5 11.207l-1.146 1.147-.708-.708 4.909-4.908A3 3 0 0 1 7 5m3-2a2 2 0 1 0-.001 3.999A2 2 0 0 0 10 3"/></symbol><use href="#key-fill"/></svg>

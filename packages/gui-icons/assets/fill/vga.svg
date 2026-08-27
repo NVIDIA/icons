@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>VGA</title><symbol id="vga-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13.276 12H2.724L.849 5h14.302ZM4 8h1V7H4Zm2 0h1V7H6Zm2 0h1V7H8Zm2 0h1V7h-1ZM5 9h1V8H5Zm2 0h1V8H7Zm2 0h1V8H9Zm2 0h1V8h-1Zm-7 1h1V9H4Zm2 0h1V9H6Zm2 0h1V9H8Zm2-1v1h1V9Z"/></symbol><use href="#vga-fill"/></svg>

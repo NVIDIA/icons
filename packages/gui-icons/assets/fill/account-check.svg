@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Account Check</title><symbol id="account-check-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5 4a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3.671 4H4.456l-1.608 6h4.91A4.5 4.5 0 0 1 7 11.5c0-1.414.652-2.675 1.671-3.5m1.829 6.207 4.854-4.853-.708-.708-4.146 4.147-1.646-1.647-.708.708z"/></symbol><use href="#account-check-fill"/></svg>

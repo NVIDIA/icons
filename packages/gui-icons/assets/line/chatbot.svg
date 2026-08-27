@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chatbot</title><symbol id="chatbot-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6.61 7h2.78l.5 2H13v2.5h1V11h1v2h-1v-.5h-1V15H3v-2.5H2v.5H1v-2h1v.5h1V9h3.11ZM4 10v4h8v-4Zm7 2.5H5v-1h6ZM7.14 9h1.72l-.25-1H7.39Z"/><path fill="currentColor" d="M7 1h8v5h-1.293l-2.478 2.48-.62-2.48H7Zm1 1v3h3.39l.381 1.523L13.293 5H14V2Z"/></symbol><use href="#chatbot-line"/></svg>

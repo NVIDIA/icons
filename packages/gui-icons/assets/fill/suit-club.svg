@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Suit Club</title><symbol id="suit-club-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 2a3 3 0 0 0-2.827 4.005 3 3 0 1 0 1.079 5.722L5.643 14h4.714l-.609-2.273a3 3 0 1 0 1.08-5.722A3 3 0 0 0 8 2"/></symbol><use href="#suit-club-fill"/></svg>

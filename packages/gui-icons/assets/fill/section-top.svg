@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Section Top</title><symbol id="section-top-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.889 3.072a5 5 0 0 1 1.631.594l.5-.866a6 6 0 0 0-1.959-.713zm-3.369.594a5 5 0 0 1 1.631-.594l-.173-.985a6 6 0 0 0-1.959.713zm6.33 1.117c.372.443.668.95.87 1.503l.939-.342a6 6 0 0 0-1.043-1.804zM3.32 6.286c.201-.553.497-1.06.869-1.503l-.765-.643A6 6 0 0 0 2.38 5.944zM13.5 7.497h-11l-1.748.002.001 1 1.267-.001a6.001 6.001 0 0 0 11.959 0l1.267.001.001-1z"/></symbol><use href="#section-top-fill"/></svg>

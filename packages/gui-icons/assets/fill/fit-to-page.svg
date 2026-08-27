@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fit To Page</title><symbol id="fit-to-page-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10.134 2 13 4.751V14H3V2Zm-.132 8V6.999H7v1h1.295l-2.294 2.293V8.997h-1v3h3.001l.001-1H6.711l2.291-2.291V10ZM9.25 2.849V5.6h2.866Z"/></symbol><use href="#fit-to-page-fill"/></svg>

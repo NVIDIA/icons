@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Picture In Picture</title><symbol id="picture-in-picture-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1 3h14v10H1Zm11.5 2.5h-5v3h5Z"/></symbol><use href="#picture-in-picture-fill"/></svg>

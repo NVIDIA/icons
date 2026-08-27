@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bell</title><symbol id="bell-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6.461 1h3.078l.386 1.384A5 5 0 0 1 13 7v3.382L14.309 13H10a2 2 0 1 1-4 0H1.691L3 10.382V7c0-2.08 1.27-3.862 3.075-4.616Zm.759 1-.319 1.144-.244.087A4 4 0 0 0 4 7v3.618L3.309 12h9.382L12 10.618V7a4 4 0 0 0-2.657-3.769l-.244-.087L8.78 2ZM7 13a1 1 0 0 0 2 0Z"/></symbol><use href="#bell-line"/></svg>

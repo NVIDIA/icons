@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Lock Closed</title><symbol id="lock-closed-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5 5a3 3 0 1 1 6 0v2h1v7H4V7h1Zm0 3v5h6V8Zm5-1V5a2 2 0 1 0-4 0v2Z"/></symbol><use href="#lock-closed-line"/></svg>

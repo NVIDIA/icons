@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fast Forward</title><symbol id="fast-forward-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M15.492 8 8 3.629v3.492l-6-3.49v8.739l6-3.5v3.5z"/></symbol><use href="#fast-forward-fill"/></svg>

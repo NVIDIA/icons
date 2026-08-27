@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Wand</title><symbol id="wand-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m8.093.815.518 1.933.966-.259L9.059.557zm5.443.942-1.415 1.415.707.707 1.415-1.415zM4.557 5.059l1.932.518.259-.966-1.933-.518zm10.886 1.882-1.932-.518-.259.966 1.932.518zm-3.536 4.243-.518-1.932-.966.259.518 1.932zm-3.261-2.33L3.5 14 2 12.5l5.146-5.146zm.708-.708L11.5 6 10 4.5 7.854 6.646z"/></symbol><use href="#wand-fill"/></svg>

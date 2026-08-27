@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Accessibility</title><symbol id="accessibility-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a7 7 0 1 1 0 14A7 7 0 0 1 8 1m0 5.482-3.37-.903-.26.967 3.13.838v.982l-1.954 3.385.866.499L8 9.5l1.588 2.75.866-.499L8.5 8.364v-.98l3.13-.838-.259-.967ZM8 3a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 8 3"/></symbol><use href="#accessibility-fill"/></svg>

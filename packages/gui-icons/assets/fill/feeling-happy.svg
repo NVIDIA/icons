@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Feeling Happy</title><symbol id="feeling-happy-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 8a6 6 0 1 1 12 0A6 6 0 0 1 2 8m3.171 1.828A4 4 0 0 0 8 11a4 4 0 0 0 2.828-1.172l-.707-.707A3 3 0 0 1 8 10a3 3 0 0 1-2.122-.879ZM10 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2M6 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#feeling-happy-fill"/></svg>

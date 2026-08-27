@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bed</title><symbol id="bed-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 3h1v2.165h2.315L6 5.616V7h6.7l1.3.348V6h1v7h-1v-2H2v2H1Zm1 7h12V8.384L12.568 8H2Zm0-3h3v-.616l-.817-.219H2Z"/></symbol><use href="#bed-line"/></svg>

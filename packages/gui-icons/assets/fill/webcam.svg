@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Webcam</title><symbol id="webcam-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4.5 6a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1"/><path fill="currentColor" d="M4.5 3h7a3.5 3.5 0 1 1 0 7H9.902l.268 1H11v1H5v-1h.831l.268-1H4.5a3.5 3.5 0 1 1 0-7M3 6.5a1.5 1.5 0 1 0 3.001-.001A1.5 1.5 0 0 0 3 6.5M6.866 11h2.268l-.268-1H7.134ZM12 6h-1v1h1Z"/></symbol><use href="#webcam-fill"/></svg>

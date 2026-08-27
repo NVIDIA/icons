@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chart Bar</title><symbol id="chart-bar-line" viewBox="0 0 16 16"><path fill="currentColor" d="M9 2h4v12H3v-4h3V6h3Zm1 11h2V3h-2Zm-1 0V7H7v6Zm-3 0v-2H4v2Z"/></symbol><use href="#chart-bar-line"/></svg>

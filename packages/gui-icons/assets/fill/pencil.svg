@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Pencil</title><symbol id="pencil-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11.5 1.793 14.207 4.5l-2 2L9.5 3.793zM8.793 4.5 2 11.293V14h2.707L11.5 7.207z"/></symbol><use href="#pencil-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>SCM Branch</title><symbol id="scm-branch-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h4v4H4.5v4H6v.268l5.5-3.175V6H10V2h4v4h-1.5v1.67L6 11.423V14H2v-4h1.5V6H2z"/></symbol><use href="#scm-branch-fill"/></svg>

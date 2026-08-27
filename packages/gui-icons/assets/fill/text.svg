@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Text</title><symbol id="text-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 4H4V3h8v1H8.5v9h-1Z"/></symbol><use href="#text-fill"/></svg>

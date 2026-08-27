@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Microphone</title><symbol id="microphone-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a3 3 0 0 0-3 3v4a3 3 0 1 0 6 0V4a3 3 0 0 0-3-3"/><path fill="currentColor" d="M8 12a4 4 0 0 1-4-4H3a5 5 0 0 0 3.45 4.755L5.848 15h4.303l-.599-2.245A5 5 0 0 0 13 8h-1a4 4 0 0 1-4 4"/></symbol><use href="#microphone-fill"/></svg>

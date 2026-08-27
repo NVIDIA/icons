@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Hand Open</title><symbol id="hand-open-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.5 1A1.5 1.5 0 0 0 7 2.5v.085A1.5 1.5 0 0 0 5 4v4.499a20 20 0 0 0-.524-.263c-.595-.276-1.375-.41-1.988.203-.6.6-.561 1.473-.026 2.095.197.228 1.149 1.305 2.046 2.32l1.214 1.37.687.776H10.5a3.5 3.5 0 0 0 3.5-3.5V5a1.5 1.5 0 0 0-2-1.415V3.5a1.5 1.5 0 0 0-2.052-1.395A1.5 1.5 0 0 0 8.5 1"/></symbol><use href="#hand-open-fill"/></svg>

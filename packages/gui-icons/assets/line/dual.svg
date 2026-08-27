@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Dual</title><symbol id="dual-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7 3V2h1v12H7v-1H2V3Zm6 1H9V3h5v10H9v-1h4v-1.306l-2.35-1.357-1.4.809-.5-.866 1.9-1.097L13 9.539ZM7 6.707l-4 4V12h4ZM7 4H3v5.293l4-4Zm2.318 2.318A.32.32 0 0 0 9 6V5a1.318 1.318 0 1 1 0 2.636v-1a.32.32 0 0 0 .318-.318"/></symbol><use href="#dual-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Graph Node Connect</title><symbol id="graph-node-connect-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2.5 4V3H7v2.05c.98.199 1.751.97 1.95 1.95h4.343l-1.647-1.646.708-.708L15.207 7.5l-2.853 2.854-.708-.708L13.293 8H8.95A2.5 2.5 0 0 1 7 9.95V13H2.5v-1H6V9.95a2.502 2.502 0 0 1 0-4.9V4ZM5 7.5a1.5 1.5 0 1 0 3.001-.001A1.5 1.5 0 0 0 5 7.5"/></symbol><use href="#graph-node-connect-line"/></svg>

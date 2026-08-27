@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Mode Component</title><symbol id="mode-component-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1 1h4v1H2v3H1Zm13 1h-3V1h4v4h-1Zm1 9v4h-4v-1h3v-3ZM2 14h3v1H1v-4h1ZM8 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8"/></symbol><use href="#mode-component-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Pulse</title><symbol id="pulse-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m5.552 1.263 2.436 9.089 2.588-7L11.554 7H15v1h-4.214l-.362-1.352-2.589 7-2.387-8.911L4.36 8H1V7h2.64Z"/></symbol><use href="#pulse-fill"/></svg>

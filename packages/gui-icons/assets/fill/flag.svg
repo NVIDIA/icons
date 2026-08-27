@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Flag</title><symbol id="flag-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4 2H3v12h1v-4h4.616l.536 2H14V5H9.919l-.535-2H4z"/></symbol><use href="#flag-fill"/></svg>

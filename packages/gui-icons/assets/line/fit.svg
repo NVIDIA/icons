@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fit</title><symbol id="fit-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5.002 10.291V8.997h-1v2.999l3.001.001v-1H5.711l5.291-5.291V7h1V3.999H9v1h1.295z"/><path fill="currentColor" d="M2 2h12v12H2Zm1 1v10h10V3Z"/></symbol><use href="#fit-line"/></svg>

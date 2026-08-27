@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Scale Balance</title><symbol id="scale-balance-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 4V3h1v1H15v1h-2v2h2.152l-.804 3h-3.696l-.804-3H12V5H8.5v7H10v1H6v-1h1.5V5H4v2h2.152l-.804 3H1.652L.848 7H3V5H1V4ZM2.152 8l.268 1h2.16l.268-1Zm9 0 .268 1h2.16l.268-1Z"/></symbol><use href="#scale-balance-line"/></svg>

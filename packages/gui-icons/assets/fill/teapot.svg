@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Teapot</title><symbol id="teapot-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7 4.5h2V5h1.91l.804 3h.403l.803-3h1.58v1h-.812l-.804 3h-.902l.518 1.934V11c0 .424-.332.685-.56.82-.262.154-.607.276-.991.372-.774.194-1.816.308-2.949.308s-2.176-.114-2.95-.308c-.383-.096-.729-.218-.99-.372-.229-.135-.56-.396-.56-.82v-.066L3.75 10H1.848L2.92 6h1.902l.268-1H7ZM3.688 7l-.536 2h.866l.536-2Z"/></symbol><use href="#teapot-fill"/></svg>

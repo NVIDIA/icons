@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Money Paper</title><symbol id="money-paper-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 6a2 2 0 1 1 .001 3.999A2 2 0 0 1 8 6M7 8a1 1 0 1 0 2 0 1 1 0 0 0-2 0"/><path fill="currentColor" d="M15 4v8H1V4ZM2 9h2v2h8V9h2V7h-2V5H4v2H2Zm0-3h1V5H2Zm11 0h1V5h-1ZM3 10H2v1h1Zm10 0v1h1v-1Z"/></symbol><use href="#money-paper-line"/></svg>

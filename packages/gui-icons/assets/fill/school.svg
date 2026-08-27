@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>School</title><symbol id="school-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10 2v2H8.5v.26l2.5 2V14H9v-3H7v3H5V6.26l2.5-2V2ZM8 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2m4 1v4h3v-4zM1 10h3v4H1z"/></symbol><use href="#school-fill"/></svg>

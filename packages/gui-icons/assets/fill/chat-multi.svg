@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chat Multi</title><symbol id="chat-multi-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M15 2H4v8h6.29l2.467 2.467.661-2.467H15z"/><path fill="currentColor" d="M3 6H1v7h1.582l.661 2.467L5.71 13H9v-2H8v1H5.296l-1.535 1.536L3.349 12H2V7h1z"/></symbol><use href="#chat-multi-fill"/></svg>

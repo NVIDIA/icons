@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>SCM Pull Draft</title><symbol id="scm-pull-draft-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6 2H2v4h1.5v4H2v4h4v-4H4.5V6H6zm8 8h-4v4h4zm-1-4h-2v2h2zm0-3h-2v2h2z"/></symbol><use href="#scm-pull-draft-fill"/></svg>

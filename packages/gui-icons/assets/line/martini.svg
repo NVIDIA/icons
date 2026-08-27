@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Martini</title><symbol id="martini-line" viewBox="0 0 16 16"><path fill="currentColor" d="M9.592 2h.695L11.641.646l.707.708-.647.646H14v3.113L8.5 8.289V14H11v1H5v-1h2.5V8.289L2 5.113V2h7.402a2 2 0 0 1 .19 0m1.321 1q.082.235.084.497A1.5 1.5 0 0 1 8.85 4.851l-.999 1-.708-.707 1-1A1.5 1.5 0 0 1 8.081 3H3v1.536l5 2.887 5-2.887V3ZM9.552 3h-.11a.5.5 0 1 0 .11 0"/></symbol><use href="#martini-line"/></svg>

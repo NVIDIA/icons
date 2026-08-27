@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Mirror Horizontal</title><symbol id="mirror-horizontal-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 14h1V2h-1zm-.793-6L2 3.293v9.414zm2.586 0L14 12.707V3.293z"/></symbol><use href="#mirror-horizontal-fill"/></svg>

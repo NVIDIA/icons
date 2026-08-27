@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Arrow Down Max</title><symbol id="arrow-down-max-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.5 2v7.793l3.146-3.147.708.708L8 11.707 3.646 7.354l.708-.708L7.5 9.793V2ZM13 12v1H3v-1Z"/></symbol><use href="#arrow-down-max-fill"/></svg>

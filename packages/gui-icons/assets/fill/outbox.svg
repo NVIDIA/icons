@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Outbox</title><symbol id="outbox-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13 10.435V14H3v-3.565L3.652 8h8.696ZM4.151 10 4 11h3.207l.793.793.793-.793H12l-.151-1-.269-1H4.42Zm6.203-5.354-.708.708L8.5 4.207V7h-1V4.207L6.354 5.354l-.708-.708L8 2.293z"/></symbol><use href="#outbox-fill"/></svg>

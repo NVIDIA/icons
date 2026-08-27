@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Easel</title><symbol id="easel-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 2V1h1v1H10v1h4v8h-2v1h-1.653l.636 2.371-.966.258L9.312 12H6.687l-.704 2.629-.966-.258L5.652 12H4v-1H2V3h4V2ZM3 4v6h10V4Z"/></symbol><use href="#easel-line"/></svg>

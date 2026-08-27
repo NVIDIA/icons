@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Iterate</title><symbol id="iterate-line" viewBox="0 0 16 16"><path fill="currentColor" d="m11.646 4.354.708-.708L15.207 6.5l-2.853 2.854-.708-.708L13.293 7H7a2 2 0 1 0 1.932 1.482l.966-.258q.101.373.102.776a3 3 0 1 1-3-3h6.293zM4 7H1V6h3z"/></symbol><use href="#iterate-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bandaid</title><symbol id="bandaid-line" viewBox="0 0 16 16"><path fill="currentColor" d="M11.5.793 15.207 4.5 4.5 15.207.793 11.5ZM8.707 5 11 7.293 13.793 4.5 11.5 2.207Zm-1.414 6L5 8.707 2.207 11.5 4.5 13.793Zm3-3L9.5 7.207 8.707 8l.793.793ZM5.707 8l.793.793L7.293 8 6.5 7.207Zm1.5-1.5L8 7.293l.793-.793L8 5.707Zm1.586 3L8 8.707l-.793.793.793.793Z" clip-rule="evenodd"/></symbol><use href="#bandaid-line"/></svg>

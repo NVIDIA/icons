@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Shopping Cart</title><symbol id="shopping-cart-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1 3h1.877l1.88 7H11V9H5.523l-.268-1h6.561l1.306-5h-9.21l-.269-1H1zm4.5 8a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 5.5 11m5 0a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 10.5 11"/></symbol><use href="#shopping-cart-fill"/></svg>

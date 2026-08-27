@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Trash Delete</title><symbol id="trash-delete-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6 1h4v2h3v1H3V3h3Zm4.793 10.5L8.646 9.354l.708-.708 2.146 2.147 2.146-2.147.708.708-2.147 2.146 2.147 2.146-.708.708-2.146-2.147-2.146 2.147-.708-.708ZM4 5h1v8h1.889v1H4Zm3-2h2V2H7Z"/></symbol><use href="#trash-delete-line"/></svg>

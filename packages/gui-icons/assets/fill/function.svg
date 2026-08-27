@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Function</title><symbol id="function-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.32 4.539a.727.727 0 0 1 1.43.188h1a1.727 1.727 0 0 0-3.396-.447L6.625 7H5.5v1h.857l-.927 3.46A.728.728 0 0 1 4 11.272H3a1.729 1.729 0 0 0 3.396.447L7.393 8H8.5V7h-.839zM10.293 11 8.646 9.354l.708-.708L11 10.293l1.646-1.647.708.708L11.707 11l1.647 1.646-.708.708L11 11.707l-1.646 1.647-.708-.708z"/></symbol><use href="#function-fill"/></svg>

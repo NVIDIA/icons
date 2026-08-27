@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Headset</title><symbol id="headset-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3.076 7H4v4H1.64L.973 9l.667-2h.426c.18-1.339.727-2.486 1.588-3.346C4.722 2.586 6.231 2 8 2s3.278.586 4.346 1.654c.861.86 1.408 2.007 1.588 3.346h.426l.667 2-.667 2H14v3H9v.5H7v-2h2v.5h4v-2h-1V7h.924c-.171-1.086-.624-1.978-1.285-2.639C10.785 3.507 9.545 3 8 3s-2.786.507-3.639 1.361C3.7 5.022 3.247 5.914 3.076 7m-.715 1-.334 1 .334 1H3V8Zm11.278 0H13v2h.639l.334-1Z"/></symbol><use href="#headset-line"/></svg>

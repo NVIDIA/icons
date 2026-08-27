@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Camera 360</title><symbol id="camera-360-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6.191 2h3.618l1 2H14v5h-1V5h-2.809l-1-2H6.809l-1 2H3v7h1v1H2V4h3.191ZM12 11a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1Zm-4 0a1 1 0 0 1 1-1h2v1.01h-1V11H9v1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1Zm0-5a2 2 0 0 0-1.834 2.8l-.916.4a3 3 0 1 1 5.5 0l-.916-.4A2 2 0 0 0 8 6m-4 5v-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H4v-1h2v-1H5v-1h1v-1Zm10 0h-1v3h1Zm-5 2v1h1v-1Z"/></symbol><use href="#camera-360-line"/></svg>

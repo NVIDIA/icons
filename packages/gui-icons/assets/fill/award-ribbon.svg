@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Award Ribbon</title><symbol id="award-ribbon-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m8 .258 1.189 1.305 1.682-.536.378 1.725 1.724.377-.535 1.682L13.743 6l-1.305 1.189.535 1.682-.973.213v5.654l-4-1.599-4 1.599V9.084l-.973-.213.536-1.682L2.258 6l1.305-1.189-.536-1.682 1.725-.377.377-1.725 1.682.536ZM6 6a2 2 0 1 0 4 0 2 2 0 0 0-4 0m-1 4.384v2.877l3-1.2 3 1.2v-2.877l-.129.589-1.682-.536L8 11.742l-1.189-1.305-1.682.536ZM8 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/></symbol><use href="#award-ribbon-fill"/></svg>

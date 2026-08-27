@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Instance</title><symbol id="instance-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m8 7.369 1.438-.83.5.866-1.438.83v1.66h-1v-1.66l-1.438-.83.5-.866ZM4 6.214v1.083H3V5.059l1.938-1.118.5.866-.938.541.938.541-.5.866Zm7.5-.866-.938-.541.5-.866L13 5.059v2.238h-1V6.214l-.938.541-.5-.866Zm-4 6.928v-1.082h1v1.082l.938-.541.5.866L8 13.72l-1.938-1.119.5-.866ZM4 10.255l1.438.83-.5.866L3 10.833V8.596h1Zm8 0V8.596h1v2.237l-1.938 1.118-.5-.866ZM8 2.173l1.938 1.118-.5.866L8 3.327l-1.438.83-.5-.866Z"/></symbol><use href="#instance-fill"/></svg>

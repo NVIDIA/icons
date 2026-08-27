@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>File Reel</title><symbol id="file-reel-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a7 7 0 1 1 0 14A7 7 0 0 1 8 1m2.378 6.228a1 1 0 1 0 1.902-.618 1 1 0 0 0-1.902.618m-5.244 3.016a1 1 0 1 0 1.617 1.176 1 1 0 0 0-1.617-1.176M8 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0-1.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M5.622 7.228a1 1 0 1 0-1.903-.619 1 1 0 0 0 1.903.619m3.626 4.191a1 1 0 1 0 1.62-1.177 1 1 0 0 0-1.62 1.177"/></symbol><use href="#file-reel-fill"/></svg>

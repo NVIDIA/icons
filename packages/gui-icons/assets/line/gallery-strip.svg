@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Gallery Strip</title><symbol id="gallery-strip-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 2h8v8H4Zm1 1v6h6V3Zm-4 9h2v2H1Zm3 0h2v2H4Zm3 0h2v2H7Zm3 0h2v2h-2Zm3 0h2v2h-2Z"/></symbol><use href="#gallery-strip-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Ruler</title><symbol id="ruler-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11 1.293 14.707 5l-1.5 1.5-1.353-1.354-.708.708L12.5 7.207 11.707 8 9.354 5.646l-.707.708L11 8.707l-.793.793-1.353-1.354-.707.708L9.5 10.207 8.707 11 6.354 8.646l-.707.708L8 11.707l-.793.793-1.353-1.354-.707.708L6.5 13.207l-1.5 1.5L1.293 11z"/></symbol><use href="#ruler-fill"/></svg>

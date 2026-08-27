@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Camera Off</title><symbol id="camera-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M12.293 13H2V4h1.293L1.646 2.354l.708-.708 12 12-.708.708Zm-2.555-2.555-.722-.722a2 2 0 0 1-2.739-2.739l-.722-.722a3 3 0 0 0 4.183 4.183M14 4v7.172l-3.005-3.005Q11 8.084 11 8a3 3 0 0 0-3.167-2.995L5.737 2.908 6.191 2h3.618l1 2z"/></symbol><use href="#camera-off-fill"/></svg>

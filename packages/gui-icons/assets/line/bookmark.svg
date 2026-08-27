@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bookmark</title><symbol id="bookmark-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3 1h10v14.35l-5-2.778-5 2.778Zm1 1v11.65l4-2.222 4 2.222V2Z"/></symbol><use href="#bookmark-line"/></svg>

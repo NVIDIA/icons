@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Lightning</title><symbol id="lightning-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6.116 2h4.035L9.079 6h3.283L7 15.383V10H3.972Zm.767 1L5.276 9H8v2.617L10.638 7H7.776l1.072-4Z"/></symbol><use href="#lightning-line"/></svg>

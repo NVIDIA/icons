@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Brush</title><symbol id="brush-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7 11.207 4.792 9H4.75a2 2 0 0 0-1.461.613c-.33.328-.577.752-.786 1.112l-.016.027c-.39.671-.675 1.117-1.145 1.274l-.547.182.258.516c.335.671.956 1.026 1.59 1.193.631.167 1.327.163 1.927.078C5.896 13.808 7 12.794 7 11.25zm.146-3.854L5.853 8.646l1.5 1.5 1.293-1.293zm.707-.707 1.5 1.5L13.75 3.75l-1.5-1.5z"/></symbol><use href="#brush-fill"/></svg>

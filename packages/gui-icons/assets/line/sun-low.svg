@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sun Low</title><symbol id="sun-low-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5 8a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0-.001 3.999A2 2 0 0 0 8 6m-3.182-.475-.707-.707.707-.707.707.707ZM7.5 4V3h1v1ZM4 8.5H3v-1h1Zm9 0h-1v-1h1ZM8.5 12v1h-1v-1Zm-4.389-.818.707-.707.707.707-.707.707Zm6.364-6.364.707-.707.707.707-.707.707Zm.707 7.071-.707-.707.707-.707.707.707Z"/></symbol><use href="#sun-low-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Battery 0 Off</title><symbol id="battery-0-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708L10.293 11H2V5h2.293L1.646 2.354ZM5.293 6H3v4h6.293ZM13 9v1.172l-1-1V6H8.828l-1-1H13v2h1v2z"/></symbol><use href="#battery-0-off-line"/></svg>

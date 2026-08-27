@@ -1,0 +1,127 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
+# One-shot bootstrap: publishes the four @nvidia icon packages for the FIRST
+# time, so npm has something to register a trusted publisher against.
+#
+# npm Trusted Publishing (used by release.yml) cannot be registered for a
+# package name that has never been published — the name has to exist first.
+# This workflow breaks that chicken-and-egg with a short-lived token instead
+# of a throwaway version: it publishes a real release candidate
+# (`X.Y.Z-rc.N`) on the `next` dist-tag, attested with --provenance. GA then
+# goes out through release.yml under pure OIDC, so the version everyone
+# actually installs is published with zero long-lived credentials involved.
+# See RELEASING.md for the full sequence and why this replaces a hand-seeded
+# throwaway publish.
+#
+# This file is meant to be deleted once it has done its one job — see
+# RELEASING.md step "Delete the token, delete the environment secret, PR out
+# bootstrap-publish.yml." Its existence past that point is itself a residual
+# risk: it is the only workflow in this repo that reads an npm token.
+name: Bootstrap Publish (one-shot)
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Pass --dry-run to npm publish (no registry writes)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  # Same gate release.yml runs before a GA publish. A bootstrap publish is
+  # still a real, installable, attested release — it deserves the same bar.
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - run: npm run build
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run test
+      - run: npm run test:react-compat
+      - run: npm run verify:packaging
+
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    needs: verify
+    # Same human approval gate as release.yml, and the same environment name
+    # the trusted publisher will be registered against — so approving this
+    # run is functionally a rehearsal of approving a real release.
+    environment: npm-publish
+    permissions:
+      contents: read
+      # Requested for parity with release.yml's provenance step even though
+      # this run authenticates with NODE_AUTH_TOKEN, not OIDC — provenance's
+      # Sigstore/Fulcio step needs it regardless of which credential does
+      # the registry write.
+      id-token: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - run: npm install -g npm@11.19.0
+
+      - name: Publish release candidates
+        env:
+          # Environment secret on npm-publish only — unreadable by any job
+          # that has not passed the required-reviewer approval gate above.
+          # Granular token, @nvidia-scope (package names don't exist yet, so
+          # per-package scoping isn't possible), machine-account-owned,
+          # shortest expiry npm allows. Delete it the same day this runs.
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_BOOTSTRAP_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          set -euo pipefail
+          fail=0
+          for pkg in gui-icons micro-gui-icons react-gui-icons react-micro-gui-icons; do
+            manifest="packages/$pkg/package.json"
+            name=$(node -p "require('./$manifest').name")
+            version=$(node -p "require('./$manifest').version")
+            echo "── $name@$version"
+
+            # Refuse to let this token-authenticated, one-shot workflow ever
+            # publish a GA version. GA must go out through release.yml under
+            # pure OIDC — that's the entire point of doing this as a
+            # release-candidate ladder instead of a direct 1.0.0 publish.
+            if [[ "$version" != *-* ]]; then
+              echo "   FAILED: $version has no prerelease identifier (e.g. -rc.1)."
+              echo "   This workflow only publishes release candidates. GA goes through release.yml."
+              fail=1; break
+            fi
+
+            # Idempotence, same as release.yml: safe to re-run after a
+            # partial failure without erroring on versions already published.
+            if npm view "$name@$version" version >/dev/null 2>&1; then
+              echo "   already on registry — skipping"
+              continue
+            fi
+
+            args=(--access public --provenance --tag next --registry=https://registry.npmjs.org/)
+            if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+
+            # See release.yml for why this must be `cd packages/$pkg && npm
+            # publish` with no path argument: a bare `a/b` argument resolves
+            # as a GitHub owner/repo git spec, not a directory.
+            (cd "packages/$pkg" && npm publish "${args[@]}") \
+              || { echo "   FAILED"; fail=1; break; }
+            echo "   ✓ published"
+          done
+          exit $fail

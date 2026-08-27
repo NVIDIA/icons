@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Play</title><symbol id="play-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5 3.629 12.492 8 5 12.37ZM6 5.37v5.26L10.508 8Z"/></symbol><use href="#play-line"/></svg>

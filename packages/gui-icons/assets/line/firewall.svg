@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Firewall</title><symbol id="firewall-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h3v1h1V2h4v1h1V2h3v8H8.5v2H10v1h4v1h-4v1H6v-1H2v-1h4v-1h1.5v-2H2Zm10 1v1H9V3H7v1H4V3H3v2h10V3ZM3 7h4.5V6H3Zm10-1H8.5v1H13Zm-3 3V8H6v1ZM5 9V8H3v1Zm8-1h-2v1h2Zm-6 6h2v-1H7Z"/></symbol><use href="#firewall-line"/></svg>

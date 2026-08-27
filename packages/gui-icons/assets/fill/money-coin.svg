@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Money Coin</title><symbol id="money-coin-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6.939 6.939A1.5 1.5 0 0 1 8 6.5 1.495 1.495 0 0 1 9.5 8 1.495 1.495 0 0 1 8 9.5 1.495 1.495 0 0 1 6.5 8c0-.414.167-.789.439-1.061"/><path fill="currentColor" d="M2 8a6 6 0 1 1 12 0A6 6 0 0 1 2 8m3.146-2.146.768.767a2.5 2.5 0 0 0 0 2.758l-.768.767.708.708.767-.768a2.5 2.5 0 0 0 2.758 0l.767.768.708-.708-.768-.767a2.5 2.5 0 0 0 0-2.758l.768-.767-.708-.708-.767.768a2.5 2.5 0 0 0-2.758 0l-.767-.768Z"/></symbol><use href="#money-coin-fill"/></svg>

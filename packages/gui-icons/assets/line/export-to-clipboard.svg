@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Export To Clipboard</title><symbol id="export-to-clipboard-line" viewBox="0 0 16 16"><path fill="currentColor" d="m10.652 2-.268 1H13v11H3v-2h1v1h8V4h-1.884l-.268 1H6.152l-.268-1H4v3H3V3h2.616l-.268-1ZM6.92 4h2.16l.268-1H6.652Z"/><path fill="currentColor" d="M7.293 9 5.646 7.354l.708-.708L9.208 9.5l-2.854 2.854-.708-.708L7.293 10H2V9z"/></symbol><use href="#export-to-clipboard-line"/></svg>

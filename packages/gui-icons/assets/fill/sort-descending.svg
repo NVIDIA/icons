@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sort Descending</title><symbol id="sort-descending-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3 4h10V3H3zm0 3h6V6H3zm0 3h3V9H3zm11.854.854L12 13.707l-2.854-2.853.708-.708 1.646 1.647V7h1v4.793l1.646-1.647z"/></symbol><use href="#sort-descending-fill"/></svg>

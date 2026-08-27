@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Undo</title><symbol id="undo-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4.647 4.646c1.924-1.924 4.905-2.161 6.885-.182a5 5 0 0 1 0 7.071l-.707-.707a4 4 0 0 0 0-5.656c-1.536-1.536-3.881-1.409-5.471.181L3.708 6.999 6 7v1l-3.998-.002L2 4h1l.001 2.292Z"/></symbol><use href="#undo-fill"/></svg>

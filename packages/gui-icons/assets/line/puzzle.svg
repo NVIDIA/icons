@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Puzzle</title><symbol id="puzzle-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6 4a2 2 0 1 1 4 0h3v3h-1a1 1 0 0 0 0 2h1v4H9v-1a1 1 0 0 0-2 0v1H4v-3a2 2 0 1 1 0-4V4Zm2-1a1 1 0 0 0-1 1v1H5v2H4a1 1 0 0 0 0 2h1v3h1a2 2 0 1 1 4 0h2v-2a2 2 0 1 1 0-4V5H9V4a1 1 0 0 0-1-1"/></symbol><use href="#puzzle-line"/></svg>

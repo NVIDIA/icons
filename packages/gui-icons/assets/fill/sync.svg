@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sync</title><symbol id="sync-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m8.354.646 2.857 2.859-2.858 2.849-.706-.708 1.647-1.641h-1.29a4 4 0 0 0-3.865 5.036l-.966.258a5 5 0 0 1 4.831-6.294h1.293L7.646 1.353Zm4.48 6.055a5 5 0 0 1-4.831 6.294H6.708l1.646 1.652-.708.706-2.849-2.858 2.85-2.849.706.708-1.642 1.641h1.292a4 4 0 0 0 3.865-5.036Z"/></symbol><use href="#sync-fill"/></svg>

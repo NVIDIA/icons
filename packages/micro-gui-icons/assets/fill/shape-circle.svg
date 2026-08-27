@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><title>Shape Circle</title><symbol id="shape-circle-fill" viewBox="0 0 12 12"><path fill="currentColor" d="M6 2a4 4 0 1 0 0 8 4 4 0 0 0 0-8"/></symbol><use href="#shape-circle-fill"/></svg>

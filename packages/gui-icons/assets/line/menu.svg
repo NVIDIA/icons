@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><symbol id="menu-line" viewBox="0 0 16 16"><path fill="currentColor" d="M13 4H3V3h10Zm0 4H3V7h10Zm0 4H3v-1h10Z"/></symbol><use href="#menu-line"/></svg>

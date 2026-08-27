@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Die 5</title><symbol id="die-5-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 14H2V2h12Zm-3-4a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-6 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m6-6a1 1 0 1 0 0 2 1 1 0 0 0 0-2M8 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2M5 4a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#die-5-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Heart Off</title><symbol id="heart-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708-3.07-3.071L8 13.866 2.84 8.694l-.012-.014a3.44 3.44 0 0 1 .331-4.814L1.646 2.354zM13.16 8.694l-.818.82-6.489-6.489a3.4 3.4 0 0 1 1.827.803l.012.011.308.302.308-.302.013-.011a3.44 3.44 0 0 1 4.851 4.852z"/></symbol><use href="#heart-off-fill"/></svg>

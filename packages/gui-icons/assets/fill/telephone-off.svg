@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Telephone Off</title><symbol id="telephone-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708-3.111-3.112c-1.924 1.774-3.715 2.36-5.063 2.483-.859.078-1.687-.005-2.47-.32l-.587-2.191 3.237-1.869 1.739 1.004a5.2 5.2 0 0 0 1.41-.84L1.646 2.354zm9.848 7.727-1.86-1.859.025-.058-1.034-1.791 1.869-3.237 2.19.587c.317.778.408 1.629.334 2.482-.094 1.071-.481 2.416-1.524 3.876"/></symbol><use href="#telephone-off-fill"/></svg>

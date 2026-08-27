@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Scale Relative Off</title><symbol id="scale-relative-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 7.5H3v-1h1Z"/><path fill="currentColor" d="m1.354.646 14 14-.708.708-1.853-1.854H1V3h1.293L.646 1.354ZM3.293 4H2v8.5h9.793L10 10.707v.793H9v-1h.793L6 6.707V7.5H5v-1h.793Z" clip-rule="evenodd"/><path fill="currentColor" d="M15 3v9.172l-1-1V4H6.828l-1-1Z"/></symbol><use href="#scale-relative-off-line"/></svg>

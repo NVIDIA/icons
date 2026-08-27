@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Drive Removable Off</title><symbol id="drive-removable-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 8H3V7h1z"/><path fill="currentColor" d="m2.354 1.646 12 12-.708.708L9.293 10H1V5h3.293L1.646 2.354ZM5.293 6H2v3h6.293l-1-1H6V7h.293Zm7.535 4-1-1H14V6H8.828l-1-1H15v5z"/><path fill="currentColor" d="M13 8h-2.172l-1-1H13z"/></symbol><use href="#drive-removable-off-line"/></svg>

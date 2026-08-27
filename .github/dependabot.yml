@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
+# Dependency update automation.
+#
+# The github-actions ecosystem is not optional here: every action in
+# .github/workflows/ is pinned to a full commit SHA for supply-chain safety,
+# which means they do not pick up upstream patches on their own. Dependabot
+# is what keeps those pins from silently going stale — it rewrites the SHA and
+# updates the trailing `# vX.Y.Z` comment.
+version: 2
+
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(deps)"
+    groups:
+      # Batch the routine dev tooling into one PR; these move together and
+      # individually they are noise.
+      dev-tooling:
+        dependency-type: development
+        update-types:
+          - minor
+          - patch
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(actions)"
+    groups:
+      actions:
+        patterns:
+          - "*"

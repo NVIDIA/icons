@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Beaker</title><symbol id="beaker-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5.5 2h5.119v1H10v2.928l3 5.196V14H3v-2.876l3-5.196V3h-.5Zm4.542 6H5.959L4 11.392V13h8v-1.608ZM7 3v3.196L6.536 7h2.928L9 6.196V3Zm1 8v-1h1v1Zm-2 1v-1h1v1Z"/></symbol><use href="#beaker-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Battery 0</title><symbol id="battery-0-line" viewBox="0 0 16 16"><path fill="currentColor" d="M13 5v2h1v2h-1v2H2V5ZM3 10h9V6H3Z"/></symbol><use href="#battery-0-line"/></svg>

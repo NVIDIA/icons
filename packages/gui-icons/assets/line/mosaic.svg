@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Mosaic</title><symbol id="mosaic-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 1.86 5.562 3h4.876L15 1.86v12.28L10.438 13H5.562L1 14.14ZM6 6h4V4H6Zm0 6h4v-2H6Zm0-3h4V7H6ZM5 6.941l-3-.375v2.868l3-.375Zm9-.375-3 .375v2.118l3 .375ZM5 3.89l-3-.75v2.419l3 .375Zm6 0v2.044l3-.375V3.14Zm-6 6.176-3 .375v2.419l3-.75Zm9 .375-3-.375v2.044l3 .75Z"/></symbol><use href="#mosaic-line"/></svg>

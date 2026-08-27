@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Arrow Down Left</title><symbol id="arrow-down-left-line" viewBox="0 0 16 16"><path fill="currentColor" d="m5.707 11 5.647-5.646-.708-.708L5 10.293V6H4v6h6v-1z"/></symbol><use href="#arrow-down-left-line"/></svg>

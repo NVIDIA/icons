@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Equal</title><symbol id="equal-line" viewBox="0 0 16 16"><path fill="currentColor" d="M12.5 6.5h-9v-1h9zm0 4h-9v-1h9z"/></symbol><use href="#equal-line"/></svg>

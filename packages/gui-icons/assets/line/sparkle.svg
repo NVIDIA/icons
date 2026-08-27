@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sparkle</title><symbol id="sparkle-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10 5.5V4.366l-.982.567-.5-.866L9.5 3.5l-.982-.567.5-.866.982.567V1.5h1v1.134l.982-.567.5.866-.982.567.982.567-.5.866L11 4.366V5.5zm1 10v-3.134l-2.714 1.567-.5-.866L10.5 11.5 7.786 9.933l.5-.866L11 10.634V7.5h1v3.134l2.714-1.567.5.866L12.5 11.5l2.714 1.567-.5.866L12 12.366V15.5zm-7.5-8L1.652 6.433l.5-.866L4 6.634V4.5h1v2.134l1.848-1.067.5.866L5.5 7.5l1.848 1.067-.5.866L5 8.366V10.5H4V8.366L2.152 9.433l-.5-.866z"/></symbol><use href="#sparkle-line"/></svg>

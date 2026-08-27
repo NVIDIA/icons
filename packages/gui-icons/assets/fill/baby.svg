@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Baby</title><symbol id="baby-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7 4c0-.508.34-.999.956-1.391a4 4 0 0 1 1.19-.5A6.002 6.002 0 0 1 8 14 6 6 0 0 1 6.983 2.086C6.424 2.56 6 3.205 6 4a2 2 0 0 0 2.517 1.932l-.258-.966A1 1 0 0 1 7 4m1 7a4 4 0 0 0 2.828-1.172l-.707-.707A3 3 0 0 1 8 10a3 3 0 0 1-2.122-.879l-.707.707A4 4 0 0 0 8 11m1-4a1 1 0 1 0 2 0 1 1 0 0 0-2 0M5 7a1 1 0 1 0 2 0 1 1 0 0 0-2 0"/></symbol><use href="#baby-fill"/></svg>

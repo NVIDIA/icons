@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Mouse 3 B</title><symbol id="mouse-3-b-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5.667 1H3v4.5h2.667zM3 10V6.5h10V10a5 5 0 0 1-10 0m3.667-9h2.666v4.5H6.667zM13 1h-2.667v4.5H13z"/></symbol><use href="#mouse-3-b-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Window Stack</title><symbol id="window-stack-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 3h10v2H2zm0 3v5h10V6z"/><path fill="currentColor" d="M13 12V5h1v8H3v-1z"/></symbol><use href="#window-stack-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sync Warning</title><symbol id="sync-warning-line" viewBox="0 0 16 16"><path fill="currentColor" d="m8.354.647 3.356 3.358H8.004a4 4 0 0 0-3.865 5.036l-.966.258a5 5 0 0 1 4.831-6.294h1.293L7.646 1.353Zm4.48 6.054q.168.623.169 1.295a5 5 0 0 1-5 4.999H6.708l1.646 1.652-.708.706-3.347-3.358h3.704a4 4 0 0 0 3.865-5.035ZM8.002 5.5 10.6 10H5.404ZM7.136 9h1.732l-.866-1.5Z"/></symbol><use href="#sync-warning-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Layers</title><symbol id="layers-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 .921 14.992 5 8 9.079 1.008 5ZM2.992 5 8 7.921 13.008 5 8 2.079ZM1.238 7.926l.524-.852L8 10.913l6.238-3.839.524.852L8 12.087Zm0 3 .524-.852L8 13.913l6.238-3.839.524.852L8 15.087Z"/></symbol><use href="#layers-line"/></svg>

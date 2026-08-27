@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sword</title><symbol id="sword-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 4.707 7.207 11.5l1.147 1.146-.708.708L6 11.707l-3 3L1.293 13l3-3-1.647-1.646.708-.708L4.5 8.793 11.293 2H14z"/></symbol><use href="#sword-fill"/></svg>

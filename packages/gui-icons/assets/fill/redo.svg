@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Redo</title><symbol id="redo-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10.646 5.353c-1.59-1.59-3.935-1.717-5.471-.181a4 4 0 0 0 0 5.656l-.707.707a5 5 0 0 1 0-7.071c1.98-1.979 4.961-1.742 6.886.182l1.645 1.646L13 4h1l-.002 3.998L10 8V7l2.292-.001Z"/></symbol><use href="#redo-fill"/></svg>

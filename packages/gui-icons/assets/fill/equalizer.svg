@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Equalizer</title><symbol id="equalizer-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10 4H6V3h4Zm0 2H6V5h4Zm0 2H6V7h4Zm5 0h-4V7h4ZM5 10H1V9h4Zm5 0H6V9h4Zm5 0h-4V9h4ZM5 12H1v-1h4Zm5 0H6v-1h4Zm5 0h-4v-1h4ZM5 14H1v-1h4Zm5 0H6v-1h4Zm5 0h-4v-1h4Z"/></symbol><use href="#equalizer-fill"/></svg>

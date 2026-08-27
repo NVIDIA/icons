@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Teleport</title><symbol id="teleport-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a2 2 0 1 0-.001 3.999A2 2 0 0 0 8 1m3.152 4.675H4.848L6.811 13h2.378z"/><path fill="currentColor" d="m5.069 10.229.26.971c-.742.117-1.399.28-1.942.474-.571.204-.962.423-1.192.617a.8.8 0 0 0-.189.209.8.8 0 0 0 .189.209c.23.194.621.413 1.192.617C4.52 13.731 6.151 14 8 14s3.48-.269 4.613-.674c.571-.204.962-.423 1.192-.617a.8.8 0 0 0 .189-.209.8.8 0 0 0-.189-.209c-.23-.194-.621-.413-1.192-.617-.543-.194-1.2-.357-1.942-.474l.26-.971C13.333 10.625 15 11.493 15 12.5c0 1.381-3.134 2.5-7 2.5s-7-1.119-7-2.5c0-1.007 1.667-1.875 4.069-2.271"/></symbol><use href="#teleport-fill"/></svg>

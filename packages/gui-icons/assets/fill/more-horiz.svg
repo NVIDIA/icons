@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>More Horiz</title><symbol id="more-horiz-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 3 6m5 0a2 2 0 1 0-.001 3.999A2 2 0 0 0 8 6m5 0a2 2 0 1 0-.001 3.999A2 2 0 0 0 13 6"/></symbol><use href="#more-horiz-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Math</title><symbol id="math-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4 1.729v2.5H1.5v1H4v2.5h1v-2.5h2.5v-1H5v-2.5zM2.354 14.583l12-12-.708-.707-12 12zM8.5 12.229h6v-1h-6z"/></symbol><use href="#math-fill"/></svg>

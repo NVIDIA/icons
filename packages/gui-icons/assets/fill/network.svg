@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Network</title><symbol id="network-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a2 2 0 0 0-.5 3.937v1.626a2 2 0 0 0-1.211.902l-1.29-.387L5 7a2 2 0 1 0-.289 1.035l1.29.387L6 8.5c0 .513.193.98.51 1.334l-.852 1.277a2 2 0 1 0 .832.555l.852-1.277a2 2 0 0 0 1.316 0l.852 1.277a2 2 0 1 0 .832-.555L9.49 9.834c.317-.354.51-.821.51-1.334l-.001-.078 1.29-.387a2 2 0 1 0-.287-.957l-1.291.387A2 2 0 0 0 8.5 6.563V4.937A2 2 0 0 0 8 1"/></symbol><use href="#network-fill"/></svg>

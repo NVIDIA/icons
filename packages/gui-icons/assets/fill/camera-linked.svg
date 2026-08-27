@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Camera Linked</title><symbol id="camera-linked-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 4a3 3 0 0 0-3-3V0a4 4 0 0 1 4 4z"/><path fill="currentColor" d="M12 4a1 1 0 0 0-1-1V2a2 2 0 0 1 2 2zM6 9a2 2 0 1 1 3.999-.001A2 2 0 0 1 6 9"/><path fill="currentColor" d="M6.191 3h3.618l1 2H14v9H2V5h3.191ZM8 6a3 3 0 1 0 0 6 3 3 0 0 0 0-6"/></symbol><use href="#camera-linked-fill"/></svg>

@@ -1,0 +1,18 @@
+# CODEOWNERS: GitHub code ownership rules
+# See https://docs.github.com/articles/about-code-owners
+#
+# Format: <pattern> <@user-or-team> [<@user-or-team>...]
+# Owners listed here are requested for pull request review on their paths.
+
+# Catch-all fallback. Last match wins, so every rule below overrides this
+# for its own path. Ensures every file has a required reviewer even if a new
+# root doc is added and nobody remembers to add a specific rule for it.
+*                            @NVIDIA/icons-maintainers
+
+# All packages route to maintainers
+packages/                   @NVIDIA/icons-maintainers
+
+# Root config and OSS governance files
+LICENSE                     @NVIDIA/icons-maintainers @NVIDIA/icons-security
+SECURITY.md                 @NVIDIA/icons-maintainers @NVIDIA/icons-security
+CONTRIBUTING.md             @NVIDIA/icons-maintainers

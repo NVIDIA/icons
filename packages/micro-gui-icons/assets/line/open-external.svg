@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><title>Open External</title><symbol id="open-external-line" viewBox="0 0 12 12"><path fill="currentColor" d="M1 2h4v1H2v7h7V7h1v4H1Zm6-1h4v4h-1V2.707L5.354 7.354l-.708-.708L9.293 2H7Z"/></symbol><use href="#open-external-line"/></svg>

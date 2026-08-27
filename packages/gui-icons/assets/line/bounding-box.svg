@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bounding Box</title><symbol id="bounding-box-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h3v1h6V2h3v3h-1v6h1v3h-3v-1H5v1H2v-3h1V5H2Zm2 3v6h1v1h6v-1h1V5h-1V4H5v1ZM3 3v1h1V3Zm9 1h1V3h-1Zm-9 8v1h1v-1Zm9 0v1h1v-1Z"/></symbol><use href="#bounding-box-line"/></svg>

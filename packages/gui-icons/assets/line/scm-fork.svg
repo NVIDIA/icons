@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>SCM Fork</title><symbol id="scm-fork-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6 2v4h-.946l.535 2h4.822l.535-2H10V2h4v4h-2.018l-.804 3H8.5v1H10v4H6v-4h1.5V9H4.822l-.804-3H2V2ZM3 5h2V3H3Zm8 0h2V3h-2Zm-4 8h2v-2H7Z"/></symbol><use href="#scm-fork-line"/></svg>

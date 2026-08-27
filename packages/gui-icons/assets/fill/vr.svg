@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>VR</title><symbol id="vr-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6 4h4V3H6zm7.321 4.498L12.384 5H3.616l-.937 3.497.937 3.498h3.501L7.384 11h1.232l.267.995h3.501zM2.349 6.129l-.966-.258-.704 2.626.705 2.632.966-.258-.636-2.374zm11.302 0 .635 2.369-.636 2.373.966.258.705-2.631-.704-2.627z"/></symbol><use href="#vr-fill"/></svg>

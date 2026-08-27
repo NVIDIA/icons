@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Move Global</title><symbol id="move-global-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m8 .918 2.354 2.353-.708.708L8.5 2.832V4.5h-1V2.832L6.354 3.979l-.708-.708ZM8 5.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5m2.354 7.229L8 15.082l-2.354-2.353.708-.708L7.5 13.168V11.5h1v1.668l1.146-1.147ZM15.082 8l-2.353 2.354-.708-.708L13.168 8.5H11.5v-1h1.668l-1.147-1.146.708-.707ZM3.271 5.646l.708.708L2.832 7.5H4.5v1H2.832l1.147 1.146-.708.708L.918 8Z"/></symbol><use href="#move-global-fill"/></svg>

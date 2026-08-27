@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Trash</title><symbol id="trash-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10 1H6v2H3v1h10V3h-3zm2 4H4v10h8z"/></symbol><use href="#trash-fill"/></svg>

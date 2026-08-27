@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Diamond Off</title><symbol id="diamond-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m15.5 8-2.336 2.336-7.5-7.5L8 .5Zm-4.104 4.104L8 15.5.5 8l3.396-3.396-3.25-3.25.708-.708 14 14-.708.708Z"/></symbol><use href="#diamond-off-fill"/></svg>

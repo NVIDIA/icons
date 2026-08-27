@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Arrange Rows</title><symbol id="arrange-rows-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 14H6v-2h8zm0-3H6V9h8zm-4-3H2V5h8zm4-4H6V2h8z"/></symbol><use href="#arrange-rows-fill"/></svg>

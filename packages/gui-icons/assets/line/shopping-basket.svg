@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Shopping Basket</title><symbol id="shopping-basket-line" viewBox="0 0 16 16"><path fill="currentColor" d="m4.796 7 1.149-4.289.966.259L5.831 7h4.338l-1.08-4.03.966-.259L11.204 7h2.948l-1.608 6H3.456L1.848 7ZM3.152 8l1.071 4h7.554l1.071-4Z"/></symbol><use href="#shopping-basket-line"/></svg>

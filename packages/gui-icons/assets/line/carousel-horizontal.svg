@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Carousel Horizontal</title><symbol id="carousel-horizontal-line" viewBox="0 0 16 16"><path fill="currentColor" d="M14 4v8H2V4Zm-1 7V5H3v6ZM4 2h8v1H4zm8 11H4v1h8z"/></symbol><use href="#carousel-horizontal-line"/></svg>

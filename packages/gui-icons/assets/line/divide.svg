@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Divide</title><symbol id="divide-line" viewBox="0 0 16 16"><path fill="currentColor" d="M12.5 8.5h-9v-1h9zM6.5 5a1.5 1.5 0 1 1 3.001.001A1.5 1.5 0 0 1 6.5 5M8 4.5a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1M6.5 11a1.5 1.5 0 1 1 3.001.001A1.5 1.5 0 0 1 6.5 11m1.5-.5a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1"/></symbol><use href="#divide-line"/></svg>

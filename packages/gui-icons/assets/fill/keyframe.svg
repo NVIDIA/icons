@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Keyframe</title><symbol id="keyframe-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13.707 8 8 2.293 2.293 8 8 13.707z"/></symbol><use href="#keyframe-fill"/></svg>

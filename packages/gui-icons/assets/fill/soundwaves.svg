@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Soundwaves</title><symbol id="soundwaves-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6 13V3h1v10Zm-2-2V5h1v6Zm4 0V5h1v6Zm4 0V5h1v6Zm-2-1V6h1v4ZM2 9V7h1v2Z"/></symbol><use href="#soundwaves-fill"/></svg>

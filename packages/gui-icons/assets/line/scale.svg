@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Scale</title><symbol id="scale-line" viewBox="0 0 16 16"><path fill="currentColor" d="M14 2H2v4h1V3h10v10h-3v1h4z"/><path fill="currentColor" d="M10.294 4.999 8.646 6.646l.707.708 1.649-1.648V7h1V3.999H9v1zM8 8v6H2V8Zm-5 5h4V9H3Z"/></symbol><use href="#scale-line"/></svg>

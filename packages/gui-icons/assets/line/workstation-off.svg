@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Workstation Off</title><symbol id="workstation-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708L12 12.707V14H4V4.707L1.646 2.354ZM5 5.707V13h6v-1.293L8.293 9H6V8h1.293Zm7 3.465-1-1V3H5.828l-1-1H12z"/><path fill="currentColor" d="M10 7h-.172l-1-1H10zm0-2H9V4h1z"/></symbol><use href="#workstation-off-line"/></svg>

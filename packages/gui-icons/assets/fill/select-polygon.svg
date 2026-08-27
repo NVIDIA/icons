@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Select Polygon</title><symbol id="select-polygon-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h2v1H3v1H2Zm4.5 0h3v1h-3ZM2 9.5v-3h1v3ZM2 12h1v1h1v1H2Zm7.5 2h-3v-1h3ZM8.146 6.646l.708.708L8.207 8l.647.646-.708.708L6.793 8ZM12 13.207l-.354-.353.708-.708L14.207 14H12ZM12 2h2.207l-1.853 1.854-.708-.708.354-.353Zm-1.354 9.854-1.5-1.5.708-.708 1.5 1.5Zm-1.5-6.208 1.5-1.5.708.708-1.5 1.5Z"/></symbol><use href="#select-polygon-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Webcam Off</title><symbol id="webcam-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708L11 11.707V12H5v-1h.831l.268-1H4.5a3.5 3.5 0 0 1-1.743-6.536l-1.111-1.11Zm1.147 2.562A2.5 2.5 0 0 0 4.5 9h3.793L5.987 6.695a1.5 1.5 0 1 1-1.682-1.683ZM7.134 10l-.268 1h2.268l-.268-1ZM4.5 6a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1m5.624 4.832.046.168h.123ZM15 6.5a3.5 3.5 0 0 1-2.361 3.31l-.83-.829A2.5 2.5 0 0 0 11.5 4H6.828l-1-1H11.5A3.5 3.5 0 0 1 15 6.5"/><path fill="currentColor" d="M12 7h-1V6h1z"/></symbol><use href="#webcam-off-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Anchor Center</title><symbol id="anchor-center-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3 3h10v10H3Zm3 3v4h4V6Zm1 1h2v2H7Z"/></symbol><use href="#anchor-center-fill"/></svg>

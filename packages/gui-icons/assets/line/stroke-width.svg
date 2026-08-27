@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Stroke Width</title><symbol id="stroke-width-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 9h12v4H2Zm0-4h12v3H2Zm1 5v2h10v-2Zm11-6H2V3h12ZM3 6v1h10V6Z"/></symbol><use href="#stroke-width-line"/></svg>

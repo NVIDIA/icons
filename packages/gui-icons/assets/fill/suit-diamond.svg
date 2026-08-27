@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Suit Diamond</title><symbol id="suit-diamond-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.788 2H7.211L3.747 8l3.464 6h1.577l3.464-6z"/></symbol><use href="#suit-diamond-fill"/></svg>

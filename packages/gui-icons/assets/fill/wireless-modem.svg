@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Wireless Modem</title><symbol id="wireless-modem-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4 5c0-.729.195-1.412.535-2l-.866-.501A5 5 0 0 0 3 5c0 .91.244 1.765.669 2.501L4.535 7A4 4 0 0 1 4 5m7.465-2c.34.588.535 1.271.535 2a4 4 0 0 1-.535 2l.866.501A5 5 0 0 0 13 5c0-.91-.244-1.765-.669-2.501zM6.267 4A2 2 0 0 0 6 5c0 .365.097.706.267 1l-.865.501A3 3 0 0 1 5 5c0-.546.146-1.059.402-1.501zm3.466 0c.17.294.267.635.267 1s-.097.706-.267 1l.865.501C10.854 6.059 11 5.546 11 5a3 3 0 0 0-.402-1.5z"/><path fill="currentColor" d="M7 5a1 1 0 1 1 1.5.866V9H14v5H2V9h5.5V5.866A1 1 0 0 1 7 5m1 7v-1H7v1Zm1-1v1h1v-1Zm3 0h-1v1h1Z"/></symbol><use href="#wireless-modem-fill"/></svg>

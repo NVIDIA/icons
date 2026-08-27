@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Platformer</title><symbol id="platformer-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M9 14H2v-3h7zm-4-4H4V9h1zm9-1H7V6h7zM8 4a3 3 0 0 0-3 3v1H4V7a4 4 0 0 1 4-4zm2.5-2a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 10.5 2"/></symbol><use href="#platformer-fill"/></svg>

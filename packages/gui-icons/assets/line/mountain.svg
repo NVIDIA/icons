@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Mountain</title><symbol id="mountain-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1.456 14.842 14H1.158Zm2.313 6.329-1.639-.252-1.11 1.11-1.72-1.146L2.842 13h10.316ZM6.325 6.616l1.111.741.89-.89 1.385.214L8 3.544Z"/></symbol><use href="#mountain-line"/></svg>

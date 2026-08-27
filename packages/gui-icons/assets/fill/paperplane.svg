@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Paperplane</title><symbol id="paperplane-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M.747 1.623 15.242 8 .747 14.377 2.322 8.5H8v-1H2.322z"/></symbol><use href="#paperplane-fill"/></svg>

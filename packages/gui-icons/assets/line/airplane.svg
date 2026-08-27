@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Airplane</title><symbol id="airplane-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7 2h2.384l1.072 4H13a2 2 0 1 1 0 4h-2.544l-1.072 4H7v-4H4.384l-.268 1H1.179l.804-3-.804-3h2.937l.268 1H7ZM2.884 8.5 2.482 10h.866l.268-1H13a1 1 0 0 0 0-2H3.616l-.268-1h-.866l.402 1.5H5v1ZM8 6h1.42l-.804-3H8Zm0 4v3h.616l.804-3Z"/></symbol><use href="#airplane-line"/></svg>

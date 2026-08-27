@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Traffic Cone</title><symbol id="traffic-cone-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6.614 3h2.768l2.411 9h2.205v1h-12v-1h2.205l.402-1.5H9v-1H4.873l.268-1H8v-1H5.409z"/></symbol><use href="#traffic-cone-fill"/></svg>

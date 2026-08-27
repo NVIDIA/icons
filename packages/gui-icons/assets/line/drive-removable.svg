@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Drive Removable</title><symbol id="drive-removable-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 5h14v5H1Zm1 1v3h12V6Zm11 2H6V7h7ZM4 8H3V7h1Z"/></symbol><use href="#drive-removable-line"/></svg>

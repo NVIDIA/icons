@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Mug</title><symbol id="mug-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 5h9v1h3.393l-1.607 6H11v.566L10.616 14H2.384L2 12.566Zm8 1H3v6.434l.152.566h6.696l.152-.566Zm1 5h1.018l1.072-4H11ZM5.5 4V1h1v3ZM3 4V2h1v2Zm5 0V2h1v2Z"/></symbol><use href="#mug-line"/></svg>

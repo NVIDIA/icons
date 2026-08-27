@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Drive USB</title><symbol id="drive-usb-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10 2v3h1v8.214l-3 .804-3-.804V5h1V2ZM6 12.446l2 .536 2-.536V6H6ZM9 5V3H7v2Z"/></symbol><use href="#drive-usb-line"/></svg>

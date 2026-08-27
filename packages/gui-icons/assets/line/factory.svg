@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Factory</title><symbol id="factory-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3 10V9h1v1zm0 1v1h1v-1zm2-1V9h1v1zm0 1v1h1v-1zm6 1H9v-1h2z"/><path fill="currentColor" d="M13 2v5h2v7H1V7h1.384l.536-2H5v2h.384l.536-2H8v2h2V2ZM3.152 8H2v5h5V9h6v4h1V8H7V6h-.312l-.536 2H4V6h-.313ZM12 10H8v3h4Zm0-5h-1v2h1Zm0-2h-1v1h1Z"/></symbol><use href="#factory-line"/></svg>

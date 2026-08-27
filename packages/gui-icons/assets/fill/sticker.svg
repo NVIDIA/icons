@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sticker</title><symbol id="sticker-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h12v12H6.293L2 9.707Zm4 10.293V10H3.707Z"/></symbol><use href="#sticker-fill"/></svg>

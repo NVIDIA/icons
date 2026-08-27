@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Step Reverse</title><symbol id="step-reverse-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10 3.629v8.741L2.508 8ZM4.492 8 9 10.63V5.371ZM13 12.5h-1v-9h1Z"/></symbol><use href="#step-reverse-line"/></svg>

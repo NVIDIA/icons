@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Videocam Off</title><symbol id="videocam-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708L11.293 12H1V4h2.293L1.646 2.354ZM4.293 5H2v6h8.293ZM11 5H7.828l-1-1H12v1.691l3-1.5v7.618l-2.224-1.112.448-.894.776.388V5.809l-3 1.5z"/></symbol><use href="#videocam-off-line"/></svg>

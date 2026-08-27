@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fog</title><symbol id="fog-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a4.5 4.5 0 0 0-4.486 4.141 3.5 3.5 0 0 0-2.441 2.645l-.154.74 3.833-.767a3.5 3.5 0 0 1 2.252.302l1.545.772a4.5 4.5 0 0 0 2.895.388L15 8.51v-.76a4.25 4.25 0 0 0-2.861-4.018A4.5 4.5 0 0 0 8 1m-.996 11.561a3.5 3.5 0 0 0-2.252-.302l-3.654.731-.196-.98 3.654-.731c.981-.196 2-.06 2.895.387l1.545.773a3.5 3.5 0 0 0 2.252.302l3.654-.731.196.98-3.654.731c-.981.196-2 .06-2.895-.388z"/><path fill="currentColor" d="M4.752 10.259a3.5 3.5 0 0 1 2.252.302l1.545.772a4.5 4.5 0 0 0 2.895.388l3.654-.731-.196-.98-3.654.731a3.5 3.5 0 0 1-2.252-.302l-1.545-.772a4.5 4.5 0 0 0-2.895-.388l-3.654.731.196.98z"/></symbol><use href="#fog-fill"/></svg>
