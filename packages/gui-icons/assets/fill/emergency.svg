@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Emergency</title><symbol id="emergency-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m9.5 5.401 2.945-1.7 1.5 2.599-2.946 1.699 2.946 1.702-1.5 2.598L9.5 10.598V14h-3v-3.403L3.555 12.3l-1.5-2.599 2.944-1.702-2.946-1.7 1.502-2.598 2.945 1.7V2h3z"/></symbol><use href="#emergency-fill"/></svg>

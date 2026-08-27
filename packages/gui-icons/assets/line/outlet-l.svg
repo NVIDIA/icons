@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Outlet L</title><symbol id="outlet-l-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2m3 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m2 1a1 1 0 1 1 2 0 1 1 0 0 1-2 0"/><path fill="currentColor" d="M13.207 4 15 5.793v4.414L13.207 12H2.793L1 10.207V5.793L2.793 4ZM2 6.207v3.586L3.207 11h9.586L14 9.793V6.207L12.793 5H3.207Z"/></symbol><use href="#outlet-l-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Connection</title><symbol id="connection-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h5v5H5v4h4V9h5v5H9v-2H4V7H2z"/></symbol><use href="#connection-fill"/></svg>

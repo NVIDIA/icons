@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Forward</title><symbol id="forward-line" viewBox="0 0 16 16"><path fill="currentColor" d="m13.207 5.5-2.854-2.854-.707.708L11.293 5H2.678l2.045 7.629.966-.258L3.982 6h7.311L9.646 7.646l.707.708z"/></symbol><use href="#forward-line"/></svg>

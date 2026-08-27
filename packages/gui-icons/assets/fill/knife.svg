@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Knife</title><symbol id="knife-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M9 1.5H7.878L6 4.753V9h1.5v5h1V9H9z"/></symbol><use href="#knife-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Drive Network</title><symbol id="drive-network-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1 4h14v5H8.5v3H10v1h4v1h-4v1H6v-1H2v-1h4v-1h1.5V9H1Zm3 2H3v1h1Z"/></symbol><use href="#drive-network-fill"/></svg>

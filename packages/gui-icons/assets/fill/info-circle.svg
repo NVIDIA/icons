@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Info Circle</title><symbol id="info-circle-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8m7.5 4V6h-1v6Zm0-7V4h-1v1Z"/></symbol><use href="#info-circle-fill"/></svg>

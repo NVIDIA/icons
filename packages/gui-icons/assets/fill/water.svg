@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Water</title><symbol id="water-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.447 3.276 8 2.382l-.447.894c-.317.633-.779 1.344-1.278 2.11-.27.416-.551.848-.826 1.293-.379.616-.737 1.246-1.001 1.853C4.186 9.134 4 9.751 4 10.333a4 4 0 1 0 8 0c0-.582-.186-1.199-.448-1.801-.264-.607-.622-1.237-1.001-1.853-.275-.445-.556-.877-.826-1.293-.499-.766-.961-1.477-1.278-2.11"/></symbol><use href="#water-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Shield Off</title><symbol id="shield-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m1.354.646 13 13-.708.708-2.032-2.033a6.58 6.58 0 0 1-3.493 2.164l-.121.03-.121-.03c-3.26-.815-4.717-3.533-5.362-5.917a16 16 0 0 1-.501-3.188 16 16 0 0 1-.026-1.016c.002-.252.017-.502.032-.754l.695-.186-2.071-2.07zm12.129 7.922a12 12 0 0 1-.534 1.552L5.506 2.677 8 2.009l5.978 1.601c.015.252.03.502.032.754.002.245-.002.594-.026 1.016a16 16 0 0 1-.501 3.188"/></symbol><use href="#shield-off-fill"/></svg>

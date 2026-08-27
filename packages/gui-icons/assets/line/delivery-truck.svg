@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Delivery Truck</title><symbol id="delivery-truck-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10 4v1h3.08L14 8.434V10h-1.085q.084.236.085.5a1.5 1.5 0 1 1-2.915-.5h-4.17q.084.236.085.5a1.5 1.5 0 1 1-2.915-.5H2V4ZM9 9V5H3v4Zm4 0v-.434L12.312 6H10v3Zm-8.5 1a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1m6.5.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0"/></symbol><use href="#delivery-truck-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Telescope</title><symbol id="telescope-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m10.867 3.136.991 3.698-2.117.567 1.739 6.492-.966.259-.634-2.368a4.5 4.5 0 0 1-2.765-.001l-.635 2.369-.966-.259 1.548-5.774-1.068.286-.991-3.698ZM8.775 7.66l-.598.16-.803 2.995c.353.12.732.185 1.126.185a3.5 3.5 0 0 0 1.121-.183Zm4.232-.402 1.366-.366-1.357-5.064-1.366.366zm-8.162.723L4.22 5.649l-1.766.473-.079-.293-.966.259.777 2.898.966-.259-.074-.273z"/></symbol><use href="#telescope-fill"/></svg>

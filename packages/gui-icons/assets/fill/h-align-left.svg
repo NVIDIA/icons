@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Horizontal Align Left</title><symbol id="h-align-left-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3 2v12h1V2zm2 2h9v3H5zm0 4h6v3H5z"/></symbol><use href="#h-align-left-fill"/></svg>

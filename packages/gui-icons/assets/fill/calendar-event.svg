@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Calendar Event</title><symbol id="calendar-event-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5 2h1v1h4V2h1v1h3v11H2V3h3ZM3 4v2h10V4h-2v1h-1V4H6v1H5V4Zm5 3.87-.641 1.299-1.433.208 1.037 1.012-.245 1.427L8 11.142l1.282.674-.245-1.427 1.038-1.012-1.434-.208Z"/></symbol><use href="#calendar-event-fill"/></svg>

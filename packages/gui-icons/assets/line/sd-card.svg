@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>SD Card</title><symbol id="sd-card-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4.793 2H13v3h-.5v1h.5v8H3V3.793ZM12 7h-.5V4h.5V3H5.207L4 4.207V13h8ZM7 7V4h1v3Zm2 0V4h1v3ZM5 7V4.5h1V7Z"/></symbol><use href="#sd-card-line"/></svg>

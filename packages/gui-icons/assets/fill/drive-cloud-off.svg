@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Drive Cloud Off</title><symbol id="drive-cloud-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 13 13-.708.708-1.222-1.223c-.38.234-.832.369-1.309.369h-3.5c-1.132 0-2.115-.861-2.115-2 0-.515.232-1.028.592-1.387.228-.227.522-.405.859-.477.028-.517.276-.984.623-1.336l.01-.009-.707-.707-.014.014A3 3 0 0 0 7.524 9H1V4h2.293L1.646 2.354ZM3 6v1h1V6Zm7.5 1.5a3 3 0 0 0-.168.004L6.828 4H15v5h-1.517a3.4 3.4 0 0 0-.589-.627c-.63-.517-1.5-.873-2.394-.873"/></symbol><use href="#drive-cloud-off-fill"/></svg>

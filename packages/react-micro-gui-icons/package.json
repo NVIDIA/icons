@@ -1,0 +1,83 @@
+{
+  "name": "@nvidia/react-micro-gui-icons",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0 AND Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NVIDIA/icons.git",
+    "directory": "packages/react-micro-gui-icons"
+  },
+  "homepage": "https://github.com/NVIDIA/icons/tree/main/packages/react-micro-gui-icons#readme",
+  "bugs": {
+    "url": "https://github.com/NVIDIA/icons/issues"
+  },
+  "author": "NVIDIA Corporation",
+  "engines": {
+    "node": ">=22"
+  },
+  "description": "NVIDIA Micro GUI Icons — React SVG icon components (sprite-based, tree-shakable).",
+  "keywords": [
+    "nvidia",
+    "icons",
+    "svg",
+    "react",
+    "components"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./icons": {
+      "types": "./dist/icons/index.d.ts",
+      "import": "./dist/icons/index.mjs",
+      "require": "./dist/icons/index.cjs"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "import": "./dist/icons/*.mjs",
+      "require": "./dist/icons/*.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/",
+    "CHANGELOG.md",
+    "LICENSE",
+    "NOTICE",
+    "THIRD_PARTY_NOTICES"
+  ],
+  "scripts": {
+    "build": "vite build && tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.build.json --noEmit",
+    "test": "node --import tsx --test tests/*.test.tsx",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.10",
+    "@types/jsdom": "^28.0.3",
+    "@types/node": "^24.5.1",
+    "@types/react": "^19.2.18",
+    "@vitejs/plugin-react": "^6.1.0",
+    "dom-accessibility-api": "^0.7.1",
+    "jsdom": "^28.1.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  }
+}

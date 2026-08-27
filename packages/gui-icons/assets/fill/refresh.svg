@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Refresh</title><symbol id="refresh-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3 8a5 5 0 0 1 10 0v1.293l1.646-1.647.708.708-2.854 2.853-2.854-2.853.708-.708L12 9.293V8a4 4 0 1 0-2.964 3.865l.258.966A5 5 0 0 1 3 8"/></symbol><use href="#refresh-fill"/></svg>

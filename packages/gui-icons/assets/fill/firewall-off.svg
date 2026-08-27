@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Firewall Off</title><symbol id="firewall-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m1.354.646 14 14-.708.708L13.293 14H10v1H6v-1H2v-1h4v-1h1.5v-2H6V8h1.293l-1-1H2V5h2.293l-1-1H2V2.707L.646 1.354ZM9.293 10H8.5v2H10v1h2.293Z" clip-rule="evenodd"/><path fill="currentColor" d="M14 10h-1.172l-2-2H14Zm0-3H9.828L8.5 5.672V5H14Zm0-3H6.828L6 3.172V2h4v1h1V2h3ZM2 8h3v2H2Z"/></symbol><use href="#firewall-off-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Camera</title><symbol id="camera-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6 8a2 2 0 1 1 3.999-.001A2 2 0 0 1 6 8"/><path fill="currentColor" d="M6.191 2h3.618l1 2H14v9H2V4h3.191ZM8 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6"/></symbol><use href="#camera-fill"/></svg>

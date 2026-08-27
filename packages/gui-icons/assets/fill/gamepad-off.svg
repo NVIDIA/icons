@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Gamepad Off</title><symbol id="gamepad-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708-1.064-1.065-.013.006-1.441-.387-.393-1.466-.677-.677L8 10.214l-2.592.694-.536 2-1.441.387-1.626-.665-.638-2.38 1.938-6.162.218-.058-1.677-1.676ZM5.293 6H5v1H4v1h1v1h1V8h1v-.293L6.293 7H6v-.293Zm9.54 4.25-.371 1.384-2.99-2.991a1.5 1.5 0 1 0-2.115-2.114L6.193 3.364l1.373.368h.869l1.566-.42 2.894.776z"/></symbol><use href="#gamepad-off-fill"/></svg>

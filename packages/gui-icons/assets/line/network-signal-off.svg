@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Network Signal Off</title><symbol id="network-signal-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708-4.63-4.631a2 2 0 0 1-2.739-2.739l-4.631-4.63Zm4.68 6.095a1 1 0 0 0 1.225 1.225Zm4.795 1.26.762.762C12.853 9.231 13 8.633 13 8a4 4 0 0 0-1.172-2.828l-.707.707C11.665 6.422 12 7.171 12 8c0 .351-.06.688-.171 1.001"/><path fill="currentColor" d="M15 8a5.97 5.97 0 0 1-.942 3.229l-.728-.727c.426-.736.67-1.59.67-2.502 0-1.381-.559-2.63-1.464-3.536l.707-.707A6 6 0 0 1 15 8M4.393 6.514l-.726-.726A4 4 0 0 0 3 8c0 1.104.448 2.105 1.172 2.828l.707-.707A3 3 0 0 1 4 8c0-.541.143-1.048.393-1.486"/><path fill="currentColor" d="M2 8c0-1.095.351-2.107.948-2.93l-.714-.715A5.97 5.97 0 0 0 1 8c0 1.657.672 3.157 1.757 4.243l.707-.707A5 5 0 0 1 2 8"/></symbol><use href="#network-signal-off-line"/></svg>

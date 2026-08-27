@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Folder Closed</title><symbol id="folder-closed-line" viewBox="0 0 16 16"><path fill="currentColor" d="m6.884 3 .536 2H14v8H2V3ZM3 4v8h10V6H6.652l-.536-2Z"/></symbol><use href="#folder-closed-line"/></svg>

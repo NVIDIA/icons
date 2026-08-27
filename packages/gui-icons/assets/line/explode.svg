@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Explode</title><symbol id="explode-line" viewBox="0 0 16 16"><path fill="currentColor" d="m13.5 3.598-2.815 1.625L12 5.982v1.482l3-1.732v6.351l-5.5 3.175v-3.214L8 12.91l-1.5-.866v3.214L1 12.083V5.732l3 1.732V5.982l1.315-.759L2.5 3.598 8 .423Zm-8 9.928V9.485L2 7.464v4.042Zm5-4.041v4.041l3.5-2.02V7.464ZM8 5.619l3.5-2.021L8 1.577 4.5 3.598ZM5 7.137v.904l1.5.866v1.982l1 .578V8.58Zm3.5 4.33 1-.578V8.907l1.5-.866v-.904L8.5 8.58Zm-3-5.196L8 7.714l2.5-1.443-.815-.471L8 6.773 6.315 5.8Z"/></symbol><use href="#explode-line"/></svg>

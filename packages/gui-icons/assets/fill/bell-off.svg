@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bell Off</title><symbol id="bell-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13 10.171V7c0-2.08-1.27-3.862-3.075-4.616L9.539 1H6.461l-.386 1.384a5 5 0 0 0-.577.286zM12.293 13l1.353 1.354.708-.708-12-12-.708.708 2.069 2.068A5 5 0 0 0 3 7v3.382L1.691 13H6a2 2 0 1 0 4 0z"/></symbol><use href="#bell-off-fill"/></svg>

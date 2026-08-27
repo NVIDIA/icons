@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Dolly</title><symbol id="dolly-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10.3 3.6 8 1.875 5.7 3.6l.6.8 1.2-.9v8.915l-2.674-2.298-.652.758L8 14.164l3.826-3.289-.652-.758L8.5 12.415V3.5l1.2.9z"/></symbol><use href="#dolly-line"/></svg>

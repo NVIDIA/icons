@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Retry</title><symbol id="retry-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.354.646 11.207 3.5 8.354 6.354l-.708-.708L9.293 4H8a4 4 0 1 0 4 4h1a5 5 0 1 1-5-5h1.293L7.646 1.354Z"/></symbol><use href="#retry-fill"/></svg>

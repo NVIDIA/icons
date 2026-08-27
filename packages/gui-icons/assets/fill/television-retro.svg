@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Television Retro</title><symbol id="television-retro-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.045.871 7.884 4h.233L8.955.871l.966.258L9.152 4h.927l.268 1H14v9H2V5h3.652l.268-1h.928l-.769-2.871ZM12 7H6v5h6ZM3.5 8.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M4 12h1v-1H4Z"/></symbol><use href="#television-retro-fill"/></svg>

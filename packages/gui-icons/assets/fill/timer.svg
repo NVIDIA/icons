@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Timer</title><symbol id="timer-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7 3H6V2h4v1H9v1.1A5.002 5.002 0 0 1 8 14a5 5 0 0 1-1-9.9Zm0 6a1 1 0 1 0 1.259-.966l-.553-2.062-.966.259.553 2.062A1 1 0 0 0 7 9"/></symbol><use href="#timer-fill"/></svg>

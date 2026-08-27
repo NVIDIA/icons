@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Shield</title><symbol id="shield-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m13.978 3.61.021.361v.003L14 3.98l.001.021.003.077q.004.102.006.286c.002.245-.002.594-.027 1.016a16 16 0 0 1-.5 3.188c-.645 2.384-2.102 5.102-5.362 5.917l-.121.03-.121-.03c-3.26-.815-4.717-3.533-5.362-5.917a16 16 0 0 1-.501-3.188 16 16 0 0 1-.026-1.016q.002-.184.006-.286l.003-.077L2 3.98l.001-.006v-.002L2.5 4l-.499-.029.021-.361L8 2.009Z"/></symbol><use href="#shield-fill"/></svg>

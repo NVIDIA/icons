@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Map Off</title><symbol id="map-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m1.354.646 14 14-.708.708-2.226-2.227-1.92.72v-2.64l-1-1v3.684l-3-.75V7.207l-1-1v6.934l-4 1V3.11l.722-.181L.646 1.354ZM14.5 1.779v9.893l-4-4V3.279Zm-5 1.5v3.393l-3-3V2.154Z"/></symbol><use href="#map-off-fill"/></svg>

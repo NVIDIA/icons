@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Texture</title><symbol id="texture-line" viewBox="0 0 16 16"><path fill="currentColor" d="M14 2v12H2V2Zm-3.293 1L3 10.707v1.586L12.293 3ZM13 3.707 3.707 13h1.586L13 5.293ZM7.707 3 3 7.707v1.586L9.293 3ZM13 6.707 6.707 13h1.586L13 8.293Zm0 3L9.707 13h1.586L13 11.293Zm-10-5v1.586L6.293 3H4.707Zm10 8-.293.293H13ZM3 3.293 3.293 3H3Z"/></symbol><use href="#texture-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sticker Zoom</title><symbol id="sticker-zoom-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8.5 4a2.5 2.5 0 0 1 2.086 3.879l1.768 1.768-.708.707-1.767-1.768A2.5 2.5 0 1 1 8.5 4M7 6.5a1.5 1.5 0 1 0 3.001-.001A1.5 1.5 0 0 0 7 6.5"/><path fill="currentColor" d="M14 2v12H6.293L2 9.707V2ZM3 9h4v4h6V3H3Zm.707 1L6 12.293V10Z"/></symbol><use href="#sticker-zoom-line"/></svg>

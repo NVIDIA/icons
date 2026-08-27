@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Wine Glass</title><symbol id="wine-glass-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5.54 2h4.92l.564 6.831L8.5 10.289V14H11v1H5v-1h2.5v-3.711L4.976 8.831z"/></symbol><use href="#wine-glass-fill"/></svg>

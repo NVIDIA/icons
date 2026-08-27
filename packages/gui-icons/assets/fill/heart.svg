@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Heart</title><symbol id="heart-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M12.992 4.008a3.44 3.44 0 0 0-4.672-.18l-.012.011L8 4.141l-.308-.302-.012-.011A3.44 3.44 0 0 0 2.828 8.68l.012.014L8 13.866l5.16-5.172.012-.014a3.44 3.44 0 0 0-.18-4.672"/></symbol><use href="#heart-fill"/></svg>

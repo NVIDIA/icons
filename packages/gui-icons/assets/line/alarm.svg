@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Alarm</title><symbol id="alarm-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3 8a5 5 0 1 1 8.504 3.567l.483 1.804-.966.258-.372-1.388A4.97 4.97 0 0 1 8 13a5 5 0 0 1-2.646-.757l-.371 1.386-.966-.258.482-1.801A5 5 0 0 1 3 8m5-4a4 4 0 1 0 0 8 4 4 0 0 0 0-8m.408 3.592 2.62.702-.259.966-3.177-.852-.852-3.177.966-.259ZM5.354 2.354l-2 2-.708-.708 2-2Zm6-.708 2 2-.708.708-2-2Z"/></symbol><use href="#alarm-line"/></svg>

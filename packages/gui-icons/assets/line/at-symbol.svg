@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>At Symbol</title><symbol id="at-symbol-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4.293 2h7.414L14 4.293v4.414l-1.984 1.985-2.367-.634-.942.942H5.793L5 10.207V8.793l.741-.741L9 7.179v-.972L8.793 6H6.207l-.353.354-.708-.708L5.793 5h3.414l.793.793v3.323l1.717.46L13 8.293V4.707L11.293 3H4.707L3 4.707v6.586L4.707 13h6.586l.853-.854.708.708L11.707 14H4.293L2 11.707V4.293ZM9 9.293V8.214l-2.741.734L6 9.207v.586l.207.207h2.086Z"/></symbol><use href="#at-symbol-line"/></svg>

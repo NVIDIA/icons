@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Radioactive</title><symbol id="radioactive-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a7 7 0 0 0-3.501.937l-.432.25 2.25 3.898.433-.251A2.5 2.5 0 0 1 8 5.5c.456 0 .883.122 1.25.334l.433.251 2.25-3.898-.432-.25A7 7 0 0 0 8 1M5.5 7.5H1V8a7 7 0 0 0 3.499 6.063l.433.25 2.251-3.897-.433-.25A2.5 2.5 0 0 1 5.5 8zm9.5 0V8a7 7 0 0 1-3.499 6.063l-.433.25-2.251-3.897.433-.25A2.5 2.5 0 0 0 10.5 8v-.5zM6.5 8a1.5 1.5 0 1 1 3.001.001A1.5 1.5 0 0 1 6.5 8"/></symbol><use href="#radioactive-fill"/></svg>

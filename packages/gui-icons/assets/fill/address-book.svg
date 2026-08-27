@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Address Book</title><symbol id="address-book-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M9.2 4.1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m1.647 3.8H7.552l-.804 3h4.903z"/><path fill="currentColor" d="M14 2v12H3v-3H2v-1h1V8.5H2v-1h1V6H2V5h1V2ZM4 11v2h9V3H4v2h1v1H4v1.5h1v1H4V10h1v1Z"/></symbol><use href="#address-book-fill"/></svg>

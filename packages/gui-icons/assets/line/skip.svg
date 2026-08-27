@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Skip</title><symbol id="skip-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 3a5 5 0 0 0-5 5v1h1V8a4 4 0 0 1 8 0v.293l-.646-.647-.708.708 1.854 1.853 1.854-1.853-.708-.708-.646.647V8a5 5 0 0 0-5-5"/><path fill="currentColor" d="M8 6.5a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 8 6.5M7.5 8a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0"/></symbol><use href="#skip-line"/></svg>

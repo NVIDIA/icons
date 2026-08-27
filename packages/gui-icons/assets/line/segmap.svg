@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Segmap</title><symbol id="segmap-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 3h10v10H2Zm9 8.707-4.5-4.5-3.5 3.5V12h8ZM3 4v5.293L8.293 4Zm6.707 0-2.5 2.5L11 10.293V4ZM13 12V4h1v8Z"/></symbol><use href="#segmap-line"/></svg>

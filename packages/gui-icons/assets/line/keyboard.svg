@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Keyboard</title><symbol id="keyboard-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 3h14v9H1Zm1 1v7h12V4Zm9 6H5V9h6ZM4 6H3V5h1Zm1.5 0h-1V5h1ZM7 6H6V5h1Zm1.5 0h-1V5h1ZM10 6H9V5h1Zm1.5 0h-1V5h1ZM13 6h-1V5h1ZM4 8H3V7h1Zm1.5 0h-1V7h1ZM7 8H6V7h1Zm1.5 0h-1V7h1ZM10 8H9V7h1Zm1.5 0h-1V7h1ZM13 8h-1V7h1Zm-9 2H3V9h1Zm9 0h-1V9h1Z"/></symbol><use href="#keyboard-line"/></svg>

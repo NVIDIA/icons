@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Ethernet Port</title><symbol id="ethernet-port-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h12v12H2Zm1 1v10h10V3Zm2.5 2h5v1h1v5h-7V6h1Zm0 2v3h1V8h1v2h1V8h1v2h1V7h-1V6h-3v1Z"/></symbol><use href="#ethernet-port-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Route</title><symbol id="route-line" viewBox="0 0 16 16"><path fill="currentColor" d="M11.642 9.939c-.337.426-.728.783-1.142 1.13-.414-.347-.805-.704-1.142-1.13-.391-.494-.858-1.241-.858-2.057C8.5 6.875 9.421 6 10.5 6s2 .875 2 1.882c0 .816-.467 1.563-.858 2.057M10.5 7c-.578 0-1 .477-1 .882 0 .464.283.983.642 1.437.124.157.249.295.358.408.109-.113.234-.251.358-.408.359-.454.642-.973.642-1.437 0-.405-.422-.882-1-.882"/><path fill="currentColor" d="M14.5 1.779v10.568l-4.47 1.676L6 13.016l-4.5 1.125V3.11l4.53-1.133L10 3.466Zm-12 7.928v3.153l3.5-.875 3.97.992 3.53-1.323V3.222L10 4.534 5.97 3.023 2.5 3.89v4.403l1.5-1.5 2 2L6.793 8H8v1h-.793L6 10.207l-2-2Z"/></symbol><use href="#route-line"/></svg>

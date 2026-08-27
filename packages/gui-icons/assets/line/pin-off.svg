@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Pin Off</title><symbol id="pin-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="M12 7.116v2.056l-1-1v-.288l-.393-.106-.615-.614L9.542 2H6.458l-.13 1.499-.924-.923L5.455 2h-.627L4.5 1.672V1h7v1h-.954l.422 4.84zM9.293 10H8.5v5h-1v-5H4V7.116l1.032-.276.089-1.012-3.475-3.474.708-.708 12 12-.708.708ZM6.044 6.751l-.076.873-.968.26V9h3.293Z"/></symbol><use href="#pin-off-line"/></svg>

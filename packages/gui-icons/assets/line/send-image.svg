@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Send Image</title><symbol id="send-image-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10.354 3.646 8 1.293 5.646 3.646l.708.708L7.5 3.207V6h1V3.207l1.146 1.147z"/><path fill="currentColor" d="M3 5h2v1H4v3.211l2.8 1.617 2.85-1.645L12 10.54V6h-1V5h2v9H3Zm9 6.694-2.35-1.357-2.85 1.646L4 10.366V13h8Z"/><path fill="currentColor" d="M5.454 7.773a1.319 1.319 0 1 1 2.637.001 1.319 1.319 0 0 1-2.637-.001m1.319-.318a.318.318 0 1 0-.001.637.318.318 0 0 0 .001-.637"/></symbol><use href="#send-image-line"/></svg>

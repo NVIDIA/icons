@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Thumb Up</title><symbol id="thumb-up-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4.5 5H2v8h2.5zm1 7.518L7.3 13h5.6l1.381-5.152L13.518 5H9.152l.587-2.191a1.438 1.438 0 0 0-2.633-1.09L5.5 4.5z"/></symbol><use href="#thumb-up-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Car</title><symbol id="car-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m12.89 3 .625 2.5h.845l.834 2.5H14v1.562L13.39 12H13v1h-2v-1H5v1H3v-1h-.391L2 9.562V8H.806l.833-2.5h.845L3.109 3Zm-.031 4-.75-3H8.5v.5H9v1H7v-1h.5V4H3.89l-.75 3H8.5c0-.495.301-.883.662-1.123.364-.243.839-.377 1.338-.377s.974.134 1.338.377c.361.24.662.628.662 1.123ZM12 10V9h-2v1Zm-6 0V9H4v1Zm5.5-3c0-.057-.035-.17-.217-.291A1.44 1.44 0 0 0 10.5 6.5c-.329 0-.605.09-.783.209-.182.121-.217.234-.217.291Z"/></symbol><use href="#car-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bookmark Off</title><symbol id="bookmark-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m1.354.646 14 14-.708.708L13 13.707v1.643l-5-2.778-5 2.778V3.707L.646 1.354ZM13 1v9.172L3.828 1Z"/></symbol><use href="#bookmark-off-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Inbox</title><symbol id="inbox-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13 10.435V14H3v-3.565L3.652 8h8.696ZM4.151 10 4 11h3.207l.793.793.793-.793H12l-.151-1-.269-1H4.42ZM8.5 4.793l1.146-1.147.708.708L8 6.707 5.646 4.354l.708-.708L7.5 4.793V2h1z"/></symbol><use href="#inbox-fill"/></svg>

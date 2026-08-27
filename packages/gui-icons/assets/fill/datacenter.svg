@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Datacenter</title><symbol id="datacenter-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11.5 6.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/><path fill="currentColor" d="M9.76 5H14v9H6v-3H4v3H2V7h1.116l.224-.837.966.259L4.151 7h.965l.224-.837.966.259L6.151 7h.965l.224-.837.966.259L8.151 7h1.073Zm-1.108 8H13V6h-2.473Z"/></symbol><use href="#datacenter-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Transfer Vertical</title><symbol id="transfer-vertical-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m1.146 9.857.708-.707L4 11.296V4.004h1v7.292L7.146 9.15l.708.707L4.5 13.211ZM11 4.711 8.854 6.857l-.708-.707L11.5 2.796l3.354 3.354-.708.707L12 4.711v7.293h-1Z"/></symbol><use href="#transfer-vertical-fill"/></svg>

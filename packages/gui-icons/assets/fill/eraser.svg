@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Eraser</title><symbol id="eraser-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10 2.293 14.207 6.5l-3 3L7 5.293zM6.293 6l-4 4 3 3h2.414l2.793-2.793zM14 13h-4v-1h4z"/></symbol><use href="#eraser-fill"/></svg>

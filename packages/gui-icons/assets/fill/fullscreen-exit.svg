@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fullscreen Exit</title><symbol id="fullscreen-exit-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m.646 1.354.708-.708L5 4.293V2h1v4H2V5h2.293ZM10 2h1v2.293L14.646.646l.708.708L11.707 5H14v1h-4Zm-8 8h4v4H5v-2.293l-3.646 3.647-.708-.708L4.293 11H2Zm8 0h4v1h-2.293l3.647 3.646-.708.708L11 11.707V14h-1Z"/></symbol><use href="#fullscreen-exit-fill"/></svg>

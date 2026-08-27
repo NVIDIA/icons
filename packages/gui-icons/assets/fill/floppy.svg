@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Floppy</title><symbol id="floppy-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11.977 2 14 4.312V14H2V2ZM11 9H5v4h6ZM5 3v3h5V3Z"/></symbol><use href="#floppy-fill"/></svg>

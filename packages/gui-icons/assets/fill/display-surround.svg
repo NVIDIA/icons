@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Display Surround</title><symbol id="display-surround-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2.134 3.5H1v9h1.134l.116-.067C3.215 11.877 5.407 11 8 11s4.785.877 5.75 1.433l.116.067H15v-9h-1.134l-.116.067C12.785 4.123 10.593 5 8 5s-4.785-.877-5.75-1.433z"/></symbol><use href="#display-surround-fill"/></svg>

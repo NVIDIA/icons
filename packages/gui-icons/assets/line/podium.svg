@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Podium</title><symbol id="podium-line" viewBox="0 0 16 16"><path fill="currentColor" d="M11 2v1h2.151l-1.339 5H8.5v5H10v1H6v-1h1.5V8H4.188l-1.34-5H5V2ZM4.151 4l.804 3H7.5V5.5h1V7h2.544l.804-3Z"/></symbol><use href="#podium-line"/></svg>

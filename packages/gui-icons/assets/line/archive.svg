@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Archive</title><symbol id="archive-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 3h12v3h-1v7H3V6H2Zm2 3v6h8V6Zm9-1V4H3v1Zm-3 3H6V7h4Z"/></symbol><use href="#archive-line"/></svg>

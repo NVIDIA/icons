@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>SCM Pull Close</title><symbol id="scm-pull-close-line" viewBox="0 0 16 16"><path fill="currentColor" d="M9.646 2.354 11.293 4 9.646 5.646l.708.708L12 4.707l1.646 1.647.708-.708L12.707 4l1.647-1.646-.708-.708L12 3.293l-1.646-1.647zM6 2v4H4.5v4H6v4H2v-4h1.5V6H2V2ZM3 5h2V3H3Zm0 8h2v-2H3Zm7-3h1.5V7h1v3H14v4h-4Zm1 3h2v-2h-2Z"/></symbol><use href="#scm-pull-close-line"/></svg>

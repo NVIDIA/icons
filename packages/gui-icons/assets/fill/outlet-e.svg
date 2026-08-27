@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Outlet E</title><symbol id="outlet-e-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 8a6 6 0 1 1 12 0A6 6 0 0 1 2 8m7 1a1 1 0 1 0 2 0 1 1 0 0 0-2 0M6 8a1 1 0 1 0 0 2 1 1 0 0 0 0-2m2-3a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#outlet-e-fill"/></svg>

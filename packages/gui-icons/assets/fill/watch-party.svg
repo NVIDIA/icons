@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Watch Party</title><symbol id="watch-party-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M15 1H1v9h1V2h12v8h1z"/><path fill="currentColor" d="M7 3.254 9.992 5 7 6.745ZM4.5 7.5a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 4.5 7.5m7 0a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 11.5 7.5m-5 2.5a1.5 1.5 0 1 1 3.001.001A1.5 1.5 0 0 1 6.5 10m.11 2h2.78l.75 3H5.86zm4.311 2h2.719l-.75-3h-2.719zm-5.092-3H3.11l-.75 3h2.719z"/></symbol><use href="#watch-party-fill"/></svg>

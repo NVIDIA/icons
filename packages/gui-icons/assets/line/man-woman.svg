@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Man Woman</title><symbol id="man-woman-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 1a2 2 0 1 1 .001 3.999A2 2 0 0 1 4 1M3 3a1 1 0 1 0 2 0 1 1 0 0 0-2 0m8-2a2 2 0 1 1 .001 3.999A2 2 0 0 1 11 1m-1 2a1 1 0 1 0 2 0 1 1 0 0 0-2 0m-.338 3h2.676l2.401 6H13v3h-1v-4h1.261l-1.599-4h-1.324l-1.599 4H10v4H9v-3H7.261zM7 11V6H1v5h1v4h1v-5H2V7h4v3H5v5h1v-4z"/></symbol><use href="#man-woman-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bicycle</title><symbol id="bicycle-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7 5v1H5.955l-.338 1.263A2.5 2.5 0 0 1 6.95 9h.357l-.281-.842.949-.316L8.361 9h.689a2.5 2.5 0 0 1 2.601-1.995L11.92 6H11V5h3v1h-1.044l-.339 1.263A2.5 2.5 0 1 1 9.05 10h-.356l.281.842-.949.316L7.64 10h-.69a2.5 2.5 0 1 1-2.299-2.996L5.188 5Zm5.349 3.263-.366 1.366-.966-.258.366-1.367a1.5 1.5 0 1 0 .966.259M4.017 9.371l.366-1.366a1.499 1.499 0 1 0 .966.258l-.366 1.366Z"/></symbol><use href="#bicycle-line"/></svg>

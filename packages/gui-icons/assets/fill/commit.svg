@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Commit</title><symbol id="commit-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.5 2h-1v3H5v6h2.5v3h1v-3H11V5H8.5z"/></symbol><use href="#commit-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Segment</title><symbol id="segment-line" viewBox="0 0 16 16"><path fill="currentColor" d="m7 1.226 5.5 3.176-5 2.887v5.773L2 9.887V4.113Zm3.5 3.176L7 2.381 3.5 4.402 7 6.423ZM3 9.309l3.5 2.021V7.289L3 5.268Z"/><path fill="currentColor" d="M9.5 15.062V8.711L15 5.536v6.351Zm1-1.732 3.5-2.021V7.268l-3.5 2.021Z"/></symbol><use href="#segment-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Network Signal</title><symbol id="network-signal-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2.757 3.757A6 6 0 0 0 1 8c0 1.657.672 3.157 1.757 4.243l.707-.707A5 5 0 0 1 2 8c0-1.381.559-2.63 1.464-3.536zM15 8a6 6 0 0 0-1.757-4.243l-.707.707A5 5 0 0 1 14 8c0 1.381-.559 2.63-1.464 3.536l.707.707A6 6 0 0 0 15 8"/><path fill="currentColor" d="M4.172 5.172A4 4 0 0 0 3 8c0 1.104.448 2.105 1.172 2.828l.707-.707A3 3 0 0 1 4 8c0-.829.335-1.578.879-2.121zM13 8a4 4 0 0 0-1.172-2.828l-.707.707C11.665 6.422 12 7.171 12 8s-.335 1.578-.879 2.121l.707.707A4 4 0 0 0 13 8M8 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 8 6"/></symbol><use href="#network-signal-fill"/></svg>

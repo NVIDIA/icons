@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Pawprint</title><symbol id="pawprint-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6 3a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 6 3M3.5 6a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 3.5 6M10 3a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 10 3m2.5 3a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 12.5 6M8 7c-.715 0-1.321.243-1.892.798-.544.529-1.057 1.341-1.639 2.473-.328.638-.427 1.235-.285 1.774s.501.934.922 1.215c.821.547 1.996.74 2.894.74.856 0 2.042-.088 2.874-.587.436-.261.801-.652.943-1.215.139-.549.043-1.184-.273-1.9-.584-1.325-1.102-2.161-1.671-2.659C9.266 7.109 8.648 7 8 7"/></symbol><use href="#pawprint-fill"/></svg>

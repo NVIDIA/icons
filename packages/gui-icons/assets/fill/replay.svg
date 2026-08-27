@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Replay</title><symbol id="replay-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4 8c0 1.432.751 2.688 1.884 3.395l-.53.848a5 5 0 0 1 1.983-9.199l-.691-.69.708-.708L9.707 4H8a4 4 0 0 0-4 4"/><path fill="currentColor" d="M6 8a2 2 0 1 0 3.999.001A2 2 0 0 0 6 8"/><path fill="currentColor" d="M10.116 4.605A4 4 0 0 1 8 12H6.293l2.353 2.354.708-.708-.691-.69a5 5 0 0 0 1.983-9.199z"/></symbol><use href="#replay-fill"/></svg>

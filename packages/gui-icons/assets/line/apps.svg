@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Apps</title><symbol id="apps-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h3v3H2Zm4.5 0h3v3h-3ZM11 2h3v3h-3ZM2 6.5h3v3H2Zm4.5 0h3v3h-3Zm4.5 0h3v3h-3ZM2 11h3v3H2Zm4.5 0h3v3h-3Zm4.5 0h3v3h-3ZM3 3v1h1V3Zm4.5 0v1h1V3ZM12 3v1h1V3ZM3 7.5v1h1v-1Zm4.5 0v1h1v-1Zm4.5 0v1h1v-1ZM3 12v1h1v-1Zm4.5 0v1h1v-1Zm4.5 0v1h1v-1Z"/></symbol><use href="#apps-line"/></svg>

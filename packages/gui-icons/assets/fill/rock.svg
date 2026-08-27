@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Rock</title><symbol id="rock-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13.485 4.248 10.6 1.94 7.087 3.111 5.938 7.398l2.372.791 2.69 2.69v3.642l3.018-1.743z"/><path fill="currentColor" d="M4.461 7.96 7.77 9.063l2.23 2.23v2.475l-1.874 1.249-4.856-.539-1.806-1.806.585-3.505z"/></symbol><use href="#rock-fill"/></svg>

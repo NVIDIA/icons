@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Pin</title><symbol id="pin-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4.5 2h.954l-.422 4.84L4 7.116V10h3.5v5h1v-5H12V7.116l-1.032-.276L10.546 2h.954V1h-7z"/></symbol><use href="#pin-fill"/></svg>

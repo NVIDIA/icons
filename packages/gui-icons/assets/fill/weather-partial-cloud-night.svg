@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Weather Partial Cloud Night</title><symbol id="weather-partial-cloud-night-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4.545 3.036A2.99 2.99 0 0 1 7.621 4.55 3.5 3.5 0 0 1 9.5 4a3.5 3.5 0 0 1 3.399 2.678A3 3 0 0 1 11 12H6.5a2.5 2.5 0 0 1-2.416-3.145 2.98 2.98 0 0 1-1.78-1.541l-.099-.225a3.1 3.1 0 0 1-.2-.915l.815.256a1.498 1.498 0 0 0 1.462-2.532l-.629-.579c.28-.14.582-.24.892-.283m1.047 1.055a2.49 2.49 0 0 1-1.949 3.376c.248.23.573.404.9.48a2.5 2.5 0 0 1 1.487-.902c.09-.689.381-1.314.811-1.816a2 2 0 0 0-1.249-1.138"/></symbol><use href="#weather-partial-cloud-night-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Document New</title><symbol id="document-new-line" viewBox="0 0 16 16"><path fill="currentColor" d="M9.707 2 13 5.293V7h-1V6H9V3H4v10h3v1H3V2Zm1.586 3L10 3.707V5Z"/><path fill="currentColor" d="M11 11V8.5h1V11h2.5v1H12v2.5h-1V12H8.5v-1z"/></symbol><use href="#document-new-line"/></svg>

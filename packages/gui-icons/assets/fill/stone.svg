@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Stone</title><symbol id="stone-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11.848 4H11v8h.848l.804 3H3.348l.804-3H5V4h-.848l-.804-3h9.304ZM7.375 4H6.25v8h1.125Zm1.25 0v8H9.75V4Z"/></symbol><use href="#stone-fill"/></svg>

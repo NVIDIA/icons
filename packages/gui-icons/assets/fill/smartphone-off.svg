@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Smartphone Off</title><symbol id="smartphone-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M12 2.5v6.672L4.357 1.529A1.5 1.5 0 0 1 5.5 1h5A1.5 1.5 0 0 1 12 2.5M9 2H7v1h2ZM4 4.707 1.646 2.354l.708-.708 12 12-.708.708L12 12.707v.793a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 13.5V12h7.293l-1-1H4ZM8.5 13h-1v1h1Z"/></symbol><use href="#smartphone-off-fill"/></svg>

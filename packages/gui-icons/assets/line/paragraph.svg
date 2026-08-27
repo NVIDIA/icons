@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Paragraph</title><symbol id="paragraph-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10 4v9H9V4H7v9H6V8h-.5a2.5 2.5 0 1 1 0-5H12v1ZM6 4h-.5a1.5 1.5 0 0 0 0 3H6Z"/></symbol><use href="#paragraph-line"/></svg>

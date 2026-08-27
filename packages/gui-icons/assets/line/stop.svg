@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Stop</title><symbol id="stop-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 4h8v8H4Zm1 1v6h6V5Z"/></symbol><use href="#stop-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Add</title><symbol id="add-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 7.5V2h1v5.5H14v1H8.5V14h-1V8.5H2v-1Z"/></symbol><use href="#add-fill"/></svg>

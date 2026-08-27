@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Workspace Group</title><symbol id="workspace-group-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M12 3H2v3h10zM5 7H2v4h3zm1 4V7h6v4z"/><path fill="currentColor" d="M3 12v1h11V5h-1v7z"/></symbol><use href="#workspace-group-fill"/></svg>

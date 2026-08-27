@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Rotate 90 Counter</title><symbol id="rotate-90-counter-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M9.354 5.646 8.207 4.5H9.5A2.5 2.5 0 0 1 12 7h1a3.5 3.5 0 0 0-3.5-3.5H8.207l1.147-1.146-.708-.708L6.293 4l2.353 2.354zM5 7h6v6H5z"/></symbol><use href="#rotate-90-counter-fill"/></svg>

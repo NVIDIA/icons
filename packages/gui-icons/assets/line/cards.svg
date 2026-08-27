@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Cards</title><symbol id="cards-line" viewBox="0 0 16 16"><path fill="currentColor" d="m11.102 5.707.747 2.788-2.041 2.041-.909-.243-.747-2.788 2.041-2.041ZM9.266 7.803l.393 1.467 1.074-1.074-.393-1.467Z"/><path fill="currentColor" d="M15.288 3.723 12.44 14.348l-2.689-.721-7.214.631L1.579 3.3l5.673-.497.309-1.151Zm-9.35 7.847 5.795 1.553 2.329-8.693-5.794-1.553ZM2.662 4.208l.783 8.966 3.483-.303-2.215-.594 2.264-8.446Z"/></symbol><use href="#cards-line"/></svg>

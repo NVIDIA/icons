@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Physical Exit</title><symbol id="physical-exit-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 14h-3v-1h2V2H8V1h6z"/><path fill="currentColor" d="M10.117 6.17 8.718 8.272l-2.463-.659-.546 2.037 2.7.725.862 3.221-.965.258-.714-2.664-2.142-.574-.614 2.292-3.278.879-.261-.966 2.723-.73 1.23-4.59H3.376L2.324 9.082l-.832-.554 1.349-2.027h3.127l2.315.619 1.001-1.505z"/><path fill="currentColor" d="M6.514 3a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 6.514 3"/></symbol><use href="#physical-exit-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Shader</title><symbol id="shader-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 8a6 6 0 0 1 11.995-.246 4.5 4.5 0 0 0-6.241 6.241A6 6 0 0 1 2 8m2.645-.732c.391.391 1.182.233 1.768-.353s.744-1.377.354-1.768c-.391-.39-1.182-.232-1.768.354-.586.585-.744 1.377-.354 1.767"/><path fill="currentColor" d="M11 9.05V8h1v1.05a2.5 2.5 0 0 1 1.371.792l.911-.525.5.866-.91.525a2.5 2.5 0 0 1 0 1.584l.91.525-.5.866-.911-.525A2.5 2.5 0 0 1 12 13.95V15h-1v-1.05a2.5 2.5 0 0 1-1.371-.792l-.91.525-.5-.866.909-.525a2.5 2.5 0 0 1 0-1.584l-.909-.525.5-.866.91.525A2.5 2.5 0 0 1 11 9.05m.5.95a1.503 1.503 0 0 0-1.5 1.5 1.495 1.495 0 0 0 1.5 1.5 1.5 1.5 0 1 0 0-3"/></symbol><use href="#shader-fill"/></svg>

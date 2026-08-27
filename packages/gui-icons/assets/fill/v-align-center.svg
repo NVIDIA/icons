@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Vertical Align Center</title><symbol id="v-align-center-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4 8.5V13h3V8.5h1V11h3V8.5h3v-1h-3V5H8v2.5H7V3H4v4.5H2v1z"/></symbol><use href="#v-align-center-fill"/></svg>

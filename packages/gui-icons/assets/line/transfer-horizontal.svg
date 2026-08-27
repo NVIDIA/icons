@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Transfer Horizontal</title><symbol id="transfer-horizontal-line" viewBox="0 0 16 16"><path fill="currentColor" d="m6.854 1.854-.708-.708L2.793 4.5l3.353 3.354.708-.708L4.707 5H12V4H4.707zM4 11h7.293L9.146 8.854l.708-.708 3.353 3.354-3.353 3.354-.708-.708L11.293 12H4z"/></symbol><use href="#transfer-horizontal-line"/></svg>

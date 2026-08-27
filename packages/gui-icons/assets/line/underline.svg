@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Underline</title><symbol id="underline-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5.5 3v6.5a2.5 2.5 0 1 0 5 0V3h1v6.5a3.5 3.5 0 1 1-7 0V3ZM14 14v1H2v-1Z"/></symbol><use href="#underline-line"/></svg>

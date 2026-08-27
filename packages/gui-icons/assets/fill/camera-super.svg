@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Camera Super</title><symbol id="camera-super-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6 8a2 2 0 1 1 3.999-.001A2 2 0 0 1 6 8"/><path fill="currentColor" d="M6.191 2h3.618l1 2H14v5h-3v4H2V4h3.191ZM8 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6"/><path fill="currentColor" d="M13 10a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1v1h-1v-.01h-1V15h2a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1h-1v-1h1v.01h1V10z"/></symbol><use href="#camera-super-fill"/></svg>

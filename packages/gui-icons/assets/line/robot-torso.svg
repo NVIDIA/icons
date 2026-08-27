@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Robot Torso</title><symbol id="robot-torso-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10 5H6V4h4z"/><path fill="currentColor" d="M9.136 2H12v2h1v1h-1v2H8.5v1h2.383l.268 1h1.484a1 1 0 0 1 .527-.441l.587-2.189.966.26-.567 2.11A1 1 0 1 1 12.635 10h-1.216l.804 3H8.5v1H10v1H6v-1h1.5v-1H3.776l.804-3H3.365a1 1 0 1 1-1.572-1.208l-.58-2.162.967-.26.579 2.165c.258.069.475.239.606.465h1.483l.268-1H7.5V7H4V5H3V4h1V2h2.864l.242-1h1.788ZM5 6h6V3H5Zm.08 6h5.84l-.804-3H5.883Z"/></symbol><use href="#robot-torso-line"/></svg>

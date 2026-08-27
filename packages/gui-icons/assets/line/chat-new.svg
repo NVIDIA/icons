@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chat New</title><symbol id="chat-new-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h12v5.5h-1V3H3v8h2.349l.412 1.536.889-.89.707.708-2.114 2.113L4.582 12H2z"/><path fill="currentColor" d="M11 11V8.5h1V11h2.5v1H12v2.5h-1V12H8.5v-1z"/></symbol><use href="#chat-new-line"/></svg>

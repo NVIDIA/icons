@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Layout Columns</title><symbol id="layout-columns-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M9.333 2H6.667v12h2.666zm1 12H13V2h-2.667zM3 2h2.667v12H3z"/></symbol><use href="#layout-columns-fill"/></svg>

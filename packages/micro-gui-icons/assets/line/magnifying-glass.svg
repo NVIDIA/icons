@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><title>Magnifying Glass</title><symbol id="magnifying-glass-line" viewBox="0 0 12 12"><path fill="currentColor" d="M6.596 7.303a3.5 3.5 0 1 1 .707-.707l3.551 3.55-.708.708ZM4.5 7a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/></symbol><use href="#magnifying-glass-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Lasso</title><symbol id="lasso-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10.779 3.843a5 5 0 0 0-1.802-.748l.195-.981a6 6 0 0 1 2.162.897zm-3.754-.747a5 5 0 0 0-1.803.746l-.555-.832a6 6 0 0 1 2.163-.895zM3.844 5.222a5 5 0 0 0-.748 1.802l-.981-.195a6 6 0 0 1 .897-2.162zm-.747 3.753c.127.64.378 1.254.746 1.804l-.832.555a6 6 0 0 1-.895-2.164zm2.126 3.182a5 5 0 0 0 1.802.748l-.195.981a6 6 0 0 1-2.162-.897zM14.207 9.5l-4.5 4.5H8v-1.707l4.5-4.5ZM9 13h.293l3.5-3.5-.293-.293-3.5 3.5Z"/></symbol><use href="#lasso-line"/></svg>

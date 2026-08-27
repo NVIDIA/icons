@@ -1,0 +1,93 @@
+# Releasing
+
+Maintainer reference for publishing the `@nvidia` icon packages to npm.
+Contributors do not need this; see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+Releases run from [`.github/workflows/release.yml`](./.github/workflows/release.yml),
+triggered by pushing a `v*.*.*` tag and gated on the `npm-publish` environment.
+
+## How authentication works
+
+The workflow uses npm Trusted Publishing (OIDC). There is no `NPM_TOKEN` in
+this repository or in anyone's custody. GitHub mints a short-lived token
+describing the workflow itself, npm validates it against a trusted publisher
+registered on each package, and issues a credential scoped to that single run.
+
+The same token is what Sigstore's Fulcio CA signs the provenance attestation
+against. Fulcio only issues certificates to OIDC issuers it recognises, which
+is why provenance is available on GitHub Actions and is not available from a
+self-hosted CI runner.
+
+## One-time setup
+
+None of this lives in the repository, so it is easy to miss.
+
+1. **Create the `npm-publish` environment** (Settings, then Environments) with
+   required reviewers. This is the human approval gate. It also narrows the
+   OIDC subject claim to `repo:NVIDIA/icons:environment:npm-publish`, so a
+   workflow running on any other ref cannot mint a publish credential.
+
+2. **Register a trusted publisher on each of the four packages** at
+   npmjs.com, under the package's Settings:
+
+   | Field | Value |
+   |---|---|
+   | Repository | `NVIDIA/icons` |
+   | Workflow | `release.yml` |
+   | Environment | `npm-publish` |
+
+   All three must match the workflow exactly or npm refuses the exchange.
+
+3. **Bootstrap.** A trusted publisher cannot be registered for a package name
+   that has never been published; npm's CLI reference states that the package
+   must already exist. This workflow therefore cannot perform a package's
+   first publish.
+
+   Provenance and Trusted Publishing are separate npm features: `--provenance`
+   has worked with a plain token plus `id-token: write` since npm 9.5.0, long
+   before Trusted Publishing existed. So the fix for "a laptop publish can't
+   be attested" is not a throwaway hand-seeded version — it's a **CI**
+   publish authenticated with a short-lived token instead of OIDC. Bootstrap
+   with a real release candidate, not a version nobody will ever install:
+
+   | Step | Action |
+   |---|---|
+   | 1 | Create the `npm-publish` environment with required reviewers (see above), before doing anything else on npm |
+   | 2 | Bump all four manifests to `X.Y.Z-rc.1`; land on `main` |
+   | 3 | Mint a short-lived, `@nvidia`-scope granular token; store it as an **environment secret on `npm-publish` only** (`NPM_BOOTSTRAP_TOKEN`), never a repo secret |
+   | 4 | Dispatch [`bootstrap-publish.yml`](./.github/workflows/bootstrap-publish.yml) with `dry_run: true` first, inspect the output, then again with `dry_run: false` |
+   | 5 | Approve the `npm-publish` environment when prompted; it publishes `X.Y.Z-rc.1` for all four, public, attested, on the `next` dist-tag |
+   | 6 | Register the trusted publisher on each package (Repository/Workflow/Environment as above) — now possible, since the names exist |
+   | 7 | Delete the token at npmjs.com, delete the `NPM_BOOTSTRAP_TOKEN` environment secret, and open a PR removing `bootstrap-publish.yml` |
+   | 8 | Promote to `X.Y.Z`, tag `vX.Y.Z`, and let `release.yml` publish GA under pure OIDC |
+
+   `bootstrap-publish.yml` refuses to publish anything without a prerelease
+   identifier in the version — GA can only ever go out through `release.yml`
+   under OIDC, which is the entire point of this sequence: the version
+   everyone actually installs is published with **zero credentials in
+   existence**, and the pipeline (environment gate, dist-tag handling,
+   provenance) has already been exercised once on the real scope before GA
+   depends on it.
+
+   No version is ever unpublished, no npm org plan requirement applies (this
+   never uses `--access restricted`), and there is no 72-hour clock.
+
+## Cutting a release
+
+1. Land the version bump and changelog entries on `main`.
+2. Tag the merged commit `vX.Y.Z` and push the tag.
+3. The `verify` job re-runs the full gate against the tagged tree and refuses
+   any tag that is not an ancestor of `main`.
+4. Approve the `npm-publish` environment when prompted.
+5. The `publish` job publishes every package whose version matches the tag,
+   in dependency order, and skips any version already on the registry.
+
+Packages version independently, so a tag publishes only the packages that sit
+at that version. A tag matching no package fails the run rather than
+succeeding silently having published nothing.
+
+Dist-tag is derived from the version, not fixed: anything with a prerelease
+identifier (`-rc.1`, `-beta.2`, ...) publishes to `next`; everything else
+publishes to `latest`. This matters because packages can be mid-prerelease
+independently of each other — a `latest` install must never resolve to an
+unfinished release.

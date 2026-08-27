@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Payment Card</title><symbol id="payment-card-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 3h14v10H1Zm13 4.5H2V12h12ZM2 4v1h12V4Zm12 2H2v.5h12Zm-5 4H3V9h6Zm4 0h-2V9h2Z"/></symbol><use href="#payment-card-line"/></svg>

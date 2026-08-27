@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chart Bubble</title><symbol id="chart-bubble-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5m5 0a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 10 3.5m3.5 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2M4 9.5a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 4 9.5m5.5-2a3 3 0 1 0 0 6 3 3 0 0 0 0-6"/></symbol><use href="#chart-bubble-fill"/></svg>

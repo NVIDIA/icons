@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>3D Axis</title><symbol id="3d-axis-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10.354 4.646 8 2.293 5.647 4.646l.707.708L7.5 4.207v4.504l-3.901 2.252.42-1.566-.966-.258-.862 3.215 3.215.861.259-.966-1.566-.42L8 9.577l3.901 2.252-1.566.42.259.966 3.215-.861-.862-3.215-.966.258.42 1.566L8.5 8.711V4.207l1.147 1.147z"/></symbol><use href="#3d-axis-line"/></svg>

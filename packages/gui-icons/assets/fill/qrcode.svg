@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Qrcode</title><symbol id="qrcode-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2.5 2.5h2v2h-2z"/><path fill="currentColor" d="M6 1v5H1V1ZM2 5h3V2H2Zm5 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0M2 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2m6 3a1 1 0 1 0 0 2 1 1 0 0 0 0-2M7 8a1 1 0 1 1 2 0 1 1 0 0 1-2 0m7-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0 3a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-4 1a1 1 0 1 1 2 0 1 1 0 0 1-2 0m1 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-8.5-1.5h2v2h-2z"/><path fill="currentColor" d="M6 10v5H1v-5Zm-4 4h3v-3H2Zm9.5-11.5h2v2h-2z"/><path fill="currentColor" d="M15 1v5h-5V1Zm-4 4h3V2h-3Z"/></symbol><use href="#qrcode-fill"/></svg>

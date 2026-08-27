@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Anchor N</title><symbol id="anchor-n-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3 3h10v10H3Zm3 1H4v8h8V4h-2v3H6Zm3 0H7v2h2ZM7 9v1H6V9Zm3 0v1H9V9Z"/></symbol><use href="#anchor-n-line"/></svg>

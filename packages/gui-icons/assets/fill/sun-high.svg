@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sun High</title><symbol id="sun-high-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 2v2h1V2zM3.404 4.111l1.414 1.414.707-.707-1.414-1.414zm7.071.707.707.707 1.414-1.414-.707-.707zM8 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6M2 8.5h2v-1H2zm10 0h2v-1h-2zm-8.596 3.389.707.707 1.414-1.414-.707-.707zm7.071-.707 1.414 1.414.707-.707-1.414-1.414zM8.5 14v-2h-1v2z"/></symbol><use href="#sun-high-fill"/></svg>

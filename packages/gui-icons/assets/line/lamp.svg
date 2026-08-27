@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Lamp</title><symbol id="lamp-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.849 8.5 1.875-7h6.66l1.876 7H11V11h-1V8.5H8.5V14H10v1H6v-1h1.5V8.5Zm1.303-1h7.804l-1.339-5H5.492Z"/></symbol><use href="#lamp-line"/></svg>

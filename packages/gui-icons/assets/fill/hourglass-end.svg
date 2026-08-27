@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Hourglass End</title><symbol id="hourglass-end-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13 1H3v2h10zM5.521 8l-2.31-4h9.578l-2.31 4 2.31 4H3.211Zm5.536-3H4.943l1.732 3h2.65ZM3 15v-2h10v2z"/></symbol><use href="#hourglass-end-fill"/></svg>

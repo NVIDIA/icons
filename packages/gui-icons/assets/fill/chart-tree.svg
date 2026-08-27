@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chart Tree</title><symbol id="chart-tree-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 2H2v3h1.5v8H8v1h3v-3H8v1H4.5V9H8v1h3V7H8v1H4.5V5H14z"/></symbol><use href="#chart-tree-fill"/></svg>

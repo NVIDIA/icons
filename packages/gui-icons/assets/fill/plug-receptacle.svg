@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Plug Receptacle</title><symbol id="plug-receptacle-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m11.099 2.392.901.901 1.646-1.647.708.708L12.707 4l.901.901-1.197 2.395-.704.704.647.646-.707.708-5-5 .707-.708.646.647.704-.704zM7.146 6.146 5.5 7.793 4.354 6.646l-.708.707.647.647-.704.704-1.197 2.395.901.901-1.647 1.646.708.708L4 12.707l.901.901 2.395-1.197.704-.704.646.647.708-.708L8.207 10.5l1.647-1.647-.708-.707L7.5 9.793 6.207 8.5l1.647-1.647z"/></symbol><use href="#plug-receptacle-fill"/></svg>

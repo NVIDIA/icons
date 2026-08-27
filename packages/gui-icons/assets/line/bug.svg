@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bug</title><symbol id="bug-line" viewBox="0 0 16 16"><path fill="currentColor" d="m5.985 3.778-.576-2.149.966-.258.496 1.849C7.22 3.078 7.601 3 8 3s.78.078 1.129.22l.496-1.849.966.258-.576 2.149C10.62 4.326 11 5.118 11 6h1.616l.548-2.044.966.259L13.383 7H11v1.5h3v1h-3V11h2.384l.746 2.785-.966.259L12.616 12h-1.787a3 3 0 0 1-5.658 0H3.383l-.547 2.044-.966-.259L2.616 11H5V9.5H2v-1h3V7H2.616L1.87 4.215l.966-.259L3.383 6H5c0-.882.381-1.674.985-2.222M8 4a2 2 0 0 0-2 2v5q0 .207.04.401A2 2 0 0 0 10 11V6a2 2 0 0 0-2-2m.5 7.5h-1v-5h1Z"/></symbol><use href="#bug-line"/></svg>

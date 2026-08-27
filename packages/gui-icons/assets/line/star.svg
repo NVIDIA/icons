@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Star</title><symbol id="star-line" viewBox="0 0 16 16"><path fill="currentColor" d="m8 1.37 2.186 4.43 4.889.71-3.538 3.448.835 4.869L8 12.528l-4.372 2.299.835-4.869L.926 6.51l4.888-.71Zm0 2.26L6.478 6.714l-3.403.494 2.462 2.401-.581 3.39L8 11.398l3.044 1.601-.581-3.39 2.462-2.401-3.403-.494Z"/></symbol><use href="#star-line"/></svg>

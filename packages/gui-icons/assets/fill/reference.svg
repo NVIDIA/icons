@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Reference</title><symbol id="reference-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6.5 12.276v-1.082h1v1.082l.938-.541.5.866L7 13.72l-1.938-1.119.5-.866ZM3 6.214v1.083H2V5.059l1.938-1.118.5.866-.938.541.938.541-.5.866Zm2.562.325L7.5 7.657v2.238h-1v-1.66l-1.438-.83ZM7 2.173l1.938 1.118-.5.866L7 3.327l-1.438.83-.5-.866Zm-4 8.083 1.438.829-.5.866L2 10.833V8.596h1Zm8 0v-1.66h1v2.237l-1.938 1.118-.5-.866ZM11 2h4v4h-1V3.707l-3.646 3.647-.708-.708L13.293 3H11Z"/></symbol><use href="#reference-fill"/></svg>

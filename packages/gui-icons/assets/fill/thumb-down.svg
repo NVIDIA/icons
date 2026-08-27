@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Thumb Down</title><symbol id="thumb-down-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11.5 11H14V3h-2.5zm-1-7.518L8.7 3H3.1L1.719 8.152 2.482 11h4.366l-.587 2.191a1.438 1.438 0 0 0 2.633 1.09L10.5 11.5z"/></symbol><use href="#thumb-down-fill"/></svg>

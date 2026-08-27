@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>FPS</title><symbol id="fps-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 3h12v8H8.902l.268 1H11v1H5v-1h1.831l.268-1H2Zm5 2v4h1V8a1.5 1.5 0 0 0 0-3ZM4 5v4h1V7.5h1v-1H5V6h1.5V5Zm7.114 1.098c.067-.037.263-.1.662.099l.448-.894c-.601-.301-1.155-.319-1.588-.083A1.2 1.2 0 0 0 10 6.25c0 .629.437.954.671 1.129l.029.021c.276.207.3.255.3.35 0 .022-.025.103-.114.152-.067.037-.263.1-.662-.099l-.448.894c.601.301 1.155.319 1.588.083.411-.223.636-.642.636-1.03 0-.629-.437-.954-.671-1.129L11.3 6.6c-.276-.207-.3-.255-.3-.35 0-.022.025-.103.114-.152M8 7V6a.5.5 0 0 1 0 1m0 4.5-.134.5h.268Z"/></symbol><use href="#fps-fill"/></svg>

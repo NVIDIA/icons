@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Microphone Off</title><symbol id="microphone-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13 8c0 .645-.122 1.261-.344 1.827l-.792-.791C11.953 8.706 12 8.358 12 8zm-2 0q0 .084-.005.167l-5.62-5.62A3 3 0 0 1 11 4zm-.547 3.16A4 4 0 0 1 4 8H3a5 5 0 0 0 3.45 4.755L5.848 15h4.303l-.599-2.245a5 5 0 0 0 1.612-.884l2.482 2.483.708-.708-12-12-.708.708L5 5.707V8a3 3 0 0 0 4.738 2.445z"/></symbol><use href="#microphone-off-fill"/></svg>

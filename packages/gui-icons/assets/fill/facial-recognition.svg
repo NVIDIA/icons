@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Facial Recognition</title><symbol id="facial-recognition-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 14h2v1H1v-3h1zm13 1h-3v-1h2v-2h1zM8.001 3c1.442 0 2.473.51 3.13 1.334.641.805.876 1.847.876 2.833 0 2.273-.347 3.755-1.069 4.665C10.184 12.781 9.114 13 8.001 13s-2.183-.219-2.938-1.168c-.723-.91-1.07-2.391-1.07-4.665C3.993 7.129 4 7 4 7h1V6h-.887c.074-.345.184-.682.339-1H6V3.425C6.548 3.152 7.213 3 8.001 3M6.5 7h1V6h-1Zm2 0h1V6h-1Zm-2 2h1V8h-1Zm2 0h1V8h-1Zm-1 2h1v-1h-1ZM4 2H2v2H1V1h3zm11 2h-1V2h-2V1h3z"/></symbol><use href="#facial-recognition-fill"/></svg>

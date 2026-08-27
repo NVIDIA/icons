@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Export</title><symbol id="export-line" viewBox="0 0 16 16"><path fill="currentColor" d="M3 5h2v1H4v6h8V6h-1V5h2v8H3Zm5.5 4h-1V2h1Z"/><path fill="currentColor" d="m8 1.293 2.354 2.353-.708.708L8 2.707 6.354 4.354l-.708-.708Z"/></symbol><use href="#export-line"/></svg>

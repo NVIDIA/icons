@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Moon</title><symbol id="moon-line" viewBox="0 0 16 16"><path fill="currentColor" d="m7.311 2.946 1.004.063a5 5 0 1 1-4.48 7.76l-.556-.839 1.004.063a4 4 0 0 0 3.584-6.209Zm1.882 1.235A4.99 4.99 0 0 1 8.866 8.5a5 5 0 0 1-3.576 2.443q.318.294.71.521a4 4 0 1 0 3.193-7.283"/></symbol><use href="#moon-line"/></svg>

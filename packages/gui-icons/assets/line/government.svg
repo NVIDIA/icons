@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Government</title><symbol id="government-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 1H10v2H8.5v1.031A4 4 0 0 1 12 8v3h1v2h1v1H2v-1h1v-2h1V8a4 4 0 0 1 3.5-3.969ZM8 5a3 3 0 0 0-2.959 2.5h5.917A3 3 0 0 0 8 5m4 7H4v1h8ZM5 8.5V11h.75V8.5Zm1.75 0V11h.75V8.5Zm1.75 0V11h.75V8.5Zm1.75 0V11H11V8.5Z"/></symbol><use href="#government-line"/></svg>

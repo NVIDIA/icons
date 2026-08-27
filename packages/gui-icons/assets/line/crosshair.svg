@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Crosshair</title><symbol id="crosshair-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 2.021V1h1v1.021A6 6 0 0 1 13.979 7.5H15v1h-1.021A6 6 0 0 1 8.5 13.979V15h-1v-1.021A6 6 0 0 1 2.021 8.5H1v-1h1.021A6 6 0 0 1 7.5 2.021m0 1.004A5 5 0 0 0 3.025 7.5H4v1h-.975A5 5 0 0 0 7.5 12.975V12h1v.975A5 5 0 0 0 12.975 8.5H12v-1h.975A5 5 0 0 0 8.5 3.025V4h-1ZM6 8a2 2 0 1 1 3.999-.001A2 2 0 0 1 6 8m2-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#crosshair-line"/></svg>

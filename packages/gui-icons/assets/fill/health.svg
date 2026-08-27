@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Health</title><symbol id="health-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10 3H6v3H3v4h3v3h4v-3h3V6h-3z"/></symbol><use href="#health-fill"/></svg>

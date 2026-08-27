@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fullscreen</title><symbol id="fullscreen-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6 2v1H3.707l3.647 3.646-.708.708L3 3.707V6H2V2zm6.293 1H10V2h4v4h-1V3.707L9.354 7.354l-.708-.708zM3 12.293V10H2v4h4v-1H3.707l3.647-3.646-.708-.708zm5.646-2.939L12.293 13H10v1h4v-4h-1v2.293L9.354 8.646z"/></symbol><use href="#fullscreen-fill"/></svg>

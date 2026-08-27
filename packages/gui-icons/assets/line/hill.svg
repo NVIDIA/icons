@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Hill</title><symbol id="hill-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8.356 5.936a1.5 1.5 0 0 1 2.233.124L14.54 11H1.293l3.146-3.146a1.5 1.5 0 0 1 2.122 0L8.707 10h3.753L9.808 6.685a.5.5 0 0 0-.744-.041l-1.21 1.21-.707-.708ZM7.293 10 5.854 8.561a.5.5 0 0 0-.707 0L3.707 10Z"/></symbol><use href="#hill-line"/></svg>

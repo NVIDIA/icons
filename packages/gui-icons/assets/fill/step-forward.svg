@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Step Forward</title><symbol id="step-forward-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3 3.5v9h1v-9zM13.492 8 6 3.629v8.741z"/></symbol><use href="#step-forward-fill"/></svg>

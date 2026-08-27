@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Business</title><symbol id="business-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1 2h7v3h6v9H5.5v-2h-2v2H1Zm3 2H3v1h1Zm2 0H5v1h1ZM4 6H3v1h1Zm1 0v1h1V6Zm4 1v1h1V7Zm2 0v1h1V7ZM4 8H3v1h1Zm1 0v1h1V8Zm4 1v1h1V9Zm3 0h-1v1h1Zm-3 2v1h1v-1Zm3 0h-1v1h1Z"/></symbol><use href="#business-fill"/></svg>

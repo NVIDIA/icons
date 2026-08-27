@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Italic</title><symbol id="italic-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.55 4H7.2V3h4v1H9.585l-2.143 8H8.79v1h-4v-1h1.616Z"/></symbol><use href="#italic-fill"/></svg>

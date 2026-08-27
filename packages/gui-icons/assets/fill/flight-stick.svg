@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Flight Stick</title><symbol id="flight-stick-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M9.631 2.378 7.04.882 3.842 2.161V3.36l1.592.531.83 2.905 1.44.721L7.208 9.5h-.175L1 11.116v1.591L2.293 14h11.414L15 12.707v-1.591l-1.682-.45a2 2 0 0 0-2.975-.797l-.839-.225.644-2.611z"/></symbol><use href="#flight-stick-fill"/></svg>

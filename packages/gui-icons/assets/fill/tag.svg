@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Tag</title><symbol id="tag-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.293 2h3.414L14 4.293v3.414l-6.5 6.5L1.793 8.5ZM10.5 6.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/></symbol><use href="#tag-fill"/></svg>

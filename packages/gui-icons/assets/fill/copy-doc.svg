@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Copy Doc</title><symbol id="copy-doc-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.707 2 11 4.293V12H3V2ZM8 2.707V5h2.293Z"/><path fill="currentColor" d="M13 14V5h-1v8H6v1z"/></symbol><use href="#copy-doc-fill"/></svg>

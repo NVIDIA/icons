@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Collection</title><symbol id="collection-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5.773 4.455a1.319 1.319 0 1 0 0 2.637 1.319 1.319 0 0 0 0-2.637"/><path fill="currentColor" d="M12 2v10H2V2ZM3 7.211l2.8 1.617 2.85-1.645L11 8.54V3H3Z"/><path fill="currentColor" d="M13 4v9H4v1h10V4z"/></symbol><use href="#collection-fill"/></svg>

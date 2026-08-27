@@ -1,0 +1,548 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
+# Every gate this project enforces. Contributors can reproduce all of them
+# locally — see CONTRIBUTING.md for the equivalent npm commands. Releases are
+# handled separately, by release.yml.
+#
+# `internal-ref-scan` below checks a public-safe subset of patterns. A few
+# internal patterns are credential-shaped and are deliberately not committed
+# here as literals: writing them into a public repo would defeat the point of
+# scanning for them.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Least privilege: no job in this workflow writes to the repo. Anything that
+# needs more must elevate explicitly at the job level.
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - run: npm run build
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: dist
+          path: packages/*/dist
+          retention-days: 1
+
+  lint-format:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - run: npx biome check .
+
+  typecheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: build
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: dist
+          path: packages
+      - run: npx tsc --noEmit -p tsconfig.json
+
+  license-headers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - run: node ./scripts/verify-license-headers.mjs
+
+  reuse-lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: fsfe/reuse-action@bb774aa972c2a89ff34781233d275075cbddf542 # v5.0.0
+
+  # Also proves THIRD_PARTY_NOTICES isn't stale: verify:packaging must run
+  # FIRST against the committed files, then generate-notices regenerates
+  # them, then the diff must be empty. Reversing the order would validate
+  # freshly written files instead of committed ones and make this a
+  # tautology.
+  verify-packaging:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - run: npm run verify:packaging
+      - run: npm run generate-notices
+      - run: |
+          git diff --exit-code -- THIRD_PARTY_NOTICES 'packages/*/THIRD_PARTY_NOTICES' || {
+            echo "FAIL: THIRD_PARTY_NOTICES is stale — run 'npm run generate-notices' and commit the result."
+            exit 1
+          }
+
+  # There is deliberately no `license-check` job here. One existed, running
+  # `npx license-checker --production`, and it asserted nothing: no manifest in
+  # this repo declares runtime dependencies, so `--production` narrowed the
+  # tree to the root package (which the job then excluded by name) plus the
+  # four first-party workspaces. There was no third-party license for it to
+  # fail on, and by design there never will be. It also reached the network for
+  # an unpinned tool on every run, in a pipeline that otherwise resolves
+  # everything from the lockfile or a commit SHA.
+  #
+  # What that job was reaching for is now asserted directly, offline, by
+  # verify-packaging (see the FORBIDDEN_DEP_FIELDS check in
+  # scripts/verify-packaging.mjs): the published packages declare no runtime
+  # dependencies at all, which is the claim THIRD_PARTY_NOTICES makes and the
+  # stronger of the two guarantees. Adding a runtime dependency fails that gate
+  # and forces the notices to be updated in the same change.
+  #
+  # Note this covers *runtime* licensing only. devDependency licenses are not
+  # scanned by anything here, on the grounds that build-time tooling is not
+  # distributed in the tarballs. If that policy changes, a license scanner
+  # belongs in root devDependencies — not behind `npx`.
+
+  # Supported-Node matrix: proves the toolchain and tests actually RUN on
+  # every Node line the published `engines.node` (">=22") claims to support,
+  # not just the single version (.nvmrc) every other job is pinned to.
+  #
+  # Deliberately self-contained (no artifacts in or out) rather than
+  # matrixing `build`/`typecheck`/etc: those jobs share a `dist` artifact
+  # under a fixed name, and `upload-artifact@v4` errors on duplicate names —
+  # matrixing `build` would collide. What this job needs to prove —
+  # build/typecheck/test/pack all RUN on both lines — is fully exercised by
+  # its own from-scratch install+build. What genuinely isn't Node-sensitive
+  # (grep/fs/JSON.parse jobs like bundle-treeshake, cdn-free,
+  # verify-packaging) deliberately stays single-version.
+  node-matrix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ["22", "24"]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - run: npm ci --prefer-offline
+      - run: npm run build
+      - run: npm run typecheck
+      - run: npm run test
+      - run: npm run test:react-compat
+      # Tree-shake boundary, mirrored from bundle-treeshake below, so it's
+      # proven on both supported Node lines and not just the pinned default.
+      # Unlike that job's `grep -l ... 2>/dev/null`, this asserts the file
+      # exists first — a missing dist file must FAIL, not silently pass.
+      - run: |
+          set -e
+          for f in packages/react-gui-icons/dist/icons/Gpu.mjs \
+                   packages/react-micro-gui-icons/dist/icons/Add.mjs; do
+            test -f "$f" || { echo "FAIL: $f not built"; exit 1; }
+            ! grep -q "inlineMap" "$f" || { echo "FAIL: $f references inlineMap — tree-shaking boundary broken"; exit 1; }
+            echo "✓ Tree-shake test passed: $f does not reference inlineMap"
+          done
+
+  react-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    needs: build
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: dist
+          path: packages
+      - run: npm run test -w @nvidia/react-gui-icons
+      - run: npm run test -w @nvidia/react-micro-gui-icons
+      - run: npm run test:react-compat
+
+  pack-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    needs: build
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: dist
+          path: packages
+      - run: |
+          fail=0
+          for pkg in gui-icons micro-gui-icons react-gui-icons react-micro-gui-icons; do
+            dir="packages/$pkg"
+            echo "── $pkg ──"
+            # npm pack's tarball listing has an occasional, narrowly-scoped
+            # flake on this runner class: a files-array-only entry (NOTICE or
+            # THIRD_PARTY_NOTICES) is absent from an otherwise-successful
+            # pack, while LICENSE — always-included by npm via a separate
+            # code path, not the files-array walk — never drops. Not
+            # reproducible locally, and not something we can pin our way out
+            # of from this repo. Retry the whole pack+verify a few times
+            # before treating it as a real defect, rather than failing the
+            # pipeline on tool flakiness; a genuine regression fails every
+            # attempt identically, so this can't mask one.
+            attempt=1
+            max_attempts=3
+            pkg_ok=0
+            while [ "$attempt" -le "$max_attempts" ]; do
+              pkg_fail=0
+              packdir=$(mktemp -d)
+              (cd "$dir" && npm pack --pack-destination "$packdir" >/dev/null 2>&1)
+              tgz=$(echo "$packdir"/*.tgz)
+              files=$(tar -tzf "$tgz")
+              for required in LICENSE NOTICE THIRD_PARTY_NOTICES; do
+                echo "$files" | grep -q "package/$required" || { echo "MISSING: $required in $pkg (attempt $attempt/$max_attempts)"; pkg_fail=1; }
+              done
+              echo "$files" | grep -q 'package/dist/' || { echo "MISSING: dist/ in $pkg (attempt $attempt/$max_attempts)"; pkg_fail=1; }
+              if echo "$pkg" | grep -qv "^react-"; then
+                echo "$files" | grep -q 'package/assets/' || { echo "MISSING: assets/ in $pkg (attempt $attempt/$max_attempts)"; pkg_fail=1; }
+              fi
+              license_body=$(tar -xzOf "$tgz" package/LICENSE 2>/dev/null)
+              echo "$license_body" | grep -q "Apache License" \
+                || { echo "MISSING: Apache-2.0 text in $pkg LICENSE (attempt $attempt/$max_attempts)"; pkg_fail=1; }
+              echo "$license_body" | grep -q "Creative Commons Attribution 4.0 International" \
+                || { echo "MISSING: CC-BY-4.0 text in $pkg LICENSE (attempt $attempt/$max_attempts)"; pkg_fail=1; }
+              if echo "$license_body" | grep -qi "provisional"; then
+                echo "STALE: provisional stub LICENSE in $pkg"; pkg_fail=1
+              fi
+              license_field=$(tar -xzOf "$tgz" package/package.json 2>/dev/null | node -e "
+                const chunks=[]; process.stdin.on('data',c=>chunks.push(c));
+                process.stdin.on('end',()=>{
+                  process.stdout.write(String(JSON.parse(chunks.join('')).license || ''));
+                });
+              ")
+              if [ "$license_field" != "CC-BY-4.0 AND Apache-2.0" ]; then
+                echo "WRONG: $pkg package.json license is '$license_field'"; pkg_fail=1
+              fi
+              rm -rf "$packdir"
+              if [ "$pkg_fail" -eq 0 ]; then
+                pkg_ok=1
+                break
+              fi
+              attempt=$((attempt + 1))
+              [ "$attempt" -le "$max_attempts" ] && sleep 2
+            done
+            if [ "$pkg_ok" -eq 1 ]; then
+              if [ "$attempt" -gt 1 ]; then
+                echo "  ✓ $pkg pack contents validated (recovered after retry $((attempt - 1)))"
+              else
+                echo "  ✓ $pkg pack contents validated"
+              fi
+            else
+              echo "  ✗ $pkg pack contents FAILED after $max_attempts attempts"
+              fail=1
+            fi
+          done
+          exit $fail
+
+  bundle-treeshake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: build
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: dist
+          path: packages
+      # Assert each file exists before grepping it. Writing this as
+      # `if grep -l ... 2>/dev/null` passes silently on a missing file: grep
+      # exits 2, the redirect hides the error, and `if` reads non-zero as
+      # "no match". `set -e` does not catch it either, because the failure is
+      # inside an `if` condition. Same guard as node-matrix above.
+      - run: |
+          set -e
+          for f in packages/react-gui-icons/dist/icons/Gpu.mjs \
+                   packages/react-micro-gui-icons/dist/icons/Add.mjs; do
+            test -f "$f" || { echo "FAIL: $f not built"; exit 1; }
+            ! grep -q "inlineMap" "$f" || { echo "FAIL: $f references inlineMap — tree-shaking boundary broken"; exit 1; }
+            echo "✓ Tree-shake test passed: $f does not reference inlineMap"
+          done
+
+  cdn-free:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - run: |
+          set -e
+          fail=0
+          for pkg in react-gui-icons react-micro-gui-icons; do
+            echo "── $pkg ──"
+            # Assert the scan targets exist first. `if grep ... ; then` on a
+            # missing path passes silently: grep exits 2, `if` reads non-zero
+            # as "no match", and `set -e` does not fire inside an `if`
+            # condition. A renamed package would otherwise report "CDN-free
+            # check passed" having scanned nothing. Same guard as
+            # bundle-treeshake and internal-ref-scan.
+            pkg_fail=0
+            for target in "packages/$pkg" "packages/$pkg/src"; do
+              if [ ! -d "$target" ]; then
+                echo "FAIL: scan target '$target' does not exist"; pkg_fail=1
+              fi
+            done
+            # Missing directory: record it and move to the next package rather
+            # than grepping a path that isn't there. Per-package flag, so one
+            # package failing never truncates the scan of the next.
+            if [ "$pkg_fail" -eq 1 ]; then fail=1; continue; fi
+            if grep -rn "external-svg-loader" "packages/$pkg/"; then
+              echo "FAIL: $pkg references external-svg-loader"; pkg_fail=1
+            fi
+            if grep -rn 'data-src=' "packages/$pkg/src/"; then
+              echo "FAIL: $pkg uses data-src (CDN loader placeholder)"; pkg_fail=1
+            fi
+            if grep -rn 'cne\.ngc\.nvidia\.com' "packages/$pkg/"; then
+              echo "FAIL: $pkg references CDN host"; pkg_fail=1
+            fi
+            if [ "$pkg_fail" -eq 0 ]; then
+              echo "  ✓ $pkg CDN-free check passed"
+            else
+              fail=1
+            fi
+          done
+          exit $fail
+
+  sbom:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - run: |
+          # Pinned to an exact npm 11.x release rather than the npm bundled
+          # with the pinned Node image or `@latest`: `npm sbom` needs npm
+          # >= 11.5, the bundled npm for a given Node image isn't guaranteed
+          # to clear that floor, and `@latest` would drift the tool version
+          # between runs. 11.19.0 is the newest 11.x release.
+          npm install -g npm@11.19.0
+          mkdir -p sbom
+          for pkg in gui-icons micro-gui-icons react-gui-icons react-micro-gui-icons; do
+            npm sbom -w "packages/$pkg" --sbom-format cyclonedx > "sbom/$pkg.cdx.json"
+          done
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: sbom
+          path: sbom/
+          retention-days: 90
+
+  # Internal-reference scan (public-safe subset): checks for internal
+  # hostnames/scopes/codenames that shouldn't appear in a public repo. A
+  # smaller set of sensitive, credential-shaped patterns is deliberately not
+  # committed here — see the note at the top of this file.
+  internal-ref-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - run: |
+          set -e
+          fail=0
+          # CUTOVER.md was the internal migration runbook for this repo's
+          # move to GitHub. It is deleted, and must never reappear in a
+          # public tree. Checked explicitly rather than relying only on the
+          # pattern scan below, since presence — not content — is the actual
+          # condition to catch.
+          if [ -e CUTOVER.md ]; then
+            echo "FAIL internal-ref-scan: CUTOVER.md is present. It is an internal-only migration document and must not exist in this repository."
+            fail=1
+          fi
+          patterns=(
+            "git"'lab-master\.nvidia\.com'
+            # Any reference to the internal instance or its config files.
+            # `.github/` is a scan target, so a ported comment mentioning it
+            # is exactly the kind of leak this catches.
+            "[Gg]it"'[Ll]ab'
+            "urm\.nvidia\.com"
+            "brand-assets\.cne\.ngc\.nvidia\.com"
+            # Split across a quote boundary so this job's own source doesn't
+            # contain the literal substring it's scanning for. Needed now
+            # that .github/ itself is a scan target below.
+            "@nv-brand"'-assets/'
+            "sw-nvpubcloud"'-npm-local'
+            "sw-ngc-unified"'-npm-proxy'
+            "nvidia\.slack\.com"
+            "nvbugs"'/'
+            "confluence\.nvidia\.com"
+            # Internal NVIDIA process jargon (OSS Review Board, System
+            # Architecture Design Doc) that means nothing to an external
+            # contributor if it leaks into a shipped comment or error message.
+            '\b[Oo][Ss][Rr][Bb]\b'
+            '\b[Ss][Aa][Dd][Dd]\b'
+          )
+          scan_dirs=(
+            packages/ scripts/
+            README.md CONTRIBUTING.md SECURITY.md CHANGELOG.md CODE_OF_CONDUCT.md
+            GOVERNANCE.md MAINTAINERS.md SUPPORT.md RELEASING.md
+            CODEOWNERS NOTICE THIRD_PARTY_NOTICES LICENSE REUSE.toml package.json
+            package-lock.json
+            .github/ .well-known/ LICENSES/
+          )
+          # Fail loudly on a missing scan target instead of letting grep's
+          # error (exit 2) get swallowed by `2>/dev/null || true` below — a
+          # stale or typo'd entry must not silently degrade to "scanned
+          # nothing" with a green check. CUTOVER.md is deliberately NOT in
+          # this "must exist" list — its absence is the desired state
+          # (checked explicitly above); it's only added to the grep targets
+          # below, as defense-in-depth in case it exists but wasn't caught by
+          # the explicit check for some reason.
+          for scan_dir in "${scan_dirs[@]}"; do
+            if [ ! -e "$scan_dir" ]; then
+              echo "FAIL internal-ref-scan: scan target '$scan_dir' does not exist"
+              fail=1
+            fi
+          done
+          # Second, separate trap: grep's --include filters by basename glob,
+          # and that filter also applies to files named explicitly on the
+          # command line (verified against GNU grep 3.12, what this runner
+          # ships) — not just to files discovered by recursing into a
+          # directory. A scan target whose basename matches none of the globs
+          # below is silently read as zero bytes: the existence check above
+          # still passes, the pattern loop finds nothing, and the job goes
+          # green having scanned nothing. Keep this case pattern in sync with
+          # the --include flags in the grep call below.
+          for scan_dir in "${scan_dirs[@]}" CUTOVER.md; do
+            case "$scan_dir" in
+              */) continue ;; # directories are exempt — recursion applies filters per-file, not to the dir arg itself
+            esac
+            base="$(basename "$scan_dir")"
+            case "$base" in
+              *.ts|*.tsx|*.mts|*.js|*.mjs|*.json|*.md|*.yml|*.yaml|*.toml|*.txt|CODEOWNERS|NOTICE|THIRD_PARTY_NOTICES|LICENSE) ;;
+              *)
+                echo "FAIL internal-ref-scan: scan target '$scan_dir' matches no --include glob — grep would silently skip it"
+                fail=1
+                ;;
+            esac
+          done
+          if [ "$fail" -eq 1 ]; then exit 1; fi
+          grep_targets=("${scan_dirs[@]}" CUTOVER.md)
+          for pattern in "${patterns[@]}"; do
+            matches=$(grep -rn --include="*.ts" --include="*.tsx" --include="*.mts" \
+              --include="*.js" --include="*.mjs" --include="*.json" \
+              --include="*.md" --include="*.yml" --include="*.yaml" \
+              --include="*.toml" --include="*.txt" \
+              --include="CODEOWNERS" --include="NOTICE" --include="THIRD_PARTY_NOTICES" \
+              --include="LICENSE" \
+              -E "$pattern" "${grep_targets[@]}" \
+              --exclude-dir=node_modules --exclude-dir=dist \
+              2>/dev/null || true)
+            if [ -n "$matches" ]; then
+              echo "FAIL internal-ref-scan: pattern '$pattern' matched:"
+              echo "$matches"
+              fail=1
+            fi
+          done
+          if [ $fail -eq 0 ]; then echo "✓ No internal references found."; fi
+          exit $fail
+
+  dco-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      # Uses the event payload's base SHA rather than `origin/$base_ref`. On a
+      # pull_request event, checkout lands on a detached merge ref and
+      # `origin/main` isn't guaranteed to be a resolvable local ref — that
+      # would either fail every PR or mis-scope the commit range. The base SHA
+      # is always present in the payload and needs no ref resolution.
+      #
+      # BASE_SHA/HEAD_SHA go through `env:` instead of being interpolated
+      # straight into the script, so the values are never expanded into shell
+      # source text.
+      - env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -e
+          missing=""
+          for sha in $(git log --format=%H "$BASE_SHA".."$HEAD_SHA"); do
+            if ! git log --format=%B -1 "$sha" | grep -q "^Signed-off-by:"; then
+              missing="$missing$sha $(git log --format=%s -1 "$sha")\n"
+            fi
+          done
+          if [ -n "$missing" ]; then
+            echo "FAIL: the following commits are missing Signed-off-by trailers:"
+            printf "%b" "$missing"
+            echo "Add with: git commit --signoff"
+            exit 1
+          fi
+          echo "✓ All commits have Signed-off-by trailers."

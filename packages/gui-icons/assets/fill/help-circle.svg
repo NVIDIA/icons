@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Help Circle</title><symbol id="help-circle-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8m6-2a1 1 0 0 1 2 0c0 .284-.069.473-.159.619-.097.156-.233.286-.411.434l-.093.077c-.15.122-.338.274-.482.443A1.38 1.38 0 0 0 7.5 8.5V10h1V8.5c0-.104.032-.18.114-.276.081-.094.179-.175.319-.29l.137-.112c.197-.164.436-.378.62-.676.191-.307.31-.68.31-1.146a2 2 0 1 0-4 0Zm.5 5v1h1v-1Z"/></symbol><use href="#help-circle-fill"/></svg>

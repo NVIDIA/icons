@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Rectangle Group</title><symbol id="rectangle-group-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 2H3v6h5zm0 7H2v5h6zm6-5H9v8h5z"/></symbol><use href="#rectangle-group-fill"/></svg>

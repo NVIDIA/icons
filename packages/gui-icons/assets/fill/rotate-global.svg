@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Rotate Global</title><symbol id="rotate-global-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 3a5 5 0 0 1 5 5v.293l-.646-.647-.707.708 1.853 1.853 1.854-1.853-.707-.708-.647.647V8a6 6 0 0 0-6-6zM4.354 7.646 2.5 5.793.647 7.646l.707.708L2 7.707V8a6 6 0 0 0 6 6v-1a5 5 0 0 1-5-5v-.293l.647.647zM5.5 8a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0"/></symbol><use href="#rotate-global-fill"/></svg>

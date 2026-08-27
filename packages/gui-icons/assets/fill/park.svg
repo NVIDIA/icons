@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Park</title><symbol id="park-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11.5 1a3.5 3.5 0 0 1 3.355 4.5A3.502 3.502 0 0 1 12 9.965V13h1.5v1H2v-1h.882l2-1-2-1H2.5v-1h7v1h-.382l-2 1 2 1H11V9.965A3.502 3.502 0 0 1 8.145 5.5 3.5 3.5 0 0 1 11.5 1M5.118 11l.882.441.882-.441ZM6 12.559 5.118 13h1.764Z"/></symbol><use href="#park-fill"/></svg>

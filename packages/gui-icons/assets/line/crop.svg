@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Crop</title><symbol id="crop-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 4V2h1v9h9v1h-2v2h-1v-2H4V5H2V4Zm7 1H6V4h6v6h-1Z"/></symbol><use href="#crop-line"/></svg>

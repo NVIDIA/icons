@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Check Circle</title><symbol id="check-circle-line" viewBox="0 0 16 16"><path fill="currentColor" d="m7 10.707 4.854-4.853-.708-.708L7 9.293 4.854 7.146l-.708.708z"/><path fill="currentColor" d="M8 1a7 7 0 1 1 0 14A7 7 0 0 1 8 1M2 8a6 6 0 1 0 12 0A6 6 0 0 0 2 8"/></symbol><use href="#check-circle-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Cancel</title><symbol id="cancel-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8m3.126-4.582 8.456 8.456a6 6 0 0 0-8.456-8.456m-.708.708a6 6 0 0 0 8.456 8.456Z"/></symbol><use href="#cancel-line"/></svg>

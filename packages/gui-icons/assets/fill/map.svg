@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Map</title><symbol id="map-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m9.5 3.279-3-1.125V13.14l3 .75zm1 10.568 4-1.5V1.778l-4 1.501zM1.5 3.11l4-1v11.03l-4 1z"/></symbol><use href="#map-fill"/></svg>

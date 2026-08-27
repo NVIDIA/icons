@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><symbol id="expand-line" viewBox="0 0 16 16"><path fill="currentColor" d="M13 3H9v1h2.293L8.647 6.646l.707.708L12 4.707V7h1zM3 13h4v-1H4.707l2.647-2.646-.708-.708L4 11.293V9H3z"/></symbol><use href="#expand-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bone</title><symbol id="bone-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10.5 2A1.5 1.5 0 0 1 12 3.5a.5.5 0 0 0 .5.5 1.5 1.5 0 1 1-.71 2.821c-.171-.092-.243-.114-.29-.114a.2.2 0 0 0-.146.061l-4.682 4.681a.2.2 0 0 0-.061.147c0 .047.023.119.116.291a1.5 1.5 0 1 1-2.823.709.5.5 0 0 0-.5-.5 1.5 1.5 0 1 1 .71-2.822c.171.093.244.115.29.115a.2.2 0 0 0 .147-.061l4.681-4.682a.2.2 0 0 0 .061-.146c0-.047-.022-.119-.114-.29A1.5 1.5 0 0 1 10.5 2"/></symbol><use href="#bone-fill"/></svg>

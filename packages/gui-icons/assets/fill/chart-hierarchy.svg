@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chart Hierarchy</title><symbol id="chart-hierarchy-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10 1H6v4h1.5v2.5h-5V11H1v4h4v-4H3.5V8.5h4V11H6v4h4v-4H8.5V8.5h4V11H11v4h4v-4h-1.5V7.5h-5V5H10z"/></symbol><use href="#chart-hierarchy-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fuel Pump</title><symbol id="fuel-pump-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 6H5V5h3z"/><path fill="currentColor" d="M3 3h7v8h2.293l.707-.707V7h-1V4.707l-.854-.853.708-.708L14 5.293v5.414L12.707 12H10v2H3Zm6 5H4v5h5ZM4 4v3h5V4Z"/></symbol><use href="#fuel-pump-line"/></svg>

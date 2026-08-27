@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><title>Chevron Left</title><symbol id="chevron-left-line" viewBox="0 0 12 12"><path fill="currentColor" d="m4.707 6 2.647 2.646-.708.708L3.293 6l3.353-3.354.708.708Z"/></symbol><use href="#chevron-left-line"/></svg>

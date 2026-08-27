@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Text Framed</title><symbol id="text-framed-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h12v12H2Zm1 1v10h10V3Zm4.5 3H5V5h6v1H8.5v5h-1Z"/></symbol><use href="#text-framed-line"/></svg>

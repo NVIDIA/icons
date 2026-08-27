@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Telephone</title><symbol id="telephone-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13.726 5.497c.074-.853-.017-1.704-.334-2.482l-2.19-.587-1.869 3.237 1.034 1.791a5.4 5.4 0 0 1-1.168 1.692 5.3 5.3 0 0 1-1.808 1.201L5.652 9.345l-3.237 1.869.587 2.191c.783.315 1.611.398 2.47.32 1.431-.131 3.359-.782 5.417-2.822 2.059-2.04 2.711-3.97 2.837-5.406"/></symbol><use href="#telephone-fill"/></svg>

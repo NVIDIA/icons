@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Suitcase</title><symbol id="suitcase-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m7.383 11-.268-1h1.769l-.268 1z"/><path fill="currentColor" d="M6.5 2H5V1h6v1H9.5v2.5H12V14h-1.5v1h-1v-1h-3v1h-1v-1H4V4.5h2.5Zm3.688 7H5.812l.804 3h2.768ZM8.5 2h-1v2.5h1ZM7 7.5h2v-1H7Z"/></symbol><use href="#suitcase-fill"/></svg>

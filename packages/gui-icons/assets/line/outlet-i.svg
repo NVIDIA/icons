@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Outlet I</title><symbol id="outlet-i-line" viewBox="0 0 16 16"><path fill="currentColor" d="m9.146 6.854 2 2 .708-.708-2-2zm-5 1.292 2-2 .708.708-2 2zM7.5 9.5V12h1V9.5z"/><path fill="currentColor" d="M8 2a6 6 0 1 1 0 12A6 6 0 0 1 8 2M3 8a5 5 0 1 0 10.001-.001A5 5 0 0 0 3 8"/></symbol><use href="#outlet-i-line"/></svg>

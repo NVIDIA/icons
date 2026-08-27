@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Running</title><symbol id="running-line" viewBox="0 0 16 16"><path fill="currentColor" d="m6.418 3.143 6 3.464 1.961-1.961.707.708-2.504 2.503-3-1.732-1.768 1.768 3 1.732-3.46 3.461-.708-.707 2.54-2.54-2.104-1.214-5.228 5.229-.708-.708 7.54-7.539-2.104-1.214-1.96 1.961-.707-.708ZM10 3.5a1.5 1.5 0 1 1 3.001.001A1.5 1.5 0 0 1 10 3.5m1.5-.5a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1"/></symbol><use href="#running-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Import</title><symbol id="import-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3 5h2v1H4v6h8V6h-1V5h2v8H3Zm4.5 3.793V3h1v5.793l1.146-1.147.708.708L8 10.707 5.646 8.354l.708-.708Z"/></symbol><use href="#import-fill"/></svg>

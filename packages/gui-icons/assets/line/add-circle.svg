@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Add Circle</title><symbol id="add-circle-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8.5 12V8.5H12v-1H8.5V4h-1v3.5H4v1h3.5V12z"/><path fill="currentColor" d="M8 1a7 7 0 1 1 0 14A7 7 0 0 1 8 1M2 8a6 6 0 1 0 12 0A6 6 0 0 0 2 8"/></symbol><use href="#add-circle-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Envelope Off</title><symbol id="envelope-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m1.354.646 13 13-.708.708L12.293 13H2V5.774l6 3.819.541-.345-1.365-1.365L2 4.589V3h.293L.646 1.354zM14 5.774v5.398l-3.298-3.299zm0-1.185-4.023 2.56L5.828 3H14z"/></symbol><use href="#envelope-off-fill"/></svg>

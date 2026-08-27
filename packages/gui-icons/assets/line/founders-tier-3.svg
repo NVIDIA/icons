@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Founders Tier 3</title><symbol id="founders-tier-3-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.001 4.536 6-3.464 6.001 3.464v3.253L4.818 13.09l-2.817-1.626Zm1 6.351 1.817 1.049 8.184-4.725V5.113L8.001 2.226l-5 2.887Zm4.75 3.031 5.501-3.176.5.866-5.501 3.176Z"/></symbol><use href="#founders-tier-3-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Location</title><symbol id="location-line" viewBox="0 0 16 16"><path fill="currentColor" d="m8 14.25-.321.383-.005-.004-.011-.009-.041-.035-.149-.132a19 19 0 0 1-2.115-2.255C4.217 10.756 3 8.742 3 6.647 3 4.227 5.264 2 8 2s5 2.227 5 4.647c0 2.095-1.217 4.109-2.358 5.551a19 19 0 0 1-2.115 2.255l-.149.132-.041.035-.011.009-.004.003-.001.001ZM8 3C5.765 3 4 4.829 4 6.647c0 1.742 1.033 3.529 2.142 4.93A18 18 0 0 0 8 13.58q.151-.138.353-.336a18 18 0 0 0 1.505-1.667C10.967 10.176 12 8.389 12 6.647 12 4.829 10.235 3 8 3M6 7a2 2 0 1 1 3.999-.001A2 2 0 0 1 6 7m2-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0 8.25.321.383-.321.269-.321-.269z"/></symbol><use href="#location-line"/></svg>

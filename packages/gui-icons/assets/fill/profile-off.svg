@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Profile Off</title><symbol id="profile-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M12.582 11.875 11.544 8H8.707L7.691 6.984Q7.844 7 8 7a3 3 0 1 0-2.985-2.692L2.354 1.646l-.708.708 12 12 .708-.708zM2.848 14h8.324l-6-6h-.716z"/></symbol><use href="#profile-off-fill"/></svg>

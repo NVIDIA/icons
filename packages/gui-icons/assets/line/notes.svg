@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Notes</title><symbol id="notes-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5 3h8v9a2 2 0 1 1-2-2h1V6H6v6a2 2 0 1 1-2-2h1Zm1 2h6V4H6Zm6 6h-1a1 1 0 1 0 1 1Zm-7 0H4a1 1 0 1 0 1 1Z"/></symbol><use href="#notes-line"/></svg>

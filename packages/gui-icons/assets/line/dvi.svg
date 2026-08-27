@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>DVI</title><symbol id="dvi-line" viewBox="0 0 16 16"><path fill="currentColor" d="M9 10H8V9h1zm2 0h-1V9h1zM7 9H4V8h3zm3 0H9V8h1zm2 0h-1V8h1zM9 8H8V7h1zm2 0h-1V7h1z"/><path fill="currentColor" d="M13.276 12H2.724L.849 5h14.302Zm-9.785-1h9.018l1.34-5H2.152Z"/></symbol><use href="#dvi-line"/></svg>

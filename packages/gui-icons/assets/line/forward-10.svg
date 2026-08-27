@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Forward 10</title><symbol id="forward-10-line" viewBox="0 0 16 16"><path fill="currentColor" d="M12 8a5 5 0 1 0-5 5v1a6 6 0 1 1 5.898-7.105l1.248-1.249.708.708L12 9.207z"/><path fill="currentColor" d="M4 5h1.01v1.125H5v3.75h.01V11H4zm2 1.125C6 5.422 6.649 5 7.25 5h1.5C9.351 5 10 5.422 10 6.125v3.75C10 10.578 9.351 11 8.75 11h-1.5C6.649 11 6 10.578 6 9.875Zm1.04-.058C7 6.1 7 6.123 7 6.125v3.75c0 .002 0 .025.04.058a.33.33 0 0 0 .21.067h1.5a.33.33 0 0 0 .21-.067C9 9.9 9 9.877 9 9.875v-3.75c0-.002 0-.025-.04-.058A.33.33 0 0 0 8.75 6h-1.5a.33.33 0 0 0-.21.067"/></symbol><use href="#forward-10-line"/></svg>

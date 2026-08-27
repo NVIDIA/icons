@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Television</title><symbol id="television-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M15 3v9h-1.5v1h-1v-1h-9v1h-1v-1H1V3Zm-1 8v-1H2v1Z"/></symbol><use href="#television-fill"/></svg>

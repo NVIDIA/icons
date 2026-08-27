@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Mouse 2B</title><symbol id="mouse-2b-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 1H3v4.5h4.5zm1 4.5V1H13v4.5zM3 6.5V10a5 5 0 0 0 10 0V6.5z"/></symbol><use href="#mouse-2b-fill"/></svg>

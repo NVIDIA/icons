@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Coaxial</title><symbol id="coaxial-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m13.982 8-3 5H5.017l-3-5 3-5h5.965Zm-10.8 0 2.401 4H8a4 4 0 0 1 0-8H5.583ZM12 8a4 4 0 0 1-4 4h2.416l2.4-4-2.4-4H8a4 4 0 0 1 4 4M8 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#coaxial-fill"/></svg>

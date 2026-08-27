@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Workstation</title><symbol id="workstation-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 2h8v12H4Zm1 1v10h6V3Zm5 4H6V6h4Zm0 2H6V8h4Zm0-4H9V4h1Z"/></symbol><use href="#workstation-line"/></svg>

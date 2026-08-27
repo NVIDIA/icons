@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>GPU Card Off</title><symbol id="gpu-card-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708L10.293 11H9v1H4v-1H3v1H2V5H1V4h2v1h1.293L1.646 2.354zM14 11h-.172l-1.857-1.857a1.5 1.5 0 1 0-2.114-2.114L7.828 5H14z"/><path fill="currentColor" d="M11.5 8a.5.5 0 0 1-.243.429l-.686-.686A.5.5 0 0 1 11.5 8"/></symbol><use href="#gpu-card-off-fill"/></svg>

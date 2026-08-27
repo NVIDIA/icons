@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sailboat</title><symbol id="sailboat-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1v.866L11.541 8H8v1h6v4H4.293L1.5 10.207V9H7V1z"/></symbol><use href="#sailboat-fill"/></svg>

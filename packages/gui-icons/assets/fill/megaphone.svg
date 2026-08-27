@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Megaphone</title><symbol id="megaphone-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13 8.415v2.824L7.404 9H6v4H3V9H2V5h1V4h3v1h1.404L13 2.761v2.824a1.5 1.5 0 0 1 0 2.83"/></symbol><use href="#megaphone-fill"/></svg>

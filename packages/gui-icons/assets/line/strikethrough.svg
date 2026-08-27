@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Strikethrough</title><symbol id="strikethrough-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 4c-1.299 0-2 .846-2 1.5 0 .596.21.917.514 1.149.348.266.836.431 1.449.624l.073.023c.198.063.408.129.62.204H14v1h-3.671c.324.357.564.817.664 1.418.152.911-.161 1.702-.746 2.251C9.673 12.709 8.858 13 8 13c-1.683 0-3-1.035-3-2.5h1c0 .744.683 1.5 2 1.5.642 0 1.2-.219 1.563-.559.351-.331.538-.79.444-1.359-.1-.598-.386-.952-.777-1.213a3.7 3.7 0 0 0-.752-.369H2v-1h3.983l-.076-.056C5.353 7.021 5 6.404 5 5.5 5 4.154 6.299 3 8 3c1.683 0 3 1.035 3 2.5h-1C10 4.756 9.317 4 8 4"/></symbol><use href="#strikethrough-line"/></svg>

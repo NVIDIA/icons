@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Robot</title><symbol id="robot-line" viewBox="0 0 16 16"><path fill="currentColor" d="M12 4H4v4h8zm-1 1.5v1H5v-1zM7.141 3h1.718l-.25-1H7.391zM13 5.5h1V5h1v2h-1v-.5h-1V9H3V6.5H2V7H1V5h1v.5h1V3h3.109l.5-2h2.782l.5 2H13zM11.544 10l1.339 5H3.117l1.339-5zM4.42 14h7.16l-.803-3H5.223z"/></symbol><use href="#robot-line"/></svg>

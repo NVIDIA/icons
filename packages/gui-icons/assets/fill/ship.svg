@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Ship</title><symbol id="ship-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10.616 4H13v3h1v2H4.191l1-2h4.621ZM12 5h-.616l-.536 2H12ZM1.5 10v.139L3.217 13H15v-3z"/></symbol><use href="#ship-fill"/></svg>

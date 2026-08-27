@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Eyedropper</title><symbol id="eyedropper-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3.589 10.204 8.543 5.25l-.897-.896.708-.708.646.647 1.146-1.147a1.916 1.916 0 0 1 2.708 0c.747.748.747 1.96 0 2.708L11.707 7l.647.646-.708.708-.896-.897-4.954 4.954-2.395 1.197-1.009-1.009ZM9.25 5.957l-4.839 4.839-.793 1.586 1.586-.793 4.839-4.839Z"/></symbol><use href="#eyedropper-fill"/></svg>

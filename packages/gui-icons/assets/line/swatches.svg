@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Swatches</title><symbol id="swatches-line" viewBox="0 0 16 16"><path fill="currentColor" d="m8.976 2.194 5.797 1.554-2.588 9.659L6.934 12H5.566l-1.868.501-2.071-7.728L5 3.869V3h3.76Zm-1.364 8.952 3.866 1.036 2.071-7.727-3.866-1.036ZM8.492 4H6v7h.616ZM5 11.116V4.905l-2.148.575 1.553 5.796Z"/></symbol><use href="#swatches-line"/></svg>

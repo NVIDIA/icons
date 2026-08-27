@@ -1,0 +1,27 @@
+NVIDIA Icons
+Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This project is dual-licensed. Source code is licensed under the Apache
+License, Version 2.0 (see LICENSE). Documentation, skills, and icon/SVG
+assets are licensed under Creative Commons Attribution 4.0 International
+(CC-BY-4.0) (see LICENSE).
+
+Attribution notice for the CC-BY-4.0 assets
+--------------------------------------------
+If you redistribute the icon assets from this project (the SVG files under
+`assets/` in the `@nvidia/gui-icons` and `@nvidia/micro-gui-icons` packages,
+and the icon path data bundled into `@nvidia/react-gui-icons` and
+`@nvidia/react-micro-gui-icons`), CC-BY-4.0 requires that you retain
+attribution. Credit as:
+
+    "NVIDIA Icons" — https://github.com/NVIDIA/icons
+
+For third-party OSS components distributed alongside these packages, see the
+THIRD_PARTY_NOTICES file at the root and in each published package.
+
+Trademark notice
+-----------------
+"NVIDIA" and the NVIDIA logo are trademarks and/or registered trademarks of
+NVIDIA Corporation in the U.S. and other countries. CC-BY-4.0 and Apache-2.0
+license the copyrighted content in this project — they do NOT grant any
+license or right to use NVIDIA's trademarks.

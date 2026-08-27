@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Projector</title><symbol id="projector-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 2h14v2h-1v7h-3.92l.903 3.37-.966.259L9.58 13H6.419l-.436 1.629-.966-.259L5.92 11H2V4H1Zm2 8h10V4H3Zm3.955 1-.268 1h2.625l-.268-1Z"/></symbol><use href="#projector-line"/></svg>

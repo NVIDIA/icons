@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Watch</title><symbol id="watch-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5 1h6v3a5 5 0 0 1 1.9 3h.6v2h-.6a5 5 0 0 1-1.9 3v3H5v-3a5 5 0 0 1-2-4c0-1.636.786-3.088 2-4Zm3 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8m.408 3.592 2.137.572-.259.966-2.694-.722-.722-2.694.966-.259ZM6 3.416A5 5 0 0 1 8 3c.711 0 1.388.148 2 .416V2H6Zm0 9.168V14h4v-1.416A5 5 0 0 1 8 13a5 5 0 0 1-2-.416"/></symbol><use href="#watch-line"/></svg>

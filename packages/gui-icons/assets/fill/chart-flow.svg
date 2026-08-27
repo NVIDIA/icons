@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chart Flow</title><symbol id="chart-flow-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7 2H2v5h2v2.05A2.5 2.5 0 1 0 6.95 12h2.343L12 14.707l3.207-3.207L12 8.293 9.293 11H6.95A2.5 2.5 0 0 0 5 9.05V7h2z"/></symbol><use href="#chart-flow-fill"/></svg>

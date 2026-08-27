@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Group</title><symbol id="group-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6 11a2 2 0 1 1 3.999-.001A2 2 0 0 1 6 11m3-5a2 2 0 1 1 3.999-.001A2 2 0 0 1 9 6M3 6a2 2 0 1 1 3.999-.001A2 2 0 0 1 3 6M1 1h4v1H2v3H1Zm13 1h-3V1h4v4h-1ZM2 14h3v1H1v-4h1Zm13-3v4h-4v-1h3v-3Zm-7-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m3-5a1 1 0 1 0 0 2 1 1 0 0 0 0-2M5 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#group-line"/></svg>

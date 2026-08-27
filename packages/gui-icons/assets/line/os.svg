@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>OS</title><symbol id="os-line" viewBox="0 0 16 16"><path fill="currentColor" d="M15 3v11H1V3zM2 13h12V4H2z"/><path fill="currentColor" d="M7 8.5a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 7 8.5m1 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0m1.604.896c.403.404.828.604 1.396.604.867 0 1-.4 1-.5s-.133-.5-1-.5c-1.133 0-2-.6-2-1.5S9.867 6 11 6c.866 0 1.537.33 2.104.896l-.708.708C11.993 7.2 11.568 7 11 7c-.867 0-1 .4-1 .5s.133.5 1 .5c1.133 0 2 .6 2 1.5s-.867 1.5-2 1.5c-.866 0-1.537-.331-2.104-.896z"/></symbol><use href="#os-line"/></svg>

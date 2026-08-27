@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Speaker</title><symbol id="speaker-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11 13.587V2.413L6.815 6H5v4h1.815z"/></symbol><use href="#speaker-fill"/></svg>

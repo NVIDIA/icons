@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Engine</title><symbol id="engine-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 4H7V3h3v1H9v1h2.707L13 6.293V7h1v3.049l-1-.032v.69L11.707 12H7.293l-1-1h-1L4 9.707V8.508l-1 .017v1.008H2V6.5h1v1.024l1-.016V6.293L5.293 5H8ZM5.707 6 5 6.707v2.586l.707.707h1l1 1h3.586l.707-.707V6.707L11.293 6Z"/></symbol><use href="#engine-line"/></svg>

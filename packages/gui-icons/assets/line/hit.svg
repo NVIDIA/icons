@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Hit</title><symbol id="hit-line" viewBox="0 0 16 16"><path fill="currentColor" d="M12 13h-1v-2h1zm2.768-1.44-.708.708-1.414-1.414.708-.708zM9.384 7h1l.42 1.567L9.884 12H4.293l-1-1H2V6h1.293l1-1h4.555ZM4 6.707v3.586l.707.707h4.408l.653-2.433L9.615 8H6V7h2.348L8.08 6H4.707ZM15 9h-2V8h2zm-.232-3.561-1.414 1.415-.708-.708 1.414-1.414zM12 6h-1V4h1z"/></symbol><use href="#hit-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Stack Horizontal</title><symbol id="stack-horizontal-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 3H6v10h8zM4 4h1v8H4zM3 5H2v6h1z"/></symbol><use href="#stack-horizontal-fill"/></svg>

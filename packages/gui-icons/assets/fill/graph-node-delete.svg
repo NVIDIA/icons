@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Graph Node Delete</title><symbol id="graph-node-delete-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 3h5v2.05A2.5 2.5 0 0 0 4 7.5a2.5 2.5 0 0 0 3 2.45V13H2z"/><path fill="currentColor" d="M6.5 6a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 6.5 6m4.354 3.854L12.5 8.207l1.646 1.647.708-.708L13.207 7.5l1.647-1.646-.708-.708L12.5 6.793l-1.646-1.647-.708.708L11.793 7.5l-1.647 1.646z"/></symbol><use href="#graph-node-delete-fill"/></svg>

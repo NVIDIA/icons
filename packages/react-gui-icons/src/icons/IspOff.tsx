@@ -1,0 +1,93 @@
+"use client";
+// SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+// SPDX-License-Identifier: Apache-2.0
+
+import type { SVGProps } from "react";
+import { createElement, forwardRef, memo } from "react";
+
+import type { IconSpriteSymbol } from "../runtime/sprite.js";
+import { useSpriteSymbol } from "../runtime/useSpriteSymbol.js";
+
+/**
+ * "isp-off" icon — tree-shakable per-icon component.
+ * Imports only its own path data; does not pull in the full inline map.
+ */
+const DATA = {
+  line: {
+    symbolId: "nvidia-react-gui-icons-v1-line-isp-off",
+    viewBox: "0 0 16 16",
+    paths: [
+      "m1.354.646 14 14-.708.708L13.293 14H10v1H6v-1H2v-1h4v-1h1.5v-1.025a5 5 0 0 1-4.121-6.889L.646 1.354Zm8.56 9.975a5 5 0 0 1-1.414.354V12H10v1h2.293ZM4.293 5h-.167a4 4 0 0 0 0 2h1.91a8 8 0 0 1-.017-.274ZM9 14v-1H7v1ZM6.623 9.757a5 5 0 0 1-.158-.417A8.4 8.4 0 0 1 6.149 8H4.535a4.02 4.02 0 0 0 2.088 1.757M7.293 8h-.13L8 10l.008-.002a.1.1 0 0 0 .033-.016.6.6 0 0 0 .15-.145 2.4 2.4 0 0 0 .324-.615ZM13 6c0 1.17-.402 2.245-1.075 3.097l-.713-.713q.138-.184.253-.384h-.637L8.999 6.171 9 6q0-.52-.039-1H7.828L6.256 3.428q.091-.414.209-.768.072-.218.158-.417a4 4 0 0 0-1.007.545l-.713-.714A5 5 0 0 1 13 6M9.964 5a13.6 13.6 0 0 1 0 2h1.91a4 4 0 0 0 0-2ZM8 2l-.008.002a.1.1 0 0 0-.033.016.6.6 0 0 0-.15.145c-.13.165-.269.435-.395.813A7 7 0 0 0 7.163 4h1.674a7 7 0 0 0-.251-1.024c-.126-.378-.265-.648-.395-.813a.6.6 0 0 0-.15-.145.1.1 0 0 0-.033-.016Zm3.465 2a4.02 4.02 0 0 0-2.088-1.757q.086.2.158.417c.131.392.237.845.316 1.34Z",
+    ] as const,
+  },
+  fill: {
+    symbolId: "nvidia-react-gui-icons-v1-fill-isp-off",
+    viewBox: "0 0 16 16",
+    paths: [
+      "m1.354.646 14 14-.708.708L13.293 14H10v1H6v-1H2v-1h4v-1h1.5v-1.025a5 5 0 0 1-4.121-6.889L.646 1.354Zm8.56 9.975a5 5 0 0 1-1.414.354V12H10v1h2.293ZM4.293 5h-.167a4 4 0 0 0 0 2h1.91a8 8 0 0 1-.017-.274Zm2.172 4.34A8.4 8.4 0 0 1 6.149 8H4.535a4.02 4.02 0 0 0 2.088 1.757 5 5 0 0 1-.158-.417M7.293 8h-.13L8 10l.008-.002a.1.1 0 0 0 .033-.016.6.6 0 0 0 .15-.145 2.4 2.4 0 0 0 .324-.615ZM13 6c0 1.17-.402 2.245-1.075 3.097l-.713-.713q.138-.184.253-.384h-.637L8.999 6.171 9 6q0-.52-.039-1H7.828L6.256 3.428q.091-.414.209-.768.072-.218.158-.417a4 4 0 0 0-1.007.545l-.713-.714A5 5 0 0 1 13 6m-3 0q0 .513-.036 1h1.91a4 4 0 0 0 0-2h-1.91Q10 5.486 10 6M8.008 2.002 8 2l-.008.002a.1.1 0 0 0-.033.016.6.6 0 0 0-.15.145c-.13.165-.269.435-.395.813A7 7 0 0 0 7.163 4h1.674a7 7 0 0 0-.251-1.024c-.126-.378-.265-.648-.395-.813a.6.6 0 0 0-.15-.145.1.1 0 0 0-.033-.016m1.369.241q.086.2.158.417c.131.392.237.845.316 1.34h1.614a4.02 4.02 0 0 0-2.088-1.757",
+    ] as const,
+  },
+} as const satisfies Record<"line" | "fill", IconSpriteSymbol>;
+
+export interface NvidiaGuiIconProps
+  extends Omit<SVGProps<SVGSVGElement>, "title"> {
+  variant?: "line" | "fill";
+  size?: string;
+  /**
+   * Accessible name. Describe what the icon *does* in context ("Delete item"),
+   * not what it depicts ("trash") — the library knows the glyph, only you know
+   * the meaning.
+   *
+   * Omit it for decorative icons, which is the default: an icon sitting beside
+   * a visible label is redundant, and announcing it twice is worse than
+   * silence. Supplying this renders a <title>, sets role="img" and drops
+   * aria-hidden together, so there is no half-configured state to land in.
+   */
+  title?: string;
+}
+
+const IspOffBase = forwardRef<SVGSVGElement, NvidiaGuiIconProps>(
+  ({ variant = "line", size = "1em", title, ...svgProps }, ref) => {
+    const iconData = DATA[variant];
+    const href = `#${iconData.symbolId}`;
+    useSpriteSymbol(iconData);
+
+    // A blank title is not a name. Trim before deciding, so a whitespace-only
+    // value falls back to decorative rather than exposing the icon to
+    // assistive tech with an empty accessible name — the worst of both.
+    const labelled = title !== undefined && title.trim() !== "";
+
+    return createElement(
+      "svg",
+      {
+        ref,
+        height: size,
+        width: size,
+        viewBox: iconData.viewBox,
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg",
+        "data-icon-name": "isp-off",
+        // aria-hidden would hide the <title> we just rendered along with the
+        // rest of the subtree, so the two are mutually exclusive. Written as
+        // two conditionals rather than a spread of a union: spreading a
+        // conditional object literal makes tsc distribute createElement's
+        // overload resolution across the whole of SVGProps, once per icon
+        // module, and that is enough to exhaust memory on the 748-icon package.
+        // React drops undefined attributes, so the rendered output is identical.
+        role: labelled ? "img" : undefined,
+        "aria-hidden": labelled ? undefined : "true",
+        focusable: "false",
+        // Spread last, so the documented role/aria-label/aria-hidden escape
+        // hatch keeps working and always beats our defaults.
+        ...svgProps,
+      },
+      // <title> must be the first child to name the <svg>.
+      labelled ? createElement("title", { key: "title" }, title) : null,
+      createElement("use", { href, key: "use" }),
+    );
+  },
+);
+IspOffBase.displayName = "IspOff";
+
+export const IspOff = memo(IspOffBase) as typeof IspOffBase;
+IspOff.displayName = "IspOff";

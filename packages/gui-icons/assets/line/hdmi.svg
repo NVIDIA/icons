@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>HDMI</title><symbol id="hdmi-line" viewBox="0 0 16 16"><path fill="currentColor" d="M12 9H4V8h8z"/><path fill="currentColor" d="M15 6v4h-1.293l-1 1H3.293l-1-1H1V6ZM2 7v2h.707l1 1h8.586l1-1H14V7Z"/></symbol><use href="#hdmi-line"/></svg>

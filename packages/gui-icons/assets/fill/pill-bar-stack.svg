@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Pill Bar Stack</title><symbol id="pill-bar-stack-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 2H2v3h12zm0 6H2V7h12zm0 3H2v-1h12zM2 14h12v-1H2z"/></symbol><use href="#pill-bar-stack-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Videocam</title><symbol id="videocam-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 4h11v1.691l3-1.5v7.618l-3-1.5V12H1Zm1 1v6h9V8.691l3 1.5V5.809l-3 1.5V5Z"/></symbol><use href="#videocam-line"/></svg>

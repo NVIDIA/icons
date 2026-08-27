@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "isolatedModules": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "module": "preserve",
+    "target": "es2021",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "emitDeclarationOnly": false,
+    "paths": {
+      "@nvidia/gui-icons": ["./packages/gui-icons/src/index.ts"],
+      "@nvidia/micro-gui-icons": ["./packages/micro-gui-icons/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "**/dist/**"]
+}

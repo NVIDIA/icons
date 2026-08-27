@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Camera Add</title><symbol id="camera-add-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6.191 2h3.618l1 2H14v3.177h-1V5h-2.809l-1-2H6.809l-1 2H3v7h3.563v1H2V4h3.191z"/><path fill="currentColor" d="M8 6a2 2 0 0 0-1.042 3.707l-.522.853a3 3 0 1 1 4.124-4.124l-.853.522A2 2 0 0 0 8 6m3 5V8.5h1V11h2.5v1H12v2.5h-1V12H8.5v-1z"/></symbol><use href="#camera-add-line"/></svg>

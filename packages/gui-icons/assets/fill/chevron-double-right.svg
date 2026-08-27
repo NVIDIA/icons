@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chevron Double Right</title><symbol id="chevron-double-right-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4.354 3.646 8.707 8l-4.353 4.354-.708-.708L7.293 8 3.646 4.354Zm4 0L12.707 8l-4.353 4.354-.708-.708L11.293 8 7.646 4.354Z"/></symbol><use href="#chevron-double-right-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chevron Double Down</title><symbol id="chevron-double-down-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m8 7.293 3.646-3.647.708.708L8 8.707 3.646 4.354l.708-.708Zm0 4 3.646-3.647.708.708L8 12.707 3.646 8.354l.708-.708Z"/></symbol><use href="#chevron-double-down-fill"/></svg>

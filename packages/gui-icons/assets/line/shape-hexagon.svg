@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Shape Hexagon</title><symbol id="shape-hexagon-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.001 4.536 6-3.464 6 3.464v6.928l-6 3.464-6-3.464Zm1 6.351 5 2.887 5-2.887V5.113l-5-2.886-5 2.886Z"/></symbol><use href="#shape-hexagon-line"/></svg>

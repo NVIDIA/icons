@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Ticket</title><symbol id="ticket-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M15 3v3.5h-1a1.5 1.5 0 0 0 0 3h1V13H1V9.5h1a1.5 1.5 0 0 0 0-3H1V3ZM8 5.87l-.641 1.299-1.433.208 1.037 1.011-.245 1.428L8 9.142l1.282.674-.245-1.428 1.038-1.011-1.434-.208Z"/></symbol><use href="#ticket-fill"/></svg>

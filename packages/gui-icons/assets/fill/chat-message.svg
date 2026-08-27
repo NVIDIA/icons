@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chat Message</title><symbol id="chat-message-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h12v10H7.71l-2.467 2.467L4.582 12H2Zm9 4V5H5v1Zm0 3V8H5v1Z"/></symbol><use href="#chat-message-fill"/></svg>

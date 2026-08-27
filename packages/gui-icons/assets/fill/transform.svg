@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Transform</title><symbol id="transform-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10.25 13.634 8 14.815l-2.25-1.181V10.27L8 11.45l2.25-1.18zm-5.5-3.889v3.364L2 11.667V8.302zM14 11.667l-2.75 1.442V9.745L14 8.302z"/><path fill="currentColor" d="M10.25 6.381v2.76L8 10.321l-2.25-1.18v-2.76L8 5.2z"/><path fill="currentColor" d="M6.924 4.635 4.75 5.776v2.839L2 7.172V4.333l2.174-1.141zM14 4.333v2.839l-2.75 1.443V5.776l-2.174-1.14 2.75-1.444zm-3.25-1.705L8 4.07 5.249 2.628 8 1.186z"/></symbol><use href="#transform-fill"/></svg>

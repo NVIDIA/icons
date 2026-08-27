@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Weather Lightning</title><symbol id="weather-lightning-line" viewBox="0 0 16 16"><path fill="currentColor" d="M9.093 9h2.279l-3.223 5.5H6.863V12H5.201l.182-.637 1.137-4L6.622 7h3.04Zm-2.569 2h1.339v2.01L9.627 10H7.77l.568-2h-.96Z"/><path fill="currentColor" d="M8.5 2a3.5 3.5 0 0 1 3.399 2.678A3 3 0 0 1 13 7a3 3 0 0 1-.601 1.801l-.798-.601c.251-.334.399-.749.399-1.2 0-.671-.33-1.264-.839-1.628l-.165-.118-.036-.2A2.5 2.5 0 0 0 6 5.5V6h-.5a1.5 1.5 0 0 0-.375 2.953l-.25.968a2.501 2.501 0 0 1 .155-4.876A3.5 3.5 0 0 1 8.5 2"/></symbol><use href="#weather-lightning-line"/></svg>

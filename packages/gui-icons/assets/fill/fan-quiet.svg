@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fan Quiet</title><symbol id="fan-quiet-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4.647 3H6.5c1.023 0 1.853.83 1.853 1.853 0 .285-.125.608-.278.905a6 6 0 0 1-.22.387q.194-.12.387-.22c.297-.153.62-.278.905-.278H11V7.5c0 1.023-.83 1.853-1.853 1.853-.285 0-.608-.125-.905-.278a6 6 0 0 1-.387-.22q.12.194.22.387c.153.297.278.62.278.905V12H6.5a1.853 1.853 0 0 1-1.853-1.853c0-.285.125-.608.278-.905q.1-.194.22-.387a6 6 0 0 1-.387.22c-.297.153-.62.278-.905.278H2V7.5c0-1.023.83-1.853 1.853-1.853.285 0 .608.125.905.278q.194.1.387.22a6 6 0 0 1-.22-.387c-.153-.297-.278-.62-.278-.905zM12 5v4h1V5z"/></symbol><use href="#fan-quiet-fill"/></svg>

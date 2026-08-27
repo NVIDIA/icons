@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Transparency</title><symbol id="transparency-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1h-.5v14H8A7 7 0 1 0 8 1M4.143 3.404A6 6 0 0 1 5.947 2.36l-.342-.939A7 7 0 0 0 3.5 2.638zM2.09 6.957A6 6 0 0 1 2.803 5l-.866-.501a7 7 0 0 0-.832 2.286zM2.803 11a6 6 0 0 1-.713-1.957l-.985.172c.144.82.43 1.591.832 2.286zm3.144 2.64a6 6 0 0 1-1.804-1.044l-.643.766a7 7 0 0 0 2.105 1.217z"/></symbol><use href="#transparency-fill"/></svg>

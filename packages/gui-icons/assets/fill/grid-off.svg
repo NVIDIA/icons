@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Grid Off</title><symbol id="grid-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m2.353 1.646 12.001 12-.708.708L11 11.707V14h-1v-3H6v3H5v-3H2v-1h3V6H2V5h2.293L1.646 2.354ZM6 6.707V10h3.293ZM11 6v2.172l-1-1V6H8.828l-1-1H10V2h1v3h3v1z"/></symbol><use href="#grid-off-fill"/></svg>

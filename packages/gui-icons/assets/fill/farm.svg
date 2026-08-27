@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Farm</title><symbol id="farm-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 4.5a2.5 2.5 0 1 1 5 0v1.258l2-.625V4.5h1v.633l3.108.972L14 9.434V14h-2V9H7v5H2ZM6 5H3v8h2V9.434l.892-3.329L6 6.071Zm4.5 1.5h-2v2h2Z"/><path fill="currentColor" d="M8.793 11.5 8 10.707v1.586zm.707.707.793.793H8.707zm1.5.086-.793-.793.793-.793zM8.707 10h1.586l-.793.793z"/></symbol><use href="#farm-fill"/></svg>

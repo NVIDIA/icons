@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Plug USB</title><symbol id="plug-usb-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 1h8v7h1v3.678l-3 .804V15H6v-2.518l-3-.804V8h1Zm7 7V2H5v6ZM4 9v1.911l4 1.071 4-1.071V9Zm3 3.75V14h2v-1.25l-1 .268ZM6 5V3h1v2Zm3 0V3h1v2Z"/></symbol><use href="#plug-usb-line"/></svg>

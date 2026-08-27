@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Woman</title><symbol id="woman-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a2 2 0 1 0-.001 3.999A2 2 0 0 0 8 1M6.662 6h2.677l2.4 6H10v3H9v-3H7v3H6v-3H4.261z"/></symbol><use href="#woman-fill"/></svg>

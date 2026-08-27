@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>List Number</title><symbol id="list-number-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 9h2a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3v1h1v-.01h1V14H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h1v-1H3v.01H2Zm12-4H7V4h7Zm0 7H7v-1h7ZM3 2h1.01v1H4v3h.01v1H3Z"/></symbol><use href="#list-number-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Briefcase</title><symbol id="briefcase-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m10.348 2 .536 2H14v9H2V4h3.116l.536-2Zm-.5 2L9.58 3H6.42l-.268 1Z"/></symbol><use href="#briefcase-fill"/></svg>

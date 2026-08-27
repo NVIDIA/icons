@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Phone Laptop</title><symbol id="phone-laptop-line" viewBox="0 0 16 16"><path fill="currentColor" d="M14 2H4v3h1V3h8v5H8v1h6zm-6 9h7v-1H8z"/><path fill="currentColor" d="M7 6v8H2V6Zm-4 5h3V7H5v1H4V7H3Zm0 1v1h3v-1Z"/></symbol><use href="#phone-laptop-line"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Concierge</title><symbol id="concierge-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M12 15H4v-5h8zm-1.116-7H13v1H3V8h2.116l.536-2h4.696zM8 1a2 2 0 1 1 .001 3.999A2 2 0 0 1 8 1"/></symbol><use href="#concierge-fill"/></svg>

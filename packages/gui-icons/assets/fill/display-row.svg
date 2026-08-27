@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Display Row</title><symbol id="display-row-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.5 5v5H5.902l.268 1H7v1H3v-1h.831l.268-1H1V5ZM5 10.5l-.133.5h.267Zm3.5-.5V5H15v5h-3.098l.268 1H13v1H9v-1h.831l.268-1Zm2.5.5-.133.5h.267Z"/></symbol><use href="#display-row-fill"/></svg>

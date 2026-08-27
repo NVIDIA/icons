@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>EKG</title><symbol id="ekg-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.32 3.828A3.44 3.44 0 0 1 13.954 7H12v1h1.627q-.182.361-.455.68l-.012.014L8 13.866 2.84 8.694l-.012-.014A3.4 3.4 0 0 1 2.373 8h2.834l1.034-1.034.973 3.632L9.244 8H11V7H8.756L7.661 8.402l-.902-3.368L4.793 7H2.046A3.44 3.44 0 0 1 7.68 3.828l.012.011.308.302.308-.302z"/><path fill="currentColor" d="M13.627 8c.162-.318.271-.655.327-1H15v1zM2.046 7c.056.345.165.682.327 1H1V7z"/></symbol><use href="#ekg-fill"/></svg>

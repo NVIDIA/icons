@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Text Align Right</title><symbol id="text-align-right-line" viewBox="0 0 16 16"><path fill="currentColor" d="M14 4H2V3h12Zm0 6H4V9h10Zm0-3H6V6h8Zm0 6H8v-1h6Z"/></symbol><use href="#text-align-right-line"/></svg>

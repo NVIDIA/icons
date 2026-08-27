@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Displayport</title><symbol id="displayport-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 8h7V7h1v2H3V7h1z"/><path fill="currentColor" d="M15 7.293V11H1V5h11.707ZM2 10h12V7.707L12.293 6H2Z"/></symbol><use href="#displayport-line"/></svg>

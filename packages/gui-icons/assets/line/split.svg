@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Split</title><symbol id="split-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6 6.5h-.793L8 9.293 10.793 6.5H10v-1h2.5V8h-1v-.793l-3 3V13h-1v-2.793l-3-3V8h-1V5.5H6z"/><path fill="currentColor" d="M8 1a7 7 0 1 1 0 14A7 7 0 0 1 8 1m0 1a6 6 0 1 0 0 12A6 6 0 0 0 8 2"/></symbol><use href="#split-line"/></svg>

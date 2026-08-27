@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Reverse 10</title><symbol id="reverse-10-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 8a5 5 0 1 1 5 5v1a6 6 0 1 0-5.898-7.105L1.854 5.646l-.708.708L4 9.207z"/><path fill="currentColor" d="M6 5h1.01v1.125H7v3.75h.01V11H6zm2 1.125C8 5.422 8.649 5 9.25 5h1.5c.601 0 1.25.422 1.25 1.125v3.75c0 .703-.649 1.125-1.25 1.125h-1.5C8.649 11 8 10.578 8 9.875Zm1.04-.058C9 6.1 9 6.123 9 6.125v3.75c0 .002 0 .025.04.058a.33.33 0 0 0 .21.067h1.5a.33.33 0 0 0 .21-.067c.04-.033.04-.056.04-.058v-3.75c0-.002 0-.025-.04-.058A.33.33 0 0 0 10.75 6h-1.5a.33.33 0 0 0-.21.067"/></symbol><use href="#reverse-10-line"/></svg>

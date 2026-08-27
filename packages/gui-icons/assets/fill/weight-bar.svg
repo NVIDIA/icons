@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Weight Bar</title><symbol id="weight-bar-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4 4h1v3.5h6V4h1v8h-1V8.5H5V12H4ZM2 7.5V5h1v6H2V8.5H1v-1ZM13 5h1v2.5h1v1h-1V11h-1Z"/></symbol><use href="#weight-bar-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bank</title><symbol id="bank-line" viewBox="0 0 16 16"><path fill="currentColor" d="m8 2.287 6 2.373V6h-2v5h1v2h1v1H2v-1h1v-2h1V6H2V4.66ZM7 6v5h2V6Zm5 7v-1H4v1ZM8 3.362 3.859 5h8.283ZM6 11V6H5v5Zm5 0V6h-1v5Z"/></symbol><use href="#bank-line"/></svg>

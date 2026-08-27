@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Bluetooth Off</title><symbol id="bluetooth-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m9.518 6.689-.707-.707L9.793 5 8 3.207v1.965l-1-1V.793L11.207 5zm.982 5.018-3.5 3.5v-6l-2.646 2.647-.707-.708L6.793 8 1.146 2.354l.708-.708 12 12-.708.708ZM8 9.207v3.586L9.793 11Z"/></symbol><use href="#bluetooth-off-line"/></svg>

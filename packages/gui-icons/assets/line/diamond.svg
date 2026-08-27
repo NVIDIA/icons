@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Diamond</title><symbol id="diamond-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 .293 15.707 8 8 15.707.293 8ZM1.707 8 8 14.293 14.293 8 8 1.707Z" clip-rule="evenodd"/></symbol><use href="#diamond-line"/></svg>

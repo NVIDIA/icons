@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Escalator</title><symbol id="escalator-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5.5 1a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 5.5 1m.707 3.5H4.793L4 5.293v4.086l3-3V5.293z"/><path fill="currentColor" d="M15 4h-4.207l-7 7H1v4h4.207l7-7H15z"/></symbol><use href="#escalator-fill"/></svg>

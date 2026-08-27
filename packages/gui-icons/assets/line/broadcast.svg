@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Broadcast</title><symbol id="broadcast-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 8a7 7 0 1 1 13.062 3.502l-.865-.501A6 6 0 1 0 2 8c0 1.094.292 2.119.803 3.001l-.865.501A6.97 6.97 0 0 1 1 8m6 0a1 1 0 1 1 1.706.708l1.517 5.663-.966.258-.302-1.129H7.043l-.303 1.129-.966-.258 1.518-5.665A1 1 0 0 1 7 8M4 8a4 4 0 1 1 7.464 2.002l-.866-.501a3 3 0 1 0-5.196 0l-.866.501A4 4 0 0 1 4 8m3.999 1.932L7.311 12.5h1.376Z"/></symbol><use href="#broadcast-line"/></svg>

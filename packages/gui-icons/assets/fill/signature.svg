@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Signature</title><symbol id="signature-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M10.207 5.5 8.5 3.793l-6.5 6.5V12h1.707zM6 12h8v-1H6z"/></symbol><use href="#signature-fill"/></svg>

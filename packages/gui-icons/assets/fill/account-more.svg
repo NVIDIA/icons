@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Account More</title><symbol id="account-more-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M5 4a3 3 0 1 1 6 0 3 3 0 0 1-6 0m-.544 4h3.215A4.5 4.5 0 0 0 6 11.5c0 .925.279 1.785.758 2.5h-3.91zM8.5 10.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m1.5 1a1 1 0 1 1 2 0 1 1 0 0 1-2 0m3.5-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></symbol><use href="#account-more-fill"/></svg>

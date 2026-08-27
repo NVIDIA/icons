@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Cube</title><symbol id="cube-line" viewBox="0 0 16 16"><path fill="currentColor" d="m8.001 1.072 6 3.464v6.928l-6 3.464-6-3.464V4.536Zm4.5 3.753-4.5-2.599-4.5 2.599 4.5 2.598Zm-4 8.66 4.5-2.598V5.691l-4.5 2.598Zm-1 0V8.289l-4.5-2.598v5.196Z"/></symbol><use href="#cube-line"/></svg>

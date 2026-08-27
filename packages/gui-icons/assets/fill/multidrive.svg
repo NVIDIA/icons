@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Multidrive</title><symbol id="multidrive-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M15 3v4H1V3ZM3.5 4.5h-1v1h1ZM15 8v4H1V8ZM3.5 9.5h-1v1h1Z"/></symbol><use href="#multidrive-fill"/></svg>

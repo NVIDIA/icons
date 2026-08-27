@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Pawn</title><symbol id="pawn-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M13 15H3v-2h10zM8 1a3 3 0 0 1 1.898 5.322l1.05 3.919L12 11.293V12H4v-.707l1.051-1.052 1.05-3.919A3 3 0 0 1 8 1"/></symbol><use href="#pawn-fill"/></svg>

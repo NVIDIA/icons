@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Family</title><symbol id="family-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M9.188 9.134 7.884 14H.849l1.607-6h6.428zM15.151 14H8.849l1.071-4h4.16zM12 5a2 2 0 1 1 .001 3.999A2 2 0 0 1 12 5M6 1a3 3 0 1 1 0 6 3 3 0 0 1 0-6"/></symbol><use href="#family-fill"/></svg>

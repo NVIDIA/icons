@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Eye Off</title><symbol id="eye-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708-2.907-2.908C9.894 11.78 8.965 12 8 12c-1.69 0-3.267-.674-4.479-1.455-1.2-.773-2.118-1.701-2.456-2.299L.926 8l.139-.246c.338-.598 1.256-1.526 2.456-2.299q.365-.237.773-.454L1.646 2.354Zm3.923 5.338a2 2 0 0 0 2.739 2.739l-.757-.757a1 1 0 0 1-1.225-1.225Zm8.658 1.262c-.286.506-.988 1.25-1.925 1.935L6.918 4.09Q7.449 4.002 8 4c1.69 0 3.267.674 4.479 1.455 1.2.773 2.118 1.701 2.456 2.299l.139.246z"/></symbol><use href="#eye-off-fill"/></svg>

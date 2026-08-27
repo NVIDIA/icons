@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Checkmark Badge</title><symbol id="checkmark-badge-line" viewBox="0 0 16 16"><path fill="currentColor" d="M7 10.707 4.146 7.854l.708-.708L7 9.293l4.146-4.147.708.708Z"/><path fill="currentColor" d="m9.603 2.017 2.268-.722.509 2.325 2.325.509-.722 2.268L15.742 8l-1.759 1.603.722 2.268-2.325.509-.509 2.325-2.268-.722L8 15.742l-1.603-1.759-2.268.722-.509-2.325-2.325-.509.722-2.268L.258 8l1.759-1.603-.722-2.268L3.62 3.62l.509-2.325 2.268.722L8 .258ZM6.704 3.164l-1.833-.583L4.46 4.46l-1.879.411.583 1.833L1.742 8l1.422 1.296-.583 1.833 1.879.411.411 1.879 1.833-.584L8 14.258l1.296-1.423 1.833.584.411-1.879 1.879-.411-.584-1.833L14.258 8l-1.423-1.296.584-1.833-1.879-.411-.411-1.879-1.833.583L8 1.742Z" clip-rule="evenodd"/></symbol><use href="#checkmark-badge-line"/></svg>

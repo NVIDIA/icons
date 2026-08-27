@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Suit Spade</title><symbol id="suit-spade-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8.434 2.252 8 1.492l-.434.76C6.762 3.659 5.882 4.64 5.093 5.518q-.241.268-.469.528C3.74 7.056 3 8.053 3 9.5a2.5 2.5 0 0 0 3.206 2.399L5.643 14h4.715l-.563-2.101q.336.1.705.101A2.5 2.5 0 0 0 13 9.5c0-1.447-.74-2.444-1.624-3.454a40 40 0 0 0-.469-.528c-.788-.878-1.669-1.859-2.473-3.266"/></symbol><use href="#suit-spade-fill"/></svg>

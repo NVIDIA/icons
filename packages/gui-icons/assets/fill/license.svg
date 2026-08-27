@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>License</title><symbol id="license-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M1 2h14v12H1Zm6.86 7H4.14l-1 3h5.72ZM4 6a2 2 0 1 0 3.999.001A2 2 0 0 0 4 6m6 2h3V7h-3Zm0 2h3V9h-3Zm3 2v-1h-3v1Zm-2-6.5v-1h-1v1Z"/></symbol><use href="#license-fill"/></svg>

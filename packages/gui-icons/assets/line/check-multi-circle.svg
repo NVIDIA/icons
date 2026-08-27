@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Check Multi Circle</title><symbol id="check-multi-circle-line" viewBox="0 0 16 16"><path fill="currentColor" d="M12.646 5.646 8.5 9.793 6.353 7.646l-.707.707L8.5 11.207l4.854-4.854z"/><path fill="currentColor" d="m7.646 7.646 2.5-2.5.708.707-2.501 2.5zM6.207 10.5 3.353 7.646l-.707.707L5.5 11.207z"/><path fill="currentColor" d="M8 1a7 7 0 1 1 0 14A7 7 0 0 1 8 1M2 8a6 6 0 1 0 12 0A6 6 0 0 0 2 8"/></symbol><use href="#check-multi-circle-line"/></svg>

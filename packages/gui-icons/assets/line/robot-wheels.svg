@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Robot Wheels</title><symbol id="robot-wheels-line" viewBox="0 0 16 16"><path fill="currentColor" d="M10 5H6V4h4z"/><path fill="currentColor" d="M9.136 2H12v2h1v1h-1v2H8.5v1h3.384l.535 2H14v5h-4v-2H6v2H2v-5h1.58l.536-2H7.5V7H4V5H3V4h1V2h2.864l.242-1h1.788ZM5 6h6V3H5Zm-.384 4H6v2h4v-2h1.384l-.268-1H4.884ZM3 14h2v-3H3Zm8 0h2v-3h-2Z"/></symbol><use href="#robot-wheels-line"/></svg>

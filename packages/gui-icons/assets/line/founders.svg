@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Founders</title><symbol id="founders-line" viewBox="0 0 16 16"><path fill="currentColor" d="m8.001 1.072 6 3.464v6.928l-6 3.464-6-3.464V4.536Zm-5 4.041v5.774l5 2.887 5-2.887V5.113l-5-2.887Zm4.999 0 2.5 1.444v2.886L8 10.887 5.5 9.443V6.557ZM6.5 7.134v1.732l1.5.866 1.5-.866V7.134L8 6.268Z"/></symbol><use href="#founders-line"/></svg>

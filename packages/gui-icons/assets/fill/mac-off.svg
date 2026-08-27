@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Mac Off</title><symbol id="mac-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m1.354.646 13 13-.708.708L10.293 11h-.391l.268 1H11v1H5v-1h.831l.268-1H2V9h6.293l-1-1H2V3h.293L.646 1.354ZM7.134 11l-.268 1h2.268l-.268-1ZM14 11h-.172l-2-2H14zm0-3h-3.172l-5-5H14z"/></symbol><use href="#mac-off-fill"/></svg>

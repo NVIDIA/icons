@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Skull</title><symbol id="skull-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 9a1 1 0 1 1 0 2 1 1 0 0 1 0-2M5.5 6a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 5.5 6m0 1a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1m5-1a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 10.5 6m0 1a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1"/><path fill="currentColor" d="M8 2a6 6 0 0 1 6 6l-.947 3.602-1.139.303L11.391 14H4.609l-.524-2.095-1.138-.303L2 8.065C2 4.771 4.678 2 8 2m0 1a5 5 0 0 0-4.999 4.938l.763 2.846 1.15.309L5.391 13H6.5v-1h1v1h1v-1h1v1h1.109l.477-1.907 1.149-.309.763-2.846A5 5 0 0 0 8 3"/></symbol><use href="#skull-line"/></svg>

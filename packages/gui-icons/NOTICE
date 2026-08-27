@@ -1,0 +1,24 @@
+NVIDIA GUI Icons
+Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This package is dual-licensed. Source code is licensed under the Apache
+License, Version 2.0 (see LICENSE). The icon/SVG assets are licensed under
+Creative Commons Attribution 4.0 International (CC-BY-4.0) (see LICENSE).
+
+Attribution notice for the CC-BY-4.0 assets
+--------------------------------------------
+If you redistribute the SVG icon assets from this package (`@nvidia/gui-icons`,
+the files under `assets/`), CC-BY-4.0 requires that you retain attribution.
+Credit as:
+
+    "NVIDIA GUI Icons" — https://github.com/NVIDIA/icons
+
+For third-party OSS components distributed alongside this package, see
+THIRD_PARTY_NOTICES.
+
+Trademark notice
+-----------------
+"NVIDIA" and the NVIDIA logo are trademarks and/or registered trademarks of
+NVIDIA Corporation in the U.S. and other countries. CC-BY-4.0 and Apache-2.0
+license the copyrighted content in this project — they do NOT grant any
+license or right to use NVIDIA's trademarks.

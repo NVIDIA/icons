@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fast Reverse</title><symbol id="fast-reverse-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 7.121V3.629L.508 8 8 12.37v-3.5l6 3.5V3.631z"/></symbol><use href="#fast-reverse-fill"/></svg>

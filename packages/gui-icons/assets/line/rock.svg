@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Rock</title><symbol id="rock-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4.462 7.96 7.77 9.063l2.23 2.23v2.475l-1.874 1.249-4.855-.539-1.806-1.806.584-3.505Zm.076 1.08-1.587.793-.415 2.495 1.194 1.194 4.144.461L9 13.232v-1.525l-1.77-1.77Zm6.062-7.1 2.885 2.308.535 8.551-2.296 1.148-.448-.894 1.704-.852-.465-7.449L10.4 3.06l-2.481.828-.934 3.733-.97-.242 1.067-4.267Z"/></symbol><use href="#rock-line"/></svg>

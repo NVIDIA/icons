@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Stair</title><symbol id="stair-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11 2h3v1h-2v3H9v3H6v3H3v2H2v-3h3V8h3V5h3Z"/></symbol><use href="#stair-fill"/></svg>

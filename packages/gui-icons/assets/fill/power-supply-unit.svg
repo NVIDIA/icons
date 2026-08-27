@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Power Supply Unit</title><symbol id="power-supply-unit-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m7.5 12.395 7.494-4.613q.005.109.006.218A7 7 0 0 1 1.125 9.317L7.5 5.395z"/><path fill="currentColor" d="M8 1a7 7 0 0 1 6.874 5.683L8.5 10.605v-7L1.005 8.217Q1.001 8.109 1 8a7 7 0 0 1 7-7"/></symbol><use href="#power-supply-unit-fill"/></svg>

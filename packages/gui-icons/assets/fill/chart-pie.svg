@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chart Pie</title><symbol id="chart-pie-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M8 2q-.239 0-.473.018l-.6.047 1.481 5.527 5.527 1.481.047-.6Q14 8.239 14 8a6 6 0 0 0-6-6"/><path fill="currentColor" d="M7.592 8.408 5.961 2.323l-.543.259A6.003 6.003 0 0 0 8 14a6 6 0 0 0 5.418-3.419l.259-.542z"/></symbol><use href="#chart-pie-fill"/></svg>

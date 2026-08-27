@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Sliders</title><symbol id="sliders-line" viewBox="0 0 16 16"><path fill="currentColor" d="M5 2h3v2h6v1H8v2H5V5H2V4h3Zm3 6h3v2h3v1h-3v2H8v-2H2v-1h6ZM6 3v3h1V3Zm3 6v3h1V9Z"/></symbol><use href="#sliders-line"/></svg>

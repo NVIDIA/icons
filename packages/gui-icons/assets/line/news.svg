@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>News</title><symbol id="news-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h12v12h-1.185l-.753-.646-1.312.715-1.375-.75-1.375.75-1.375-.75-1.365.745-1.411-.706-.642.642H2Zm1 1v9.793l.651-.651 1.589.794 1.385-.755 1.375.75 1.375-.75 1.375.75 1.438-.785.812.696V3Zm1 1h4v3H4Zm0 5V8h8v1Zm8 1v1H4v-1Zm0-5H9V4h3Zm0 2H9V6h3ZM5 5v1h2V5Z"/></symbol><use href="#news-line"/></svg>

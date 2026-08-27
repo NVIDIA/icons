@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Infinity</title><symbol id="infinity-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2.295 5h3.414l2.293 2.293L10.295 5h3.414l1.293 1.293v3.414L13.709 11h-3.414L8.002 8.707 5.709 11H2.295L1.002 9.707V6.293Zm6.414 3 2 2h2.586l.707-.707V6.707L13.295 6h-2.586ZM7.295 8l-2-2H2.709l-.707.707v2.586l.707.707h2.586Z"/></symbol><use href="#infinity-fill"/></svg>

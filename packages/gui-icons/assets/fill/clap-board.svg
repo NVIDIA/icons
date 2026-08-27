@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Clap Board</title><symbol id="clap-board-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M14 4v11H2V4ZM5.788 5l-.536 2h1.964l.536-2Zm3 0-.536 2h1.964l.536-2ZM4.216 7l.536-2H3v2ZM13 5h-1.212l-.536 2H13Z"/></symbol><use href="#clap-board-fill"/></svg>

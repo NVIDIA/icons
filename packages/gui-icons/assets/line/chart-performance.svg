@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Chart Performance</title><symbol id="chart-performance-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 2H5v1h1.293L2.646 6.646l.708.708L7 3.707V5h1zm5 4v8H3v-4h3V8h3V6Zm-1 7V7h-2v6ZM7 9v4h2V9Zm-1 2H4v2h2Z"/></symbol><use href="#chart-performance-line"/></svg>

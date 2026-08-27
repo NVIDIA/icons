@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Fork</title><symbol id="fork-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6.5 2h-1v5.884l2 .536V14h1V8.42l2-.536V2h-1v5.116l-1 .268V2h-1v5.384l-1-.268z"/></symbol><use href="#fork-fill"/></svg>

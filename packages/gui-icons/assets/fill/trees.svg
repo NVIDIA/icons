@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Trees</title><symbol id="trees-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M6.505 1 2.639 7.696h1.495l-3 5.196H6V15h1v-2.108h4.866l-3-5.196h1.505zM10 15v-1.108h1V15z"/><path fill="currentColor" d="M12.103 8.696 9.082 3.464 10.505 1l3.866 6.696h-1.505l3 5.196h-2.845l-2.423-4.196z"/></symbol><use href="#trees-fill"/></svg>

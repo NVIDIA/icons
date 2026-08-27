@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Backspace</title><symbol id="backspace-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M3.809 3H14v10H3.809L.923 8Zm2.837 3.354L8.293 8 6.646 9.646l.708.708L9 8.707l1.646 1.647.708-.708L9.707 8l1.647-1.646-.708-.708L9 7.293 7.354 5.646Z"/></symbol><use href="#backspace-fill"/></svg>

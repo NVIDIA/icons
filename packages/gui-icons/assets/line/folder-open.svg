@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Folder Open</title><symbol id="folder-open-line" viewBox="0 0 16 16"><path fill="currentColor" d="m5.884 3 .536 2H13v2h2.239l-2.402 6H1.001L1 3Zm-3.646 9h9.922l1.601-4H3.839ZM12 7V6H5.652l-.536-2H2l.001 5.9L3.162 7Z"/></symbol><use href="#folder-open-line"/></svg>

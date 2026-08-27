@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Workstation System</title><symbol id="workstation-system-line" viewBox="0 0 16 16"><path fill="currentColor" d="M1 5h10v1h2v1h-2v1h2v1h-2v3H6.902l.268 1H9v1H3v-1h1.831l.268-1H1Zm9 1H2v5h8ZM7 2h8v12h-5v-1h4V3H8v1H7Zm5 2h1v1h-1Zm-6 8.5-.134.5h.268Z"/></symbol><use href="#workstation-system-line"/></svg>

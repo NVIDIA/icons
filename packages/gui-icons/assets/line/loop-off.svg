@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Loop Off</title><symbol id="loop-off-line" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708-9.285-9.286A3.001 3.001 0 0 0 5 11h2.293L6.146 9.854l.708-.708L9.207 11.5l-2.353 2.354-.708-.708L7.293 12H5a4 4 0 0 1-1.44-7.733L1.646 2.354zM15 8a4 4 0 0 1-1.259 2.913l-.707-.708A3 3 0 0 0 11 5H7.828l-1-1H11a4 4 0 0 1 4 4"/></symbol><use href="#loop-off-line"/></svg>

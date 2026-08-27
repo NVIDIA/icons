@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Light Rect</title><symbol id="light-rect-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.224 7.053 8 7.441l.776-.388.448.894L8 8.559l-1.224-.612z"/><path fill="currentColor" d="M2 2h12v12H2Zm6 2a3 3 0 0 0-3 3c0 .895.54 1.575.966 2.037q.118.129.228.241h3.612q.11-.112.229-.241C10.46 8.575 11 7.895 11 7a3 3 0 0 0-3-3m-1.333 6.818.848.849h.97l.848-.849v-.54H6.667Z"/></symbol><use href="#light-rect-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Approximately</title><symbol id="approximately-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m6.501 8.482 2.999.804 2.871-.769.259.966-3.13.838-2.999-.803-2.871.769-.259-.966Zm0-3 2.999.804 2.871-.769.259.966-3.13.839-2.999-.804-2.871.769-.259-.966Z"/></symbol><use href="#approximately-fill"/></svg>

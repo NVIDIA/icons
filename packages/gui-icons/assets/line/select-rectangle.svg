@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Select Rectangle</title><symbol id="select-rectangle-line" viewBox="0 0 16 16"><path fill="currentColor" d="M2 2h2v1H3v1H2Zm4.5 0h3v1h-3ZM12 2h2v2h-1V3h-1ZM2 9.5v-3h1v3Zm12-3v3h-1v-3ZM2 12h1v1h1v1H2Zm12 0v2h-2v-1h1v-1Zm-4.5 2h-3v-1h3Z"/></symbol><use href="#select-rectangle-line"/></svg>

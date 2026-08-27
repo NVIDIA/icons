@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Signpost</title><symbol id="signpost-line" viewBox="0 0 16 16"><path fill="currentColor" d="M8 4h3.707l2.5 2.5-2.5 2.5H8v5H7V9H3V4h4V2h1ZM4 8h7.293l1.5-1.5-1.5-1.5H4Z"/></symbol><use href="#signpost-line"/></svg>

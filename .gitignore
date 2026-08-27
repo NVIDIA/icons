@@ -1,0 +1,26 @@
+node_modules/
+dist/
+.turbo/
+*.tsbuildinfo
+
+# npm pack output
+*.tgz
+
+# Local editor / coding-assistant state. Biome runs with useIgnoreFile, so an
+# untracked tool config left in the tree otherwise shows up as a lint failure
+# for whoever created it.
+.vscode/
+.idea/
+.claude/
+.devin/
+.husky/
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db

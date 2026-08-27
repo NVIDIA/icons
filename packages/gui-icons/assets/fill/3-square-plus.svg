@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>3 Square Plus</title><symbol id="3-square-plus-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7 2H2v5h5zm2 9v1h2v2h1v-2h2v-1h-2V9h-1v2zM7 9H2v5h5zm7-7H9v5h5z"/></symbol><use href="#3-square-plus-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Data</title><symbol id="data-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M4.5 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M12 2h-1v5h1zM5 14V9H4v5zm6.5-5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5"/></symbol><use href="#data-fill"/></svg>

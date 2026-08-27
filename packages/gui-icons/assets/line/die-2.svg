@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Die 2</title><symbol id="die-2-line" viewBox="0 0 16 16"><path fill="currentColor" d="M6 9a1 1 0 1 1 0 2 1 1 0 0 1 0-2m4-4a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/><path fill="currentColor" d="M14 14H2V2h12ZM3 13h10V3H3Z"/></symbol><use href="#die-2-line"/></svg>

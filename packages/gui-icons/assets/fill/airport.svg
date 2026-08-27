@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Airport</title><symbol id="airport-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M11.707 1 13 2.293v2.414l-1 1V8h2v1h-1v4h1v1H2v-1h1V9H2V8h7V5.707l-1-1V2.293L9.293 1ZM11 6h-1v7h1Zm.293-1L12 4.293V4H9v.293L9.707 5ZM9 2.707V3h3v-.293L11.293 2H9.707ZM6 11v-1H5v1Zm2 0v-1H7v1Z"/></symbol><use href="#airport-fill"/></svg>

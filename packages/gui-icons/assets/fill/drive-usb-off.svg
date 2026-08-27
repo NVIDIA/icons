@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Drive USB Off</title><symbol id="drive-usb-off-fill" viewBox="0 0 16 16"><path fill="currentColor" d="m2.354 1.646 12 12-.708.708L11 11.707v1.507l-3 .804-3-.804V5.707L1.646 2.354zM11 5v3.172L7.828 5H9V3H7v1.172l-1-1V2h4v3z"/></symbol><use href="#drive-usb-off-fill"/></svg>

@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Footprint</title><symbol id="footprint-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M7.999 2h.002c.277 0 .784 0 1.352.406.547.39 1.093 1.114 1.611 2.408.555 1.386.41 2.38.144 3.377q-.07.257-.143.512c-.194.682-.395 1.383-.45 2.297h-5.03c-.056-.914-.256-1.615-.45-2.297q-.075-.255-.143-.512c-.266-.997-.41-1.991.144-3.377C5.553 3.52 6.1 2.796 6.647 2.406 7.215 2 7.722 2 7.999 2M5.518 12c.065.841.297 1.532.67 2.044.453.622 1.1.956 1.812.956s1.359-.334 1.812-.956c.373-.512.604-1.203.669-2.044z"/></symbol><use href="#footprint-fill"/></svg>

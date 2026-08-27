@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Previous</title><symbol id="previous-line" viewBox="0 0 16 16"><path fill="currentColor" d="M4 12.5v-9h1v4.213l7-4.084v8.741L5 8.287V12.5ZM6.492 8 11 10.63V5.371Z"/></symbol><use href="#previous-line"/></svg>

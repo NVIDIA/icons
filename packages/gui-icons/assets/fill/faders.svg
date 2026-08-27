@@ -1,0 +1,5 @@
+<!--!
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: CC-BY-4.0
+-->
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>Faders</title><symbol id="faders-fill" viewBox="0 0 16 16"><path fill="currentColor" d="M2 5h2V1h1v4h2v3H5v2H4V8H2zm9-4v2H9v3h2v4h1V6h2V3h-2V1zM4.5 12a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 4.5 12m7 0a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 11.5 12"/></symbol><use href="#faders-fill"/></svg>
