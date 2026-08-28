@@ -80,6 +80,40 @@ These packages do **not** use `external-svg-loader`, CDN-hosted SVG files, or
 web fonts. All path data is bundled at install time; see
 [Rendering model](#rendering-model) for how it reaches the DOM.
 
+### Finding an icon
+
+There is no hosted icon browser yet, so the icon set is searchable
+programmatically instead. Every name, category and keyword ships with the
+package as plain data, and all of it is typed.
+
+```ts
+import {
+  IconNames,        // all 748 names
+  IconTagMap,       // name -> search keywords
+  IconCategoryMap,  // category -> names
+  getIconCategory,  // name -> category
+  isIconName,       // runtime type guard
+} from "@nvidia/gui-icons";
+
+// Search by name or keyword
+const matches = IconNames.filter(
+  (name) => name.includes("gpu") || IconTagMap[name]?.includes("gpu"),
+);
+// -> ["gpu", "gpu-card", "gpu-card-multi", "gpu-card-off", "gpu-off", "gpu-sync"]
+
+getIconCategory("gpu");             // -> "hardware"
+IconCategoryMap.hardware.length;    // -> 118
+isIconName("not-an-icon");          // -> false
+```
+
+`IconCategories` lists the 14 categories and `IconTags` the full keyword
+vocabulary. Both are exported as `const` arrays with matching `IconCategory`
+and `IconTag` types, so an editor will autocomplete them and a typo is a
+compile error rather than a blank icon.
+
+The same exports are available from `@nvidia/micro-gui-icons` for the Micro
+set, and are re-exported as types from the React packages.
+
 ### Raw SVG assets
 
 ```ts
@@ -164,6 +198,13 @@ output, not the hydrated DOM.
 `getNvidiaMicroGuiIconSpriteSymbols` and `<NvidiaMicroGuiIconSprite />` are
 the same API for the Micro GUI Icons package.
 
+**Shadow DOM caveat:** the sprite is injected into `document.body`, and an SVG
+`<use href="#id">` cannot resolve a `<symbol>` across a shadow boundary. Icons
+rendered inside a shadow root (a web component, or a micro-frontend that
+mounts into one) therefore render as an empty `<svg>` with no error. Render
+`<NvidiaGuiIconSprite />` inside the same shadow root to give those icons a
+`<symbol>` they can reach.
+
 ### Line and fill variants
 
 Every icon ships in both `line` and `fill`. For glyphs that are pure strokes
@@ -183,15 +224,21 @@ follow the same API shape for the 24-icon utility set.
 
 ### Bundle size guidance
 
-| Import style | Bundle includes |
-|---|---|
-| `import { NvidiaGuiIcon }` | Full inline map (~all icons) |
-| `import { Gpu } from ".../icons"` | Only `Gpu` path data (tree-shaken by bundler) |
-| `import { Gpu } from ".../icons/Gpu"` | Only `Gpu` path data (explicit subpath) |
+| Import style | Bundle includes | Approx. cost |
+|---|---|---|
+| `import { NvidiaGuiIcon }` | Full inline map, all 748 icons | 490 KB (150 KB gzipped) |
+| `import { Gpu } from ".../icons"` | Only `Gpu` path data (tree-shaken by bundler) | ~1 KB |
+| `import { Gpu } from ".../icons/Gpu"` | Only `Gpu` path data (explicit subpath) | ~1 KB |
 
-For applications that render a fixed set of icons, use named subpath imports.
-For applications with fully dynamic icon names at runtime, the generic
-`NvidiaGuiIcon` component is the right choice.
+Figures are for `@nvidia/react-gui-icons` at 1.0.0, measured on the built
+output. The Micro GUI Icons equivalent is 8.6 KB (1.5 KB gzipped) for its full
+map.
+
+The generic `NvidiaGuiIcon` component resolves icon names at runtime, so a
+bundler cannot know which icons you use and has to include all of them. Reach
+for it only when icon names genuinely are dynamic. For a fixed set of icons,
+which is the common case, use the named subpath imports and pay for what you
+render.
 
 ## Accessibility
 

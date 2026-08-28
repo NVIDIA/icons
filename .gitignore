@@ -13,7 +13,6 @@ dist/
 .idea/
 .claude/
 .devin/
-.husky/
 
 # Secrets — never commit
 .env

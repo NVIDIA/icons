@@ -116,7 +116,11 @@ By making a contribution to this project, I certify that:
    npm run test:react-compat
    npm run verify:packaging
    ```
-5. Commit with `--signoff`: `git commit --signoff -m "fix: describe the fix"`.
+5. Commit with `--signoff`, using a [Conventional Commits](https://www.conventionalcommits.org/)
+   message: `git commit --signoff -m "fix: describe the fix"`. `npm ci` installs
+   a `commit-msg` git hook (via [husky](https://typicode.github.io/husky/)) that
+   checks this locally; the `commitlint-check` CI job checks it again on the PR
+   so the rule holds even if the hook was skipped or never installed.
 6. Push your branch and open a pull request against `main`.
 
 ## Sync-generated content
