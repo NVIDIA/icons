@@ -546,3 +546,30 @@ jobs:
             exit 1
           fi
           echo "✓ All commits have Signed-off-by trailers."
+
+  # husky's commit-msg hook (`.husky/commit-msg`) gives fast local feedback,
+  # but it only fires for contributors who ran `npm install` (which runs the
+  # `prepare` script). It's trivially skippable with `--no-verify` and never
+  # runs at all for edits made through the GitHub web UI. This job is the
+  # actual gate — same commitlint config, same conventional-commits rule set,
+  # run here so it can't be bypassed.
+  commitlint-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      # Same BASE_SHA/HEAD_SHA-via-env pattern as dco-check above, and the
+      # same reasoning for why it's the payload SHAs and not `origin/$ref`.
+      - env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: npx commitlint --from "$BASE_SHA" --to "$HEAD_SHA" --verbose
