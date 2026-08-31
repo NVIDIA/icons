@@ -69,7 +69,7 @@
   "devDependencies": {
     "@biomejs/biome": "^2.5.10",
     "@types/jsdom": "^28.0.3",
-    "@types/node": "^24.5.1",
+    "@types/node": "^26.4.0",
     "@types/react": "^19.2.18",
     "@vitejs/plugin-react": "^6.1.0",
     "dom-accessibility-api": "^0.7.1",
