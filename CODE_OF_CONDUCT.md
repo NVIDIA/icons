@@ -62,9 +62,9 @@ appointed representative at an online or offline event.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to [@NVIDIA/icons-security](https://github.com/orgs/NVIDIA/teams/icons-security)
 (see [MAINTAINERS.md](./MAINTAINERS.md)) via a direct message to any team
-member on GitHub, or to security@nvidia.com. If you're not comfortable
-reaching out directly, open a GitHub issue asking a maintainer to follow up
-privately, or escalate as described in MAINTAINERS.md's
+member on GitHub. If you're not comfortable reaching out directly, open a
+GitHub issue asking a maintainer to follow up privately, or escalate as
+described in MAINTAINERS.md's
 [escalation path](./MAINTAINERS.md#escalation-path).
 
 All complaints will be reviewed and investigated promptly and fairly.
