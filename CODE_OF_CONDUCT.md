@@ -60,12 +60,13 @@ appointed representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to [@NVIDIA/icons-security](https://github.com/orgs/NVIDIA/teams/icons-security)
-(see [MAINTAINERS.md](./MAINTAINERS.md)) via a direct message to any team
-member on GitHub. If you're not comfortable reaching out directly, open a
-GitHub issue asking a maintainer to follow up privately, or escalate as
-described in MAINTAINERS.md's
-[escalation path](./MAINTAINERS.md#escalation-path).
+reported privately to GitHub_Conduct@nvidia.com. Please do not open a public
+GitHub issue for a conduct concern: it exposes the report to the person it
+concerns.
+
+Project maintainers are listed in [MAINTAINERS.md](./MAINTAINERS.md); its
+[escalation path](./MAINTAINERS.md#escalation-path) covers everything that is
+neither a conduct report nor a security report.
 
 All complaints will be reviewed and investigated promptly and fairly.
 
