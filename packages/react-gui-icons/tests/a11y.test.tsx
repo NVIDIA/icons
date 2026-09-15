@@ -311,7 +311,13 @@ test("every raw asset carries the CC-BY-4.0 license comment", () => {
         svg.startsWith("<!--!"),
         `${variant}/${iconName} should open with the preserve-marked comment`,
       );
+      // The pattern below matches the asset's own header; it is not a license
+      // declaration for this file. reuse(1) >= 6 parses any such literal as an
+      // SPDX expression and fails on the escaped regex, so hide it from the
+      // parser the same way scripts/verify-license-headers.mjs does.
+      // REUSE-IgnoreStart
       assert.match(svg, /SPDX-License-Identifier: CC-BY-4\.0/);
+      // REUSE-IgnoreEnd
       // The dual expression is reserved for the top-level LICENSE.
       assert.doesNotMatch(svg, /CC-BY-4\.0 AND Apache-2\.0/);
     }
