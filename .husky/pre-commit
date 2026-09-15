@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
+# Fast local feedback on formatting, the highest-frequency CI failure in a
+# formatter-enforced repo. CI's `lint-format` job is still the actual gate:
+# this hook only runs for contributors who ran `npm ci` (which runs `prepare`),
+# is skippable with `--no-verify`, and never runs for edits made through the
+# GitHub web UI. Same reasoning as the commit-msg hook next to this file.
+#
+# Runs the biome pinned in package-lock.json rather than whatever an editor
+# integration happens to provide, so a broken or missing IDE plugin cannot let
+# a misformatted file through.
+#
+# Check-only, deliberately not `--write`: git has already snapshotted the index
+# by the time a pre-commit hook runs, so a fix written here would not be part
+# of the commit unless the hook re-staged it, and re-staging silently sweeps in
+# hunks that `git add -p` deliberately left out. Report and stop instead; the
+# fix is `npm run lint:fix`.
+#
+# `--staged` limits the check to files with staged changes, so a one-file
+# commit is never blocked by an unrelated problem elsewhere in the tree.
+#
+# `--no-errors-on-unmatched`: a commit that stages only files biome does not
+# handle (LICENSE, an .svg, an .md) checks zero files, which biome treats as an
+# error without this flag, blocking a perfectly good commit.
+npx --no -- biome check --staged --no-errors-on-unmatched
