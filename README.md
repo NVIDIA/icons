@@ -24,8 +24,10 @@ This README and the per-package READMEs linked above are the complete
 documentation today. A browsable icon gallery and searchable docs site is
 planned, but is **not yet available**. Until it ships, the authoritative list
 of every icon name is the `IconNames` constant exported from
-`@nvidia/gui-icons` and `@nvidia/micro-gui-icons`, and `IconCategoryMap` /
-`IconTagMap` from the same packages if you need to browse by category or tag.
+`@nvidia/gui-icons` and `@nvidia/micro-gui-icons`. To browse by keyword, use
+`IconTagMap` from either package; to browse by category, use `IconCategoryMap`
+from `@nvidia/gui-icons` (the Micro set ships no categories, see
+[Finding an icon](#finding-an-icon)).
 
 ## Getting started
 
@@ -111,8 +113,15 @@ vocabulary. Both are exported as `const` arrays with matching `IconCategory`
 and `IconTag` types, so an editor will autocomplete them and a typo is a
 compile error rather than a blank icon.
 
-The same exports are available from `@nvidia/micro-gui-icons` for the Micro
-set, and are re-exported as types from the React packages.
+`@nvidia/micro-gui-icons` exports the same name and keyword API: `IconNames`,
+`isIconName`, `IconTags`, `IconTagMap`, and the `IconName` / `IconTag` types.
+It ships **no categories**. At 24 icons the set is small enough to read in one
+go, so `IconCategories`, `IconCategoryMap` and `getIconCategory` exist only on
+`@nvidia/gui-icons`.
+
+The React packages re-export the `IconName` and `Variant` types for their own
+icon set. They do not re-export the name, tag or category *values*; import
+those from the matching base package.
 
 ### Raw SVG assets
 
