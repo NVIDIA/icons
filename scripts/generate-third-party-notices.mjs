@@ -70,7 +70,7 @@ if (runtimeDeps.size > 0) {
 // it does not carry a generation timestamp -- a timestamp would make this
 // file change on every run, which would defeat the CI drift check that runs
 // this script and expects `git diff --exit-code` to pass afterward.
-const CONTENT = `NVIDIA Icons — Third-Party Notices
+const CONTENT = `NVIDIA Icons: Third-Party Notices
 ==================================
 
 This file lists the open-source components distributed in the published npm

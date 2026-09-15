@@ -15,7 +15,7 @@
   "engines": {
     "node": ">=22"
   },
-  "description": "NVIDIA Micro GUI Icons — raw SVG assets and TypeScript constants (utility icon set).",
+  "description": "NVIDIA Micro GUI Icons: raw SVG assets and TypeScript constants (utility icon set).",
   "keywords": [
     "nvidia",
     "icons",

@@ -303,7 +303,7 @@ for (const s of SUITES) {
   assert.equal(symbolCount(fillId), 1, label + ": fill variant needs its own <symbol>");
 
   // The generic name-driven component resolves through inlineMap instead of
-  // per-icon DATA — a separate code path to the same runtime.
+  // per-icon DATA: a separate code path to the same runtime.
   const genericHost = container();
   mount(React.createElement(Generic, { iconName: s.iconName }), genericHost);
   assert.equal(

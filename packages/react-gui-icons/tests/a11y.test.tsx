@@ -100,7 +100,7 @@ for (const subject of SUBJECTS) {
   test(`${subject.label} title prop flips every a11y attribute at once`, () => {
     const { svg } = renderOne(subject.render({ title: "Delete item" }));
 
-    // One prop, three coordinated effects — there is no half-configured state.
+    // One prop, three coordinated effects: there is no half-configured state.
     assert.equal(svg.getAttribute("role"), "img");
     assert.equal(svg.getAttribute("aria-hidden"), null);
     assert.equal(svg.querySelector("title")?.textContent, "Delete item");
@@ -186,7 +186,7 @@ for (const subject of SUBJECTS) {
     const { svg } = renderOne(subject.render({ "aria-hidden": undefined }));
 
     assert.equal(svg.getAttribute("aria-hidden"), null);
-    // Visible to assistive tech but with nothing to announce — the state the
+    // Visible to assistive tech but with nothing to announce: the state the
     // title prop exists to make unreachable by accident.
     assert.equal(accessibleName(svg), "");
   });

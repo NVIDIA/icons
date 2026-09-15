@@ -16,11 +16,11 @@ squashed commit, so trailers only appear from that point on.
 
 ## What contributions are accepted
 
-- **Bug reports** — incorrect TypeScript types, broken package exports, build
+- **Bug reports:** incorrect TypeScript types, broken package exports, build
   failures, install errors, accessibility issues in React components.
-- **Documentation improvements** — typos, clarity improvements, missing usage
+- **Documentation improvements:** typos, clarity improvements, missing usage
   examples.
-- **Code fixes** — corrections to generated component logic (not generated
+- **Code fixes:** corrections to generated component logic (not generated
   content itself, which comes from the internal sync).
 
 **Icon design contributions are not accepted as direct pull requests.**
@@ -90,7 +90,7 @@ By making a contribution to this project, I certify that:
 ## Prerequisites
 
 - **Node.js 22.12 or newer.** That floor is the build toolchain's, not the
-  packages' — Vite requires it. What we publish still runs on any Node 22, so
+  packages': Vite requires it. What we publish still runs on any Node 22, so
   the `engines.node` in each `packages/*/package.json` stays `>=22`; only the
   root one is `>=22.12`. CI runs the full build and test suite on Node 22 and
   24 (see the `node-matrix` job). `.nvmrc` pins 24 for local development and

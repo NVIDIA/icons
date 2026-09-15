@@ -16,7 +16,7 @@ export interface NvidiaGuiIconProps
   size?: string;
   /**
    * Accessible name. Describe what the icon *does* in context ("Delete item"),
-   * not what it depicts ("trash") — the library knows the glyph, only you know
+   * not what it depicts ("trash"). The library knows the glyph; only you know
    * the meaning.
    *
    * Omit it for decorative icons, which is the default: an icon sitting beside
@@ -28,7 +28,7 @@ export interface NvidiaGuiIconProps
 }
 
 /**
- * Generic NvidiaGuiIcon — renders any icon by name using the full inline map.
+ * Generic NvidiaGuiIcon: renders any icon by name using the full inline map.
  * For tree-shakable usage, prefer per-icon imports:
  *   import { Icon2BLeftClick } from "@nvidia/react-gui-icons/icons";
  */
@@ -40,7 +40,7 @@ const NvidiaGuiIconBase = forwardRef<SVGSVGElement, NvidiaGuiIconProps>(
 
     // A blank title is not a name. Trim before deciding, so a whitespace-only
     // value falls back to decorative rather than exposing the icon to
-    // assistive tech with an empty accessible name — the worst of both.
+    // assistive tech with an empty accessible name: the worst of both.
     const labelled = title !== undefined && title.trim() !== "";
 
     return createElement(

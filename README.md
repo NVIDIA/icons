@@ -22,7 +22,7 @@ This repository publishes four npm packages under the `@nvidia` scope:
 
 This README and the per-package READMEs linked above are the complete
 documentation today. A browsable icon gallery and searchable docs site is
-planned, but is **not yet available** — until it ships, the authoritative list
+planned, but is **not yet available**. Until it ships, the authoritative list
 of every icon name is the `IconNames` constant exported from
 `@nvidia/gui-icons` and `@nvidia/micro-gui-icons`, and `IconCategoryMap` /
 `IconTagMap` from the same packages if you need to browse by category or tag.
@@ -52,7 +52,7 @@ import { NvidiaGuiIcon } from "@nvidia/react-gui-icons";
 
 ## Usage
 
-### React — generic component
+### React: generic component
 
 ```tsx
 import { NvidiaGuiIcon } from "@nvidia/react-gui-icons";
@@ -64,7 +64,7 @@ import { NvidiaGuiIcon } from "@nvidia/react-gui-icons";
 <NvidiaGuiIcon iconName="gpu" variant="fill" size="24px" />
 ```
 
-### React — tree-shakable named imports
+### React: tree-shakable named imports
 
 ```tsx
 // barrel import (tree-shakable by bundlers with sideEffects: false support)
@@ -145,8 +145,8 @@ to `useEffect` when `document` is undefined), so server-rendered HTML and any
 render that never executes React effects (static export previews, `noscript`
 fallbacks) will show an empty `<svg>` with no visible icon until hydration.
 
-If you need icons to render in the initial HTML — SSR, static generation, or
-snapshot testing — render `<NvidiaGuiIconSprite />` (or
+If you need icons to render in the initial HTML (SSR, static generation, or
+snapshot testing), render `<NvidiaGuiIconSprite />` (or
 `<NvidiaMicroGuiIconSprite />`) once, high in your tree. It renders each
 `<symbol>` declaratively as part of the React tree instead of via an effect,
 so the symbols are present in the markup on first paint and every `<Icon />`
@@ -182,7 +182,7 @@ function App() {
 }
 ```
 
-Omitting `symbols` renders **every** symbol the package ships — that is 748
+Omitting `symbols` renders **every** symbol the package ships: that is 748
 icons × 2 variants for `@nvidia/react-gui-icons`, and 24 × 2 for
 `@nvidia/react-micro-gui-icons`. Every one of them lands in the markup of
 every server-rendered response, so treat the bare `<NvidiaGuiIconSprite />`
@@ -191,7 +191,7 @@ as a quick way to check the wiring rather than the form to ship.
 An icon whose symbol is missing from the sprite is not an error: it renders an
 empty `<svg>` in the initial HTML and fills in once its own mount-time
 injection runs on the client. So a name you forget to list degrades back to
-the default rendering model rather than breaking — which also means a missing
+the default rendering model rather than breaking, which also means a missing
 entry will not show up in a client-side test. Check the server-rendered
 output, not the hydrated DOM.
 
@@ -208,7 +208,7 @@ mounts into one) therefore render as an empty `<svg>` with no error. Render
 ### Line and fill variants
 
 Every icon ships in both `line` and `fill`. For glyphs that are pure strokes
-with nothing to fill — arrows, chevrons, `add`, `check`, `close` — the two
+with nothing to fill (arrows, chevrons, `add`, `check`, `close`), the two
 variants are deliberately identical, so `variant="fill"` renders the same
 artwork as `variant="line"`. That affects 98 of the 748 GUI Icons and 19 of
 the 24 Micro GUI Icons.
@@ -261,7 +261,7 @@ so there is no half-configured state to land in.
 
 **Name the action, not the glyph.** Write `title="Delete item"`, not
 `title="trash"`. The library knows the shape it draws; only you know what it
-does here. A wrong name is worse than none — every automated audit reports it
+does here. A wrong name is worse than none: every automated audit reports it
 as passing.
 
 An empty `title=""` is treated as decorative, so a name computed at runtime can
@@ -325,7 +325,7 @@ documentation, assets, and icons; see the [LICENSE](./LICENSE) file for details.
 CC-BY-4.0 requires attribution when the icon assets are redistributed. When
 you do, credit:
 
-> "NVIDIA Icons" — <https://github.com/NVIDIA/icons>
+> "NVIDIA Icons" (<https://github.com/NVIDIA/icons>)
 
 See [NOTICE](./NOTICE) for the full copyright and license notice, and each
 package's `THIRD_PARTY_NOTICES` file for build-time dependency attributions

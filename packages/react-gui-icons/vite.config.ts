@@ -21,7 +21,7 @@ export default defineConfig({
     rollupOptions: {
       // Two entry points: the main package root AND the icons barrel.
       // With preserveModules:true, Rollup emits a separate file for every
-      // module reachable from each entry — giving us dist/icons/<Name>.mjs
+      // module reachable from each entry, giving us dist/icons/<Name>.mjs
       // for every per-icon component (required for ./icons/* subpath exports).
       input: {
         index: path.resolve(dirName, "src/index.ts"),

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 export type { NvidiaMicroGuiIconProps } from "./NvidiaMicroGuiIcon.js";
-// Generic component (imports full inline map — for dynamic icon names)
+// Generic component (imports full inline map, for dynamic icon names)
 export { NvidiaMicroGuiIcon } from "./NvidiaMicroGuiIcon.js";
 export type {
   NvidiaMicroGuiIconSpriteProps,

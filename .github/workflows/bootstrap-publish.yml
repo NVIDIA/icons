@@ -5,7 +5,7 @@
 # time, so npm has something to register a trusted publisher against.
 #
 # npm Trusted Publishing (used by release.yml) cannot be registered for a
-# package name that has never been published — the name has to exist first.
+# package name that has never been published; the name has to exist first.
 # This workflow breaks that chicken-and-egg with a short-lived token instead
 # of a throwaway version: it publishes a real release candidate
 # (`X.Y.Z-rc.N`) on the `next` dist-tag, attested with --provenance. GA then
@@ -14,7 +14,7 @@
 # See RELEASING.md for the full sequence and why this replaces a hand-seeded
 # throwaway publish.
 #
-# This file is meant to be deleted once it has done its one job — see
+# This file is meant to be deleted once it has done its one job; see
 # RELEASING.md step "Delete the token, delete the environment secret, PR out
 # bootstrap-publish.yml." Its existence past that point is itself a residual
 # risk: it is the only workflow in this repo that reads an npm token.
@@ -33,7 +33,7 @@ permissions:
 
 jobs:
   # Same gate release.yml runs before a GA publish. A bootstrap publish is
-  # still a real, installable, attested release — it deserves the same bar.
+  # still a real, installable, attested release: it deserves the same bar.
   verify:
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -58,13 +58,13 @@ jobs:
     timeout-minutes: 25
     needs: verify
     # Same human approval gate as release.yml, and the same environment name
-    # the trusted publisher will be registered against — so approving this
+    # the trusted publisher will be registered against, so approving this
     # run is functionally a rehearsal of approving a real release.
     environment: npm-publish
     permissions:
       contents: read
       # Requested for parity with release.yml's provenance step even though
-      # this run authenticates with NODE_AUTH_TOKEN, not OIDC — provenance's
+      # this run authenticates with NODE_AUTH_TOKEN, not OIDC; provenance's
       # Sigstore/Fulcio step needs it regardless of which credential does
       # the registry write.
       id-token: write
@@ -81,7 +81,7 @@ jobs:
 
       - name: Publish release candidates
         env:
-          # Environment secret on npm-publish only — unreadable by any job
+          # Environment secret on npm-publish only: unreadable by any job
           # that has not passed the required-reviewer approval gate above.
           # Granular token, @nvidia-scope (package names don't exist yet, so
           # per-package scoping isn't possible), machine-account-owned,
@@ -99,7 +99,7 @@ jobs:
 
             # Refuse to let this token-authenticated, one-shot workflow ever
             # publish a GA version. GA must go out through release.yml under
-            # pure OIDC — that's the entire point of doing this as a
+            # pure OIDC; that's the entire point of doing this as a
             # release-candidate ladder instead of a direct 1.0.0 publish.
             if [[ "$version" != *-* ]]; then
               echo "   FAILED: $version has no prerelease identifier (e.g. -rc.1)."
@@ -110,7 +110,7 @@ jobs:
             # Idempotence, same as release.yml: safe to re-run after a
             # partial failure without erroring on versions already published.
             if npm view "$name@$version" version >/dev/null 2>&1; then
-              echo "   already on registry — skipping"
+              echo "   already on registry, skipping"
               continue
             fi
 

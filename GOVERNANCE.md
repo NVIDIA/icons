@@ -6,10 +6,10 @@ This document describes how the NVIDIA Icons project is governed.
 
 NVIDIA Icons is an open-source project owned and maintained by NVIDIA
 Corporation. NVIDIA retains final authority over the project's direction,
-branding, icon design, and releases — informed by community bug reports, icon
+branding, icon design, and releases, informed by community bug reports, icon
 requests, and code contributions filed via GitHub. The icon artwork and code
 are licensed under the terms in [LICENSE](./LICENSE). That license covers
-copyrighted content only — it does **not** extend to NVIDIA's trademarks,
+copyrighted content only; it does **not** extend to NVIDIA's trademarks,
 which remain NVIDIA property; see [NOTICE](./NOTICE) for the trademark
 notice.
 

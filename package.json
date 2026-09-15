@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "license": "Apache-2.0",
-  "description": "NVIDIA Icons — public npm packages (@nvidia scope)",
+  "description": "NVIDIA Icons: public npm packages (@nvidia scope)",
   "repository": {
     "type": "git",
     "url": "https://github.com/NVIDIA/icons.git"
