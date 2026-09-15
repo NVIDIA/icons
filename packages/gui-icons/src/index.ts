@@ -1,17 +1,20 @@
 // SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
-import { IconCategoryMap } from "./IconMeta.js";
+import {
+  IconCategories,
+  type IconCategory,
+  IconCategoryMap,
+} from "./IconMeta.js";
 import type { IconName } from "./IconName.js";
 
-export const getIconCategory = (iconName: IconName) => {
-  for (const [iconCategory, iconNames] of Object.entries(IconCategoryMap)) {
-    if ((iconNames as string[]).includes(iconName)) {
-      return iconCategory;
-    }
-  }
-  return undefined;
-};
+// Iterates IconCategories rather than Object.entries(IconCategoryMap): the
+// latter widens the key to `string`, which surfaced as a `string | undefined`
+// return type and defeated the IconCategory union at every call site.
+export const getIconCategory = (iconName: IconName): IconCategory | undefined =>
+  IconCategories.find((iconCategory) =>
+    IconCategoryMap[iconCategory].includes(iconName),
+  );
 
 export {
   IconCategories,
