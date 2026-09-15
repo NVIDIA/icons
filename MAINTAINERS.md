@@ -21,7 +21,7 @@ cut releases, and uphold the [Code of Conduct](./CODE_OF_CONDUCT.md). See
 1. **Open an issue or pull request** and tag `@NVIDIA/icons-maintainers` for
    routine questions, bugs, or contributions.
 2. **Contact the lead maintainer** (above) for decisions that need maintainer
-   input — API changes, release timing, or contested reviews.
+   input: API changes, release timing, or contested reviews.
 3. **NVIDIA design/brand owners** own all icon design decisions; icon requests
    are collected via GitHub Issues and forwarded internally.
 4. **Security issues** must go through the private process in

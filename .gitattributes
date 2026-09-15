@@ -1,6 +1,6 @@
 # Normalize line endings in the repository. Without this, a contributor on
 # Windows with core.autocrlf can commit CRLF into a text file, and
-# verify-packaging compares each package LICENSE to the root byte-for-byte —
+# verify-packaging compares each package LICENSE to the root byte-for-byte:
 # a line-ending difference alone would fail that gate.
 * text=auto
 

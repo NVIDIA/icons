@@ -91,12 +91,12 @@ jobs:
       # Deliberately NOT using setup-node's `registry-url`: it writes an
       # `_authToken=${NODE_AUTH_TOKEN}` line into .npmrc, which is pointless
       # with no token and risks an empty-credential line. The repo's own
-      # .npmrc already pins registry.npmjs.org, which is what matters — a
+      # .npmrc already pins registry.npmjs.org, which is what matters; a
       # machine with internal Artifactory config in its user-level .npmrc
       # resolves to the wrong registry otherwise.
       - run: npm ci --prefer-offline
 
-      # npm's own docs disagree on the trusted-publishing floor — the
+      # npm's own docs disagree on the trusted-publishing floor: the
       # overview says >= 11.5.1, the npm-trust CLI reference says >= 11.15.0.
       # 11.19.0 clears both. Provenance's floor is much older (9.5.0) and is
       # not the binding constraint. Trusted publishing also wants Node >=
@@ -110,7 +110,7 @@ jobs:
       # shipped; the manifests are the truth. If they disagree, stop.
       #
       # Packages version independently (see CONTRIBUTING.md), so this does NOT
-      # require all four to sit at the tag version — it publishes exactly
+      # require all four to sit at the tag version: it publishes exactly
       # those that do, and skips the rest loudly. What it refuses to do is
       # proceed when NOTHING matches, which is the typo'd-tag case that would
       # otherwise "succeed" having published nothing at all.
@@ -145,7 +145,7 @@ jobs:
           if [ -n "$matched" ]; then printf '%s' "$matched"; else echo "  (none)"; fi
           if [ -n "$skipped" ]; then echo "Skipping:"; printf '%s' "$skipped"; fi
           if [ -z "$matched" ]; then
-            echo "FAIL: no package version matches tag $tag_version — nothing to publish."
+            echo "FAIL: no package version matches tag $tag_version: nothing to publish."
             echo "Either the tag is wrong or the version bump was never committed."
             exit 1
           fi
@@ -166,12 +166,12 @@ jobs:
             # published ones with a hard error and abort the whole release,
             # so skip what is already on the registry instead.
             if npm view "$name@$version" version >/dev/null 2>&1; then
-              echo "   already on registry — skipping"
+              echo "   already on registry, skipping"
               continue
             fi
             # Dist-tag. npm defaults an untagged publish to `latest`, which
             # is correct for a GA version but would clobber `latest` with a
-            # prerelease — packages version independently and prereleases
+            # prerelease: packages version independently and prereleases
             # are a first-class part of the release cadence driven by the
             # upstream sync generator, so a `-rc.1`/`-beta.2`/etc tag here
             # must land on `next`, never `latest`.

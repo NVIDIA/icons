@@ -15,7 +15,7 @@
   "engines": {
     "node": ">=22"
   },
-  "description": "NVIDIA GUI Icons — raw SVG assets and TypeScript constants (line and fill variants).",
+  "description": "NVIDIA GUI Icons: raw SVG assets and TypeScript constants (line and fill variants).",
   "keywords": [
     "nvidia",
     "icons",

@@ -14,7 +14,7 @@ dist/
 .claude/
 .devin/
 
-# Secrets — never commit
+# Secrets: never commit
 .env
 .env.*
 *.pem

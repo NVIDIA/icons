@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 # Every gate this project enforces. Contributors can reproduce all of them
-# locally — see CONTRIBUTING.md for the equivalent npm commands. Releases are
+# locally; see CONTRIBUTING.md for the equivalent npm commands. Releases are
 # handled separately, by release.yml.
 #
 # `internal-ref-scan` below checks a public-safe subset of patterns. A few
@@ -122,7 +122,7 @@ jobs:
       - run: npm run generate-notices
       - run: |
           git diff --exit-code -- THIRD_PARTY_NOTICES 'packages/*/THIRD_PARTY_NOTICES' || {
-            echo "FAIL: THIRD_PARTY_NOTICES is stale — run 'npm run generate-notices' and commit the result."
+            echo "FAIL: THIRD_PARTY_NOTICES is stale: run 'npm run generate-notices' and commit the result."
             exit 1
           }
 
@@ -145,7 +145,7 @@ jobs:
   # Note this covers *runtime* licensing only. devDependency licenses are not
   # scanned by anything here, on the grounds that build-time tooling is not
   # distributed in the tarballs. If that policy changes, a license scanner
-  # belongs in root devDependencies — not behind `npx`.
+  # belongs in root devDependencies, not behind `npx`.
 
   # Supported-Node matrix: proves the toolchain and tests actually RUN on
   # every Node line the published `engines.node` (">=22") claims to support,
@@ -153,9 +153,9 @@ jobs:
   #
   # Deliberately self-contained (no artifacts in or out) rather than
   # matrixing `build`/`typecheck`/etc: those jobs share a `dist` artifact
-  # under a fixed name, and `upload-artifact@v4` errors on duplicate names —
-  # matrixing `build` would collide. What this job needs to prove —
-  # build/typecheck/test/pack all RUN on both lines — is fully exercised by
+  # under a fixed name, and `upload-artifact@v4` errors on duplicate names;
+  # matrixing `build` would collide. What this job needs to prove, that
+  # build/typecheck/test/pack all RUN on both lines, is fully exercised by
   # its own from-scratch install+build. What genuinely isn't Node-sensitive
   # (grep/fs/JSON.parse jobs like bundle-treeshake, cdn-free,
   # verify-packaging) deliberately stays single-version.
@@ -182,13 +182,13 @@ jobs:
       # Tree-shake boundary, mirrored from bundle-treeshake below, so it's
       # proven on both supported Node lines and not just the pinned default.
       # Unlike that job's `grep -l ... 2>/dev/null`, this asserts the file
-      # exists first — a missing dist file must FAIL, not silently pass.
+      # exists first: a missing dist file must FAIL, not silently pass.
       - run: |
           set -e
           for f in packages/react-gui-icons/dist/icons/Gpu.mjs \
                    packages/react-micro-gui-icons/dist/icons/Add.mjs; do
             test -f "$f" || { echo "FAIL: $f not built"; exit 1; }
-            ! grep -q "inlineMap" "$f" || { echo "FAIL: $f references inlineMap — tree-shaking boundary broken"; exit 1; }
+            ! grep -q "inlineMap" "$f" || { echo "FAIL: $f references inlineMap: tree-shaking boundary broken"; exit 1; }
             echo "✓ Tree-shake test passed: $f does not reference inlineMap"
           done
 
@@ -238,8 +238,8 @@ jobs:
             # npm pack's tarball listing has an occasional, narrowly-scoped
             # flake on this runner class: a files-array-only entry (NOTICE or
             # THIRD_PARTY_NOTICES) is absent from an otherwise-successful
-            # pack, while LICENSE — always-included by npm via a separate
-            # code path, not the files-array walk — never drops. Not
+            # pack, while LICENSE (always-included by npm via a separate
+            # code path, not the files-array walk) never drops. Not
             # reproducible locally, and not something we can pin our way out
             # of from this repo. Retry the whole pack+verify a few times
             # before treating it as a real defect, rather than failing the
@@ -321,7 +321,7 @@ jobs:
           for f in packages/react-gui-icons/dist/icons/Gpu.mjs \
                    packages/react-micro-gui-icons/dist/icons/Add.mjs; do
             test -f "$f" || { echo "FAIL: $f not built"; exit 1; }
-            ! grep -q "inlineMap" "$f" || { echo "FAIL: $f references inlineMap — tree-shaking boundary broken"; exit 1; }
+            ! grep -q "inlineMap" "$f" || { echo "FAIL: $f references inlineMap: tree-shaking boundary broken"; exit 1; }
             echo "✓ Tree-shake test passed: $f does not reference inlineMap"
           done
 
@@ -402,7 +402,7 @@ jobs:
   # Internal-reference scan (public-safe subset): checks for internal
   # hostnames/scopes/codenames that shouldn't appear in a public repo. A
   # smaller set of sensitive, credential-shaped patterns is deliberately not
-  # committed here — see the note at the top of this file.
+  # committed here; see the note at the top of this file.
   internal-ref-scan:
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -416,7 +416,7 @@ jobs:
           # CUTOVER.md was the internal migration runbook for this repo's
           # move to GitHub. It is deleted, and must never reappear in a
           # public tree. Checked explicitly rather than relying only on the
-          # pattern scan below, since presence — not content — is the actual
+          # pattern scan below, since presence, not content, is the actual
           # condition to catch.
           if [ -e CUTOVER.md ]; then
             echo "FAIL internal-ref-scan: CUTOVER.md is present. It is an internal-only migration document and must not exist in this repository."
@@ -454,10 +454,10 @@ jobs:
             .github/ .well-known/ LICENSES/
           )
           # Fail loudly on a missing scan target instead of letting grep's
-          # error (exit 2) get swallowed by `2>/dev/null || true` below — a
+          # error (exit 2) get swallowed by `2>/dev/null || true` below: a
           # stale or typo'd entry must not silently degrade to "scanned
           # nothing" with a green check. CUTOVER.md is deliberately NOT in
-          # this "must exist" list — its absence is the desired state
+          # this "must exist" list; its absence is the desired state
           # (checked explicitly above); it's only added to the grep targets
           # below, as defense-in-depth in case it exists but wasn't caught by
           # the explicit check for some reason.
@@ -470,7 +470,7 @@ jobs:
           # Second, separate trap: grep's --include filters by basename glob,
           # and that filter also applies to files named explicitly on the
           # command line (verified against GNU grep 3.12, what this runner
-          # ships) — not just to files discovered by recursing into a
+          # ships), not just to files discovered by recursing into a
           # directory. A scan target whose basename matches none of the globs
           # below is silently read as zero bytes: the existence check above
           # still passes, the pattern loop finds nothing, and the job goes
@@ -478,13 +478,13 @@ jobs:
           # the --include flags in the grep call below.
           for scan_dir in "${scan_dirs[@]}" CUTOVER.md; do
             case "$scan_dir" in
-              */) continue ;; # directories are exempt — recursion applies filters per-file, not to the dir arg itself
+              */) continue ;; # directories are exempt: recursion applies filters per-file, not to the dir arg itself
             esac
             base="$(basename "$scan_dir")"
             case "$base" in
               *.ts|*.tsx|*.mts|*.js|*.mjs|*.json|*.md|*.yml|*.yaml|*.toml|*.txt|CODEOWNERS|NOTICE|THIRD_PARTY_NOTICES|LICENSE) ;;
               *)
-                echo "FAIL internal-ref-scan: scan target '$scan_dir' matches no --include glob — grep would silently skip it"
+                echo "FAIL internal-ref-scan: scan target '$scan_dir' matches no --include glob: grep would silently skip it"
                 fail=1
                 ;;
             esac
@@ -521,7 +521,7 @@ jobs:
           fetch-depth: 0
       # Uses the event payload's base SHA rather than `origin/$base_ref`. On a
       # pull_request event, checkout lands on a detached merge ref and
-      # `origin/main` isn't guaranteed to be a resolvable local ref — that
+      # `origin/main` isn't guaranteed to be a resolvable local ref: that
       # would either fail every PR or mis-scope the commit range. The base SHA
       # is always present in the payload and needs no ref resolution.
       #
@@ -551,7 +551,7 @@ jobs:
   # but it only fires for contributors who ran `npm install` (which runs the
   # `prepare` script). It's trivially skippable with `--no-verify` and never
   # runs at all for edits made through the GitHub web UI. This job is the
-  # actual gate — same commitlint config, same conventional-commits rule set,
+  # actual gate: same commitlint config, same conventional-commits rule set,
   # run here so it can't be bypassed.
   commitlint-check:
     runs-on: ubuntu-latest

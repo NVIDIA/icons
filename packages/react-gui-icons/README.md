@@ -1,7 +1,7 @@
 # @nvidia/react-gui-icons
 
 React icon components for **NVIDIA GUI Icons**. Icons render via a
-sprite-injection runtime (`<use href="#id">`), not inline `<path>` markup —
+sprite-injection runtime (`<use href="#id">`), not inline `<path>` markup;
 see [Rendering model](https://github.com/NVIDIA/icons#rendering-model) in the
 project README for how that works and its SSR caveat.
 
@@ -28,7 +28,7 @@ import { Gpu } from "@nvidia/react-gui-icons/icons/Gpu";
 
 Icons default to `aria-hidden="true"` and `focusable="false"` (decorative),
 because only the call site knows whether an icon repeats a nearby label or
-carries the meaning itself. For a meaningful icon, pass `title` — it renders a
+carries the meaning itself. For a meaningful icon, pass `title`: it renders a
 `<title>`, sets `role="img"` and drops `aria-hidden` in one step:
 
 ```tsx
@@ -42,7 +42,7 @@ full usage.
 ## RTL / directional icons
 
 Directional icons (`arrow-*`, `chevron-*`, and similar) render with a fixed
-orientation — there is no built-in RTL/logical-direction handling, and most
+orientation: there is no built-in RTL/logical-direction handling, and most
 icons (shapes, objects, status glyphs) should **not** be mirrored.
 
 **Prefer choosing the mirrored icon over mirroring with CSS.** Every direction
@@ -75,7 +75,7 @@ than physical (`left`/`right`).
 ## Line and fill variants
 
 Every icon ships in both `line` and `fill`. For glyphs that are pure strokes
-with nothing to fill — arrows, chevrons, `add`, `check`, `close` — the two
+with nothing to fill (arrows, chevrons, `add`, `check`, `close`), the two
 variants are deliberately identical, so selecting `fill` renders the same
 artwork as `line`. That affects 98 of the 748 icons in this set.
 
@@ -86,10 +86,10 @@ distinct fill.
 ## License
 
 Dual-licensed: **Apache-2.0** for code and **CC-BY-4.0** for the bundled icon
-path data — see [LICENSE](./LICENSE). When redistributing the icons, attribute
+path data; see [LICENSE](./LICENSE). When redistributing the icons, attribute
 "NVIDIA GUI Icons" with a link to <https://github.com/NVIDIA/icons>.
 
-CC-BY-4.0 does not license NVIDIA's trademarks — see
+CC-BY-4.0 does not license NVIDIA's trademarks; see
 [NOTICE](https://github.com/NVIDIA/icons/blob/main/NOTICE).
 
 Part of the [NVIDIA Icons](https://github.com/NVIDIA/icons) project.

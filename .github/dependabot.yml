@@ -6,7 +6,7 @@
 # The github-actions ecosystem is not optional here: every action in
 # .github/workflows/ is pinned to a full commit SHA for supply-chain safety,
 # which means they do not pick up upstream patches on their own. Dependabot
-# is what keeps those pins from silently going stale — it rewrites the SHA and
+# is what keeps those pins from silently going stale: it rewrites the SHA and
 # updates the trailing `# vX.Y.Z` comment.
 version: 2
 

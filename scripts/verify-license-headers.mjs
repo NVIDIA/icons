@@ -5,9 +5,9 @@
 //
 // REUSE-IgnoreStart
 // Project licensing policy requires the CC-BY-4.0 AND Apache-2.0 dual
-// expression to appear only in the top-level LICENSE file. Every source file
-// — including generated icon
-// components and inlineMap.ts, which embed CC-BY-4.0 SVG path data — must
+// expression to appear only in the top-level LICENSE file. Every source file,
+// including generated icon
+// components and inlineMap.ts (which embed CC-BY-4.0 SVG path data), must
 // carry a code-only "SPDX-License-Identifier: Apache-2.0" header. The dual
 // expression must never appear in a per-file header.
 //
@@ -52,7 +52,7 @@ for (const file of files) {
 
   if (DUAL_RE.test(content)) {
     errors.push(
-      `${file}: carries the CC-BY-4.0 AND Apache-2.0 dual SPDX expression — ` +
+      `${file}: carries the CC-BY-4.0 AND Apache-2.0 dual SPDX expression; ` +
         `this belongs only in the top-level LICENSE, not a per-file header`,
     );
     continue;

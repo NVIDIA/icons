@@ -12,7 +12,7 @@ If you redistribute the icon path data from this package
 (`@nvidia/react-micro-gui-icons`), CC-BY-4.0 requires that you retain
 attribution. Credit as:
 
-    "NVIDIA Micro GUI Icons" — https://github.com/NVIDIA/icons
+    "NVIDIA Micro GUI Icons" (https://github.com/NVIDIA/icons)
 
 For third-party OSS components distributed alongside this package, see
 THIRD_PARTY_NOTICES.
@@ -21,5 +21,5 @@ Trademark notice
 -----------------
 "NVIDIA" and the NVIDIA logo are trademarks and/or registered trademarks of
 NVIDIA Corporation in the U.S. and other countries. CC-BY-4.0 and Apache-2.0
-license the copyrighted content in this project — they do NOT grant any
+license the copyrighted content in this project; they do NOT grant any
 license or right to use NVIDIA's trademarks.

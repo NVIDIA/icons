@@ -15,7 +15,7 @@ best-effort, the same posture described in
   Use the bug template for incorrect types, broken exports, build/install
   errors, or accessibility issues in the React components.
 - **Icon requests:** open an issue using the icon-request template. Icon design
-  is reviewed internally by NVIDIA design/brand owners — see
+  is reviewed internally by NVIDIA design/brand owners; see
   [CONTRIBUTING.md](./CONTRIBUTING.md).
 - **Questions and usage help:** open a GitHub Issue describing what you are
   trying to do.

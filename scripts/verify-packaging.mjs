@@ -31,7 +31,7 @@ const REQUIRED_FIELDS = [
   "repository",
 ];
 // npm auto-includes package.json, README and LICENSE whatever `files` says,
-// but NOT CHANGELOG.md — so it only ships if the array names it explicitly,
+// but NOT CHANGELOG.md, so it only ships if the array names it explicitly,
 // and only stays shipped if something checks.
 const REQUIRED_PACKED_FILES = [
   "CHANGELOG.md",
@@ -64,8 +64,8 @@ const TRADEMARK_TEXT = "are trademarks and/or registered trademarks of";
 // `bundleDependencies` is the field that would place foreign code inside a
 // tarball; the other two pull it into a consumer's install tree. npm accepts
 // `bundledDependencies` as a legacy alias, so both spellings are covered.
-// peerDependencies are deliberately absent from this list — the consumer
-// resolves them and they are never distributed — and are separately checked
+// peerDependencies are deliberately absent from this list (the consumer
+// resolves them and they are never distributed) and are separately checked
 // against the notices text below.
 const FORBIDDEN_DEP_FIELDS = [
   "dependencies",
@@ -103,7 +103,7 @@ for (const name of PKGS) {
       errors.push(`${name}: LICENSE contains provisional/placeholder wording`);
   }
 
-  // NOTICE: must exist and carry this package's own attribution — the
+  // NOTICE must exist and carry this package's own attribution: the
   // correct family's "Credit as" line, its own npm package name, the
   // trademark paragraph, and NOT the other family's credit line (guards
   // against a copy-paste from the wrong package).
@@ -112,9 +112,9 @@ for (const name of PKGS) {
     const notice = readFileSync(p("NOTICE"), "utf8");
     const family = NOTICE_FAMILY[name];
     const otherFamily = Object.values(NOTICE_FAMILY).find((f) => f !== family);
-    if (!notice.includes(`"${family}" — https://github.com/NVIDIA/icons`))
+    if (!notice.includes(`"${family}" (https://github.com/NVIDIA/icons)`))
       errors.push(`${name}: NOTICE missing "Credit as" line for "${family}"`);
-    if (notice.includes(`"${otherFamily}" — https://github.com/NVIDIA/icons`))
+    if (notice.includes(`"${otherFamily}" (https://github.com/NVIDIA/icons)`))
       errors.push(
         `${name}: NOTICE credits "${otherFamily}" instead of "${family}"`,
       );
@@ -171,7 +171,7 @@ for (const name of PKGS) {
       : Object.keys(declared ?? {});
     if (names.length) {
       errors.push(
-        `${name}: package.json declares "${field}" (${names.join(", ")}) — ` +
+        `${name}: package.json declares "${field}" (${names.join(", ")}); ` +
           `published packages carry no runtime dependencies. If this is ` +
           `intentional, THIRD_PARTY_NOTICES has to be updated to match ` +
           `before this gate is relaxed.`,
