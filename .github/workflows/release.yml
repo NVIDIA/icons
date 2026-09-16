@@ -70,6 +70,11 @@ jobs:
     # Human approval gate. Must match the environment registered with the
     # trusted publisher on npmjs.com. See RELEASING.md.
     environment: npm-publish
+    # Consumed by github-release below, so it can name the packages without
+    # re-deriving which ones matched the tag. Two copies of that rule would
+    # drift, and the copy that drifts is the one nobody runs on every release.
+    outputs:
+      packages: ${{ steps.resolve.outputs.packages }}
     permissions:
       contents: read
       # The entire auth configuration. Without this the OIDC token cannot be
@@ -115,6 +120,7 @@ jobs:
       # proceed when NOTHING matches, which is the typo'd-tag case that would
       # otherwise "succeed" having published nothing at all.
       - name: Resolve packages to publish
+        id: resolve
         env:
           TAG_NAME: ${{ github.ref_name }}
         run: |
@@ -150,6 +156,12 @@ jobs:
             exit 1
           fi
           printf '%s' "$matched" > /tmp/to-publish.txt
+          # Same list, flattened onto one line, for the github-release job.
+          # Safe as a plain (non-heredoc) GITHUB_OUTPUT assignment only
+          # because every element is a directory name drawn from the literal
+          # list above: no newlines, no user-controlled content.
+          printf 'packages=%s\n' "$(printf '%s' "$matched" | tr '\n' ' ')" \
+            >> "$GITHUB_OUTPUT"
 
       - name: Publish
         run: |
@@ -191,3 +203,80 @@ jobs:
             echo "   ✓ published"
           done < /tmp/to-publish.txt
           exit $fail
+
+  # The human-readable half of a release. A tag on its own tells a reader
+  # nothing about what changed, and npm's page shows one package at a time
+  # while a tag here can cover several.
+  #
+  # A separate job rather than a step on `publish`, because the two need
+  # different and non-overlapping write permissions: `publish` holds
+  # `id-token: write` to mint the OIDC credential npm trusts, this one holds
+  # `contents: write` to create a release. Granting both to one job would mean
+  # the job that can publish under the @nvidia scope can also rewrite the
+  # repository it claims to be publishing from.
+  #
+  # No `environment:` on purpose. `needs: publish` means the npm-publish
+  # reviewer gate has already been passed; a second approval prompt to write
+  # notes about a publish that has already happened would only train reviewers
+  # to click through approvals without reading them.
+  #
+  # Attaches no tarballs, deliberately. They are already on the registry with
+  # provenance; a second copy here would be an unattested distribution channel
+  # that can drift from the attested one. A link is a strictly better thing to
+  # hand someone than an unsigned duplicate.
+  github-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: publish
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Publish the GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          # Explicit rather than inferred from the git remote: checkout ran
+          # with persist-credentials false, and repo inference is not
+          # something a release step should depend on.
+          GH_REPO: ${{ github.repository }}
+          TAG_NAME: ${{ github.ref_name }}
+          PACKAGES: ${{ needs.publish.outputs.packages }}
+        run: |
+          set -euo pipefail
+          version="${TAG_NAME#v}"
+
+          # Unquoted on purpose: PACKAGES is a space-separated list of
+          # directory names, and word-splitting it into separate arguments is
+          # the intent. Every element comes from the literal package list in
+          # the resolve step, so there is nothing here to re-split badly.
+          # shellcheck disable=SC2086
+          node ./scripts/release-notes.mjs "$version" $PACKAGES > /tmp/notes.md
+
+          flags=(--title "$TAG_NAME" --notes-file /tmp/notes.md)
+          # A prerelease must not claim the repository's "Latest release"
+          # banner, for the same reason it publishes to `next` instead of
+          # `latest`: it is not what a first-time reader should land on.
+          # Derived from the version exactly as the dist-tag above is.
+          if [[ "$version" == *-* ]]; then
+            flags+=(--prerelease)
+          else
+            flags+=(--latest)
+          fi
+
+          # Idempotent, matching the publish loop: re-running a release that
+          # partly failed has to converge instead of erroring. `gh release
+          # create` fails outright when the release already exists.
+          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
+            echo "release $TAG_NAME already exists, updating it"
+            gh release edit "$TAG_NAME" "${flags[@]}"
+          else
+            # --verify-tag stops gh from inventing a missing tag at the
+            # default branch head, which would produce a release pointing at
+            # something other than what was just published.
+            gh release create "$TAG_NAME" --verify-tag "${flags[@]}"
+          fi
+          gh release view "$TAG_NAME" --json url --jq '"✓ " + .url'

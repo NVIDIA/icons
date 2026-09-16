@@ -99,6 +99,35 @@ None of this lives in the repository, so it is easy to miss.
 4. Approve the `npm-publish` environment when prompted.
 5. The `publish` job publishes every package whose version matches the tag,
    in dependency order, and skips any version already on the registry.
+6. The `github-release` job then creates the GitHub Release for the tag.
+
+## Release notes
+
+The GitHub Release body is assembled by
+[`scripts/release-notes.mjs`](./scripts/release-notes.mjs) from two sources:
+the `## [X.Y.Z]` section of the root [CHANGELOG.md](./CHANGELOG.md), and a
+table of the packages that tag actually published, each linked to its exact
+version on npm.
+
+So the changelog entry has to land *before* the tag. Cut a tag without one and
+the release still publishes, with a body that says the changelog entry is
+missing: this runs after `npm publish` has already succeeded, and failing the
+job would turn a finished release red without un-publishing anything.
+
+Preview the body for a version before tagging it:
+
+```sh
+node ./scripts/release-notes.mjs 1.2.0 gui-icons react-gui-icons
+```
+
+A version with a prerelease identifier is marked as a GitHub prerelease, so it
+does not take the repository's "Latest release" banner, for the same reason it
+publishes to the `next` dist-tag. Re-running a release updates the existing
+release rather than failing.
+
+No build artifacts are attached. The tarballs are on the registry with
+provenance; a copy attached here would be an unattested second channel that
+can drift from the attested one.
 
 Packages version independently, so a tag publishes only the packages that sit
 at that version. A tag matching no package fails the run rather than
