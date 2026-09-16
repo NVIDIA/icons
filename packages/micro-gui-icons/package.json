@@ -1,10 +1,10 @@
 {
   "name": "@nvidia/micro-gui-icons",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "license": "CC-BY-4.0 AND Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NVIDIA/icons.git",
+    "url": "git+https://github.com/NVIDIA/icons.git",
     "directory": "packages/micro-gui-icons"
   },
   "homepage": "https://github.com/NVIDIA/icons/tree/main/packages/micro-gui-icons#readme",
