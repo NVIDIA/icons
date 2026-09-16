@@ -38,10 +38,15 @@ None of this lives in the repository, so it is easy to miss.
 
    All three must match the workflow exactly or npm refuses the exchange.
 
-3. **Bootstrap.** A trusted publisher cannot be registered for a package name
-   that has never been published; npm's CLI reference states that the package
-   must already exist. This workflow therefore cannot perform a package's
-   first publish.
+3. **Bootstrap** — only needed for a package name that has never been
+   published. A trusted publisher cannot be registered for a name that does
+   not exist yet; npm's CLI reference states the package must already exist.
+   `release.yml` therefore cannot perform a package's first publish.
+
+   The four current packages are past this. They were bootstrapped on
+   2026-09-16 and all four now publish under pure OIDC, so nothing below is
+   required to cut a release today. It is kept because adding a fifth package
+   name means doing it again.
 
    Provenance and Trusted Publishing are separate npm features: `--provenance`
    has worked with a plain token plus `id-token: write` since npm 9.5.0, long
@@ -53,13 +58,18 @@ None of this lives in the repository, so it is easy to miss.
    | Step | Action |
    |---|---|
    | 1 | Create the `npm-publish` environment with required reviewers (see above), before doing anything else on npm |
-   | 2 | Bump all four manifests to `X.Y.Z-rc.1`; land on `main` |
+   | 2 | Bump the new package's manifest to `X.Y.Z-rc.1`; land on `main` |
    | 3 | Mint a short-lived `@nvidia`-scope token **that bypasses 2FA** (see below); store it as an **environment secret on `npm-publish` only** (`NPM_BOOTSTRAP_TOKEN`), never a repo secret |
-   | 4 | Dispatch [`bootstrap-publish.yml`](./.github/workflows/bootstrap-publish.yml) with `dry_run: true` first, inspect the output, then again with `dry_run: false` |
-   | 5 | Approve the `npm-publish` environment when prompted; it publishes `X.Y.Z-rc.1` for all four, public, attested, on the `next` dist-tag |
-   | 6 | Register the trusted publisher on each package (Repository/Workflow/Environment as above); now possible, since the names exist |
-   | 7 | Delete the token at npmjs.com, delete the `NPM_BOOTSTRAP_TOKEN` environment secret, and open a PR removing `bootstrap-publish.yml` |
+   | 4 | Restore the one-shot publish workflow (`git show v1.0.0:.github/workflows/bootstrap-publish.yml`), dispatch it with `dry_run: true`, inspect the output, then dispatch again with `dry_run: false` |
+   | 5 | Approve the `npm-publish` environment when prompted; it publishes `X.Y.Z-rc.1`, public, attested, on the `next` dist-tag |
+   | 6 | Register the trusted publisher on the package (Repository/Workflow/Environment as above); now possible, since the name exists |
+   | 7 | Delete the token at npmjs.com, delete the `NPM_BOOTSTRAP_TOKEN` environment secret, and remove the workflow again |
    | 8 | Promote to `X.Y.Z`, tag `vX.Y.Z`, and let `release.yml` publish GA under pure OIDC |
+
+   Step 4 restores a workflow rather than pointing at one because it is not
+   kept in the tree between bootstraps. It is the only workflow that ever
+   reads an npm token, and a token-authenticated publish path is worth its
+   risk only while it is actually being used.
 
    The token type in step 3 is not a free choice. A granular access token is
    the obvious pick and it does not work: with 2FA required on writes for the
@@ -79,13 +89,12 @@ None of this lives in the repository, so it is easy to miss.
    release candidate from CI) or whatever first-publish path npm has replaced
    it with by then.
 
-   `bootstrap-publish.yml` refuses to publish anything without a prerelease
-   identifier in the version, so GA can only ever go out through `release.yml`
-   under OIDC. That's the entire point of this sequence: the version
-   everyone actually installs is published with **zero credentials in
-   existence**, and the pipeline (environment gate, dist-tag handling,
-   provenance) has already been exercised once on the real scope before GA
-   depends on it.
+   That workflow refuses to publish anything without a prerelease identifier
+   in the version, so GA can only ever go out through `release.yml` under
+   OIDC. That's the entire point of this sequence: the version everyone
+   actually installs is published with **zero credentials in existence**, and
+   the pipeline (environment gate, dist-tag handling, provenance) has already
+   been exercised once on the real scope before GA depends on it.
 
    No version is ever unpublished, no npm org plan requirement applies (this
    never uses `--access restricted`), and there is no 72-hour clock.
