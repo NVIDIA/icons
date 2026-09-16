@@ -24,23 +24,22 @@ permissions:
   contents: read
 
 jobs:
-  # Re-runs the full gate against the tagged commit. CI already ran it on the
-  # commit when it landed on main, but a tag can point anywhere, and "it
-  # passed on main" is not the same claim as "it passes at the thing we are
-  # about to publish".
-  verify:
+  # Cheap guard, run before the full suite so that a tag pointing somewhere it
+  # should not is rejected in seconds rather than after a complete build and
+  # test matrix has been spent on it.
+  #
+  # Split out of `verify` because that job is now a call into ci.yml and can no
+  # longer carry a release-specific step.
+  tag-guard:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+          # Needed for merge-base: the check is meaningless against a shallow
+          # clone that does not contain the commits it has to compare.
           fetch-depth: 0
-      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
-        with:
-          node-version-file: ".nvmrc"
-          cache: npm
-      - run: npm ci --prefer-offline
 
       # Refuse to publish a tag that is not an ancestor of main. Without this,
       # anyone able to push a tag could publish an unreviewed branch to npm
@@ -56,12 +55,26 @@ jobs:
           fi
           echo "✓ tagged commit is on main"
 
-      - run: npm run build
-      - run: npm run lint
-      - run: npm run typecheck
-      - run: npm run test
-      - run: npm run test:react-compat
-      - run: npm run verify:packaging
+  # The full CI suite, re-run against the tagged commit. CI already ran it when
+  # the commit landed on main, but a tag can point anywhere, and "it passed on
+  # main" is not the same claim as "it passes at the thing we are about to
+  # publish".
+  #
+  # `uses:` rather than a copy of the commands, because the copy drifted. This
+  # job used to run build, lint, typecheck, test, test:react-compat and
+  # verify:packaging, and call itself "the full gate", while ci.yml had grown
+  # pack-smoke, bundle-treeshake, cdn-free, sbom, node-matrix (22 and 24),
+  # reuse-lint, license-headers, internal-ref-scan and a THIRD_PARTY_NOTICES
+  # drift check. The tarball smoke test and the Node 22 matrix are the two most
+  # release-relevant of those, and neither had ever run against a commit that
+  # was published. A call cannot drift.
+  #
+  # ci.yml carries its own `concurrency` with cancel-in-progress, so pushing
+  # the same tag twice cancels the first run's verify. That is the desired
+  # outcome and it is safe: nothing has been published at this point.
+  verify:
+    needs: tag-guard
+    uses: ./.github/workflows/ci.yml
 
   publish:
     runs-on: ubuntu-latest

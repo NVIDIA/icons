@@ -15,6 +15,17 @@ on:
   pull_request:
   push:
     branches: [main]
+  # Callable so release.yml can run this exact workflow against a tagged
+  # commit, making the release gate and the pull-request gate the same object
+  # instead of two lists somebody has to keep in step by hand. They had
+  # already drifted: release.yml ran six of these jobs while describing itself
+  # as "the full gate".
+  #
+  # dco-check and commitlint-check are guarded by
+  # `if: github.event_name == 'pull_request'` and skip when called, because a
+  # reusable workflow sees the *caller's* event. On a release that is the tag
+  # push, and neither check is meaningful against a tag.
+  workflow_call:
 
 concurrency:
   group: ci-${{ github.workflow }}-${{ github.ref }}

@@ -103,8 +103,12 @@ None of this lives in the repository, so it is easy to miss.
 
 1. Land the version bump and changelog entries on `main`.
 2. Tag the merged commit `vX.Y.Z` and push the tag.
-3. The `verify` job re-runs the full gate against the tagged tree and refuses
-   any tag that is not an ancestor of `main`.
+3. The `tag-guard` job refuses any tag that is not an ancestor of `main`, then
+   the `verify` job re-runs CI against the tagged tree. `verify` is a call into
+   [`ci.yml`](./.github/workflows/ci.yml) rather than its own copy of the
+   commands, so the release gate is the pull-request gate by construction and
+   cannot fall behind it. `dco-check` and `commitlint-check` skip, being
+   pull-request checks.
 4. Approve the `npm-publish` environment when prompted.
 5. The `publish` job publishes every package whose version matches the tag,
    in dependency order, and skips any version already on the registry.
