@@ -6,7 +6,7 @@
   "description": "NVIDIA Icons: public npm packages (@nvidia scope)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NVIDIA/icons.git"
+    "url": "git+https://github.com/NVIDIA/icons.git"
   },
   "type": "module",
   "engines": {
