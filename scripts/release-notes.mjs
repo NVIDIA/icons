@@ -19,7 +19,9 @@ const ROOT = process.cwd();
 const [version, ...pkgDirs] = process.argv.slice(2);
 
 if (!version) {
-  console.error("release-notes: usage: release-notes.mjs <version> [pkg-dir ...]");
+  console.error(
+    "release-notes: usage: release-notes.mjs <version> [pkg-dir ...]",
+  );
   process.exit(2);
 }
 
@@ -45,8 +47,7 @@ const changelogSection = (v) => {
 // npm's own URL shape for a specific version. Links to the exact release
 // rather than the package, so a reader following a link from an old release
 // does not silently land on whatever is current.
-const npmUrl = (name, v) =>
-  `https://www.npmjs.com/package/${name}/v/${v}`;
+const npmUrl = (name, v) => `https://www.npmjs.com/package/${name}/v/${v}`;
 
 const out = [];
 const notes = changelogSection(version);
