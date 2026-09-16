@@ -54,12 +54,30 @@ None of this lives in the repository, so it is easy to miss.
    |---|---|
    | 1 | Create the `npm-publish` environment with required reviewers (see above), before doing anything else on npm |
    | 2 | Bump all four manifests to `X.Y.Z-rc.1`; land on `main` |
-   | 3 | Mint a short-lived, `@nvidia`-scope granular token; store it as an **environment secret on `npm-publish` only** (`NPM_BOOTSTRAP_TOKEN`), never a repo secret |
+   | 3 | Mint a short-lived `@nvidia`-scope token **that bypasses 2FA** (see below); store it as an **environment secret on `npm-publish` only** (`NPM_BOOTSTRAP_TOKEN`), never a repo secret |
    | 4 | Dispatch [`bootstrap-publish.yml`](./.github/workflows/bootstrap-publish.yml) with `dry_run: true` first, inspect the output, then again with `dry_run: false` |
    | 5 | Approve the `npm-publish` environment when prompted; it publishes `X.Y.Z-rc.1` for all four, public, attested, on the `next` dist-tag |
    | 6 | Register the trusted publisher on each package (Repository/Workflow/Environment as above); now possible, since the names exist |
    | 7 | Delete the token at npmjs.com, delete the `NPM_BOOTSTRAP_TOKEN` environment secret, and open a PR removing `bootstrap-publish.yml` |
    | 8 | Promote to `X.Y.Z`, tag `vX.Y.Z`, and let `release.yml` publish GA under pure OIDC |
+
+   The token type in step 3 is not a free choice. A granular access token is
+   the obvious pick and it does not work: with 2FA required on writes for the
+   publishing account, npm rejects the publish with `EOTP`, and there is no
+   prompt to answer on a CI runner. It fails late, too: after the tarball is
+   packed and after provenance has already been countersigned into Sigstore's
+   public transparency log, which leaves a published attestation for a version
+   that does not exist on the registry. The token has to be one npm accepts
+   without a second factor.
+
+   npm is actively restricting that kind of token. A publish using one already
+   prints a deprecation notice pointing at
+   <https://gh.io/npm-gat-bypass2fa-deprecation>. Check whether the mechanism
+   still exists before planning a bootstrap around it; if it is gone, the
+   remaining options are a first publish from a maintainer's machine with an
+   interactive OTP (unattested, then immediately superseded by an attested
+   release candidate from CI) or whatever first-publish path npm has replaced
+   it with by then.
 
    `bootstrap-publish.yml` refuses to publish anything without a prerelease
    identifier in the version, so GA can only ever go out through `release.yml`
