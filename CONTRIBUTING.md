@@ -125,10 +125,24 @@ By making a contribution to this project, I certify that:
 
 ## Sync-generated content
 
-The `packages/*/src/generated/`, `packages/*/src/icons/`, and
-`packages/*/assets/` directories are populated by automated sync from
-NVIDIA's internal monorepo. Do not edit these files manually; changes will
-be overwritten on the next sync.
+These paths are populated by automated sync from NVIDIA's internal monorepo:
+
+| Path | Packages |
+|---|---|
+| `assets/` | `gui-icons`, `micro-gui-icons` |
+| `src/iconTypes.ts` | `gui-icons`, `micro-gui-icons` |
+| `src/generated/` | `react-gui-icons`, `react-micro-gui-icons` |
+| `src/icons/` | `react-gui-icons`, `react-micro-gui-icons` |
+
+Do not edit these files manually; changes will be overwritten on the next
+sync. `src/iconTypes.ts` is the one to watch: unlike the others it is a
+single file rather than a directory, and it sits in `src/` beside
+hand-maintained code like `index.ts`. Its own `DO NOT EDIT MANUALLY` header
+is the only thing distinguishing it in a directory listing.
+
+A fix that has to survive the sync belongs upstream in the generator, not
+here. If you send a pull request against one of these paths, expect a
+maintainer to ask for it to be filed internally instead.
 
 ## Code style
 
