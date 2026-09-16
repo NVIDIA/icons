@@ -6,8 +6,16 @@ Current maintainers of NVIDIA Icons.
 |---|---|---|
 | Caleb Bauermeister | @cbauerman | Lead maintainer |
 
-Full review roster: [@NVIDIA/icons-maintainers](https://github.com/orgs/NVIDIA/teams/icons-maintainers).
-Private security response roster: [@NVIDIA/icons-security](https://github.com/orgs/NVIDIA/teams/icons-security).
+Reviews route through [CODEOWNERS](./CODEOWNERS) to two NVIDIA teams:
+`@NVIDIA/icons-maintainers` on every path, and `@NVIDIA/icons-security`
+additionally on `LICENSE` and `SECURITY.md`.
+
+The handles are named here rather than linked: a team page under
+`github.com/orgs/NVIDIA/teams/` is visible only to NVIDIA org members, so for
+everyone this file is written for it redirects to a login wall or 404s.
+Mentioning either handle in an issue or pull request works regardless of
+membership. To reach a person, use the [escalation path](#escalation-path)
+below.
 
 ## Responsibilities
 
