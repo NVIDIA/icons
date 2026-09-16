@@ -45,9 +45,11 @@ The project is run by a group of maintainers listed in
 
 All changes land through GitHub Pull Requests that pass required CI checks and
 the DCO sign-off requirement described in [CONTRIBUTING.md](./CONTRIBUTING.md).
-Generated content under `packages/*/src/generated/`, `packages/*/src/icons/`,
-and `packages/*/assets/` is produced by NVIDIA's internal monorepo sync and
-is not modified through direct contributions.
+Generated content under `packages/*/assets/`, `packages/*/src/generated/`,
+`packages/*/src/icons/`, and `packages/*/src/iconTypes.ts` is produced by
+NVIDIA's internal monorepo sync and is not modified through direct
+contributions. [CONTRIBUTING.md](./CONTRIBUTING.md#sync-generated-content)
+carries the per-package breakdown.
 
 ## Release authority
 
