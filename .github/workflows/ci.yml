@@ -521,6 +521,26 @@ jobs:
           if [ $fail -eq 0 ]; then echo "✓ No internal references found."; fi
           exit $fail
 
+  # Root `npm test` is `turbo run test` over `packages/*` only, so without
+  # this job nothing would ever run the tests under `scripts/`. release.yml
+  # `verify` calls this workflow, so this also gates every release, which
+  # matters for scripts/check-dist-tags.mjs: a broken SemVer comparison there
+  # would otherwise only be caught by hand-running the script against the
+  # live registry.
+  scripts-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      - run: npm ci --prefer-offline
+      - run: npm run test:scripts
+
   dco-check:
     runs-on: ubuntu-latest
     timeout-minutes: 10

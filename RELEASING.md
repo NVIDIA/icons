@@ -113,6 +113,40 @@ None of this lives in the repository, so it is easy to miss.
 5. The `publish` job publishes every package whose version matches the tag,
    in dependency order, and skips any version already on the registry.
 6. The `github-release` job then creates the GitHub Release for the tag.
+   `dist-tag-check` runs in parallel with it; see "After a GA release" below
+   if it warns.
+
+## After a GA release
+
+A GA publish does not retire the `next` dist-tag. `publish` only ever *sets*
+a dist-tag: `--tag next` for a prerelease, `--tag latest` for GA. The first
+time `main` goes from a `-rc.N` prerelease to its GA version, `next` is left
+pointing at that prerelease, which `latest` has now superseded. Left alone,
+`npm i @nvidia/<pkg>@next` keeps installing that stale release candidate
+until the next prerelease is cut, and npm's package page keeps listing `next`
+as a live channel in the meantime.
+
+The `dist-tag-check` job in `release.yml` watches for this: after every
+publish it compares each package's `next` tag against the version that run
+just published, and prints a `::warning::` annotation (and a step-summary
+line) naming any package where `next` is behind or equal to it. It cannot
+fix the tag itself. npm Trusted Publishing (OIDC) authorises `npm publish`
+only; retiring a dist-tag still needs a maintainer's own npm credentials and
+2FA, the same as the bootstrap token restrictions above, and this repository
+deliberately keeps the steady-state pipeline credential-free.
+
+When the warning appears, the release approver (see
+[MAINTAINERS.md](./MAINTAINERS.md)) runs, with their own npm login:
+
+```sh
+npm dist-tag rm @nvidia/<pkg> next
+```
+
+for each package named in the warning. **Remove** the tag rather than
+re-pointing it at the new GA version: `next` existing at all is meant to mean
+"there is an open prerelease to try", and `next` pointing at the same version
+as `latest` would claim that is still true when it is not. The tag
+reappears, correctly, the next time a prerelease is cut.
 
 ## Release notes
 

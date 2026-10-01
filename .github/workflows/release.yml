@@ -217,6 +217,48 @@ jobs:
           done < /tmp/to-publish.txt
           exit $fail
 
+  # Warns when a GA publish has left a package's `next` dist-tag pointing at
+  # an old or now-superseded prerelease. `publish` above only ever SETS a
+  # dist-tag; nothing ever retires `next`, and OIDC Trusted Publishing only
+  # authorises `npm publish`, not `npm dist-tag`, so this can only warn, not
+  # fix it. See RELEASING.md, "After a GA release".
+  #
+  # Split out of `publish` rather than a step on it: it needs only
+  # `contents: read` to run `npm view`, and must NOT inherit `publish`'s
+  # `id-token: write` for a read-only registry query. Runs in parallel with
+  # `github-release`, which has nothing to do with this check.
+  dist-tag-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: publish
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+      # No `npm ci`: the script has no dependencies of its own, only Node's
+      # built-ins, so installing the workspace tree here would be pure
+      # overhead on a job that only runs `npm view` four times.
+      - name: Check for a stale next dist-tag
+        env:
+          TAG_NAME: ${{ github.ref_name }}
+          PACKAGES: ${{ needs.publish.outputs.packages }}
+        run: |
+          set -euo pipefail
+          version="${TAG_NAME#v}"
+          # Unquoted on purpose, same as the github-release job below: PACKAGES
+          # is a space-separated list of directory names word-split into
+          # separate arguments, and every element comes from the literal
+          # package list in `publish`'s resolve step.
+          # shellcheck disable=SC2086
+          node ./scripts/check-dist-tags.mjs "$version" $PACKAGES
+
   # The human-readable half of a release. A tag on its own tells a reader
   # nothing about what changed, and npm's page shows one package at a time
   # while a tag here can cover several.
