@@ -1,6 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalEnv": ["REACT_COMPAT_VERSIONS"],
+  "globalEnv": ["REACT_COMPAT_VERSIONS", "GITHUB_STEP_SUMMARY"],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],

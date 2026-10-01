@@ -22,6 +22,7 @@
     "lint:fix": "biome check --write .",
     "typecheck": "turbo run typecheck",
     "test": "turbo run test",
+    "test:scripts": "node --test scripts/**/*.test.mjs",
     "test:react-compat": "node ./scripts/react-compat-smoke.mjs",
     "generate-notices": "node ./scripts/generate-third-party-notices.mjs",
     "verify:packaging": "node ./scripts/verify-packaging.mjs"
