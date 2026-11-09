@@ -30,11 +30,11 @@ None of this lives in the repository, so it is easy to miss.
 2. **Register a trusted publisher on each of the four packages** at
    npmjs.com, under the package's Settings:
 
-   | Field | Value |
-   |---|---|
-   | Repository | `NVIDIA/icons` |
-   | Workflow | `release.yml` |
-   | Environment | `npm-publish` |
+   | Field       | Value          |
+   | ----------- | -------------- |
+   | Repository  | `NVIDIA/icons` |
+   | Workflow    | `release.yml`  |
+   | Environment | `npm-publish`  |
 
    All three must match the workflow exactly or npm refuses the exchange.
 
@@ -55,16 +55,16 @@ None of this lives in the repository, so it is easy to miss.
    publish authenticated with a short-lived token instead of OIDC. Bootstrap
    with a real release candidate, not a version nobody will ever install:
 
-   | Step | Action |
-   |---|---|
-   | 1 | Create the `npm-publish` environment with required reviewers (see above), before doing anything else on npm |
-   | 2 | Bump the new package's manifest to `X.Y.Z-rc.1`; land on `main` |
-   | 3 | Mint a short-lived `@nvidia`-scope token **that bypasses 2FA** (see below); store it as an **environment secret on `npm-publish` only** (`NPM_BOOTSTRAP_TOKEN`), never a repo secret |
-   | 4 | Restore the one-shot publish workflow (`git show v1.0.0:.github/workflows/bootstrap-publish.yml`), dispatch it with `dry_run: true`, inspect the output, then dispatch again with `dry_run: false` |
-   | 5 | Approve the `npm-publish` environment when prompted; it publishes `X.Y.Z-rc.1`, public, attested, on the `next` dist-tag |
-   | 6 | Register the trusted publisher on the package (Repository/Workflow/Environment as above); now possible, since the name exists |
-   | 7 | Delete the token at npmjs.com, delete the `NPM_BOOTSTRAP_TOKEN` environment secret, and remove the workflow again |
-   | 8 | Promote to `X.Y.Z`, tag `vX.Y.Z`, and let `release.yml` publish GA under pure OIDC |
+   | Step | Action                                                                                                                                                                                             |
+   | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | 1    | Create the `npm-publish` environment with required reviewers (see above), before doing anything else on npm                                                                                        |
+   | 2    | Bump the new package's manifest to `X.Y.Z-rc.1`; land on `main`                                                                                                                                    |
+   | 3    | Mint a short-lived `@nvidia`-scope token **that bypasses 2FA** (see below); store it as an **environment secret on `npm-publish` only** (`NPM_BOOTSTRAP_TOKEN`), never a repo secret               |
+   | 4    | Restore the one-shot publish workflow (`git show v1.0.0:.github/workflows/bootstrap-publish.yml`), dispatch it with `dry_run: true`, inspect the output, then dispatch again with `dry_run: false` |
+   | 5    | Approve the `npm-publish` environment when prompted; it publishes `X.Y.Z-rc.1`, public, attested, on the `next` dist-tag                                                                           |
+   | 6    | Register the trusted publisher on the package (Repository/Workflow/Environment as above); now possible, since the name exists                                                                      |
+   | 7    | Delete the token at npmjs.com, delete the `NPM_BOOTSTRAP_TOKEN` environment secret, and remove the workflow again                                                                                  |
+   | 8    | Promote to `X.Y.Z`, tag `vX.Y.Z`, and let `release.yml` publish GA under pure OIDC                                                                                                                 |
 
    Step 4 restores a workflow rather than pointing at one because it is not
    kept in the tree between bootstraps. It is the only workflow that ever
@@ -122,7 +122,7 @@ the `## [X.Y.Z]` section of the root [CHANGELOG.md](./CHANGELOG.md), and a
 table of the packages that tag actually published, each linked to its exact
 version on npm.
 
-So the changelog entry has to land *before* the tag. Cut a tag without one and
+So the changelog entry has to land _before_ the tag. Cut a tag without one and
 the release still publishes, with a body that says the changelog entry is
 missing: this runs after `npm publish` has already succeeded, and failing the
 job would turn a finished release red without un-publishing anything.

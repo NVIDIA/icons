@@ -32,7 +32,7 @@ carries the meaning itself. For a meaningful icon, pass `title`: it renders a
 `<title>`, sets `role="img"` and drops `aria-hidden` in one step:
 
 ```tsx
-<NvidiaGuiIcon iconName="trash" title="Delete item" />
+<NvidiaGuiIcon iconName="trash" title="Delete item" />;
 ```
 
 Name the action, not the glyph: `title="Delete item"`, not `title="trash"`. See

@@ -2,8 +2,8 @@
 
 Current maintainers of NVIDIA Icons.
 
-| Name | GitHub | Role |
-|---|---|---|
+| Name               | GitHub     | Role            |
+| ------------------ | ---------- | --------------- |
 | Caleb Bauermeister | @cbauerman | Lead maintainer |
 
 Reviews route through [CODEOWNERS](./CODEOWNERS) to two NVIDIA teams:

@@ -11,12 +11,12 @@ and their SSR caveat.
 
 This repository publishes four npm packages under the `@nvidia` scope:
 
-| Package | Description |
-|---|---|
-| [`@nvidia/gui-icons`](./packages/gui-icons) | Raw SVG assets + TypeScript constants (748 icons, `line` and `fill` variants) |
-| [`@nvidia/react-gui-icons`](./packages/react-gui-icons) | React icon components for GUI Icons (sprite-based rendering) |
-| [`@nvidia/micro-gui-icons`](./packages/micro-gui-icons) | Raw SVG assets + TypeScript constants for Micro GUI Icons (24 utility icons) |
-| [`@nvidia/react-micro-gui-icons`](./packages/react-micro-gui-icons) | React icon components for Micro GUI Icons (sprite-based rendering) |
+| Package                                                             | Description                                                                   |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [`@nvidia/gui-icons`](./packages/gui-icons)                         | Raw SVG assets + TypeScript constants (748 icons, `line` and `fill` variants) |
+| [`@nvidia/react-gui-icons`](./packages/react-gui-icons)             | React icon components for GUI Icons (sprite-based rendering)                  |
+| [`@nvidia/micro-gui-icons`](./packages/micro-gui-icons)             | Raw SVG assets + TypeScript constants for Micro GUI Icons (24 utility icons)  |
+| [`@nvidia/react-micro-gui-icons`](./packages/react-micro-gui-icons) | React icon components for Micro GUI Icons (sprite-based rendering)            |
 
 ## Documentation
 
@@ -75,7 +75,7 @@ import { Gpu, Add, Close } from "@nvidia/react-gui-icons/icons";
 // per-icon subpath import (explicit tree-shaking boundary)
 import { Gpu } from "@nvidia/react-gui-icons/icons/Gpu";
 
-<Gpu variant="line" size="1em" />
+<Gpu variant="line" size="1em" />;
 ```
 
 These packages do **not** use `external-svg-loader`, CDN-hosted SVG files, or
@@ -90,11 +90,11 @@ package as plain data, and all of it is typed.
 
 ```ts
 import {
-  IconNames,        // all 748 names
-  IconTagMap,       // name -> search keywords
-  IconCategoryMap,  // category -> names
-  getIconCategory,  // name -> category
-  isIconName,       // runtime type guard
+  IconNames, // all 748 names
+  IconTagMap, // name -> search keywords
+  IconCategoryMap, // category -> names
+  getIconCategory, // name -> category
+  isIconName, // runtime type guard
 } from "@nvidia/gui-icons";
 
 // Search by name or keyword
@@ -103,9 +103,9 @@ const matches = IconNames.filter(
 );
 // -> ["gpu", "gpu-card", "gpu-card-multi", "gpu-card-off", "gpu-off", "gpu-sync"]
 
-getIconCategory("gpu");             // -> "hardware"
-IconCategoryMap.hardware.length;    // -> 118
-isIconName("not-an-icon");          // -> false
+getIconCategory("gpu"); // -> "hardware"
+IconCategoryMap.hardware.length; // -> 118
+isIconName("not-an-icon"); // -> false
 ```
 
 `IconCategories` lists the 14 categories and `IconTags` the full keyword
@@ -120,7 +120,7 @@ go, so `IconCategories`, `IconCategoryMap` and `getIconCategory` exist only on
 `@nvidia/gui-icons`.
 
 The React packages re-export the `IconName` and `Variant` types for their own
-icon set. They do not re-export the name, tag or category *values*; import
+icon set. They do not re-export the name, tag or category _values_; import
 those from the matching base package.
 
 ### Raw SVG assets
@@ -233,11 +233,11 @@ follow the same API shape for the 24-icon utility set.
 
 ### Bundle size guidance
 
-| Import style | Bundle includes | Approx. cost |
-|---|---|---|
-| `import { NvidiaGuiIcon }` | Full inline map, all 748 icons | 490 KB (150 KB gzipped) |
-| `import { Gpu } from ".../icons"` | Only `Gpu` path data (tree-shaken by bundler) | ~1 KB |
-| `import { Gpu } from ".../icons/Gpu"` | Only `Gpu` path data (explicit subpath) | ~1 KB |
+| Import style                          | Bundle includes                               | Approx. cost            |
+| ------------------------------------- | --------------------------------------------- | ----------------------- |
+| `import { NvidiaGuiIcon }`            | Full inline map, all 748 icons                | 490 KB (150 KB gzipped) |
+| `import { Gpu } from ".../icons"`     | Only `Gpu` path data (tree-shaken by bundler) | ~1 KB                   |
+| `import { Gpu } from ".../icons/Gpu"` | Only `Gpu` path data (explicit subpath)       | ~1 KB                   |
 
 Figures are for `@nvidia/react-gui-icons` at 1.0.0, measured on the built
 output. The Micro GUI Icons equivalent is 8.6 KB (1.5 KB gzipped) for its full
@@ -262,7 +262,7 @@ icon announced next to the label it duplicates is noise.
 If an icon carries meaning on its own, give it a name with `title`:
 
 ```tsx
-<NvidiaGuiIcon iconName="trash" title="Delete item" />
+<NvidiaGuiIcon iconName="trash" title="Delete item" />;
 ```
 
 That renders a `<title>`, sets `role="img"` and drops `aria-hidden` together,
@@ -280,7 +280,12 @@ The lower-level escape hatch still works, and `aria-label` takes precedence
 over `title` if you set both:
 
 ```tsx
-<NvidiaGuiIcon iconName="gpu" role="img" aria-label="GPU" aria-hidden={undefined} />
+<NvidiaGuiIcon
+  iconName="gpu"
+  role="img"
+  aria-label="GPU"
+  aria-hidden={undefined}
+/>;
 ```
 
 Note that `aria-hidden` removes the whole subtree from the accessibility tree,
