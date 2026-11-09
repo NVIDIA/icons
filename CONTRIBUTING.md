@@ -5,7 +5,7 @@ Thank you for your interest in contributing to NVIDIA Icons.
 Worth knowing upfront: this repository is a one-way sync from NVIDIA's
 internal design system, not a place where the icon set itself is designed in
 the open. Code, docs, and bug-fix contributions are welcome and reviewed like
-any open-source project; icon *design*, meaning what gets added, changed, or removed,
+any open-source project; icon _design_, meaning what gets added, changed, or removed,
 is decided internally, with community requests taken as input (see below).
 
 Also worth knowing: parts of this project's code, docs, and governance files
@@ -107,6 +107,7 @@ By making a contribution to this project, I certify that:
 2. Create a branch from `main`: `git checkout -b fix/my-fix`.
 3. Make your changes. Add or update tests if applicable.
 4. Ensure CI passes locally:
+
    ```sh
    npm ci
    npm run build
@@ -127,12 +128,12 @@ By making a contribution to this project, I certify that:
 
 These paths are populated by automated sync from NVIDIA's internal monorepo:
 
-| Path | Packages |
-|---|---|
-| `assets/` | `gui-icons`, `micro-gui-icons` |
-| `src/iconTypes.ts` | `gui-icons`, `micro-gui-icons` |
-| `src/generated/` | `react-gui-icons`, `react-micro-gui-icons` |
-| `src/icons/` | `react-gui-icons`, `react-micro-gui-icons` |
+| Path               | Packages                                   |
+| ------------------ | ------------------------------------------ |
+| `assets/`          | `gui-icons`, `micro-gui-icons`             |
+| `src/iconTypes.ts` | `gui-icons`, `micro-gui-icons`             |
+| `src/generated/`   | `react-gui-icons`, `react-micro-gui-icons` |
+| `src/icons/`       | `react-gui-icons`, `react-micro-gui-icons` |
 
 Do not edit these files manually; changes will be overwritten on the next
 sync. `src/iconTypes.ts` is the one to watch: unlike the others it is a

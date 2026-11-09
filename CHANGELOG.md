@@ -7,6 +7,7 @@ removals and export renames are breaking changes (MAJOR). New icons and new
 exports are minor releases. Bug fixes to package code are patch releases.
 
 Individual package changelogs are in each package directory:
+
 - [packages/gui-icons/CHANGELOG.md](./packages/gui-icons/CHANGELOG.md)
 - [packages/react-gui-icons/CHANGELOG.md](./packages/react-gui-icons/CHANGELOG.md)
 - [packages/micro-gui-icons/CHANGELOG.md](./packages/micro-gui-icons/CHANGELOG.md)
